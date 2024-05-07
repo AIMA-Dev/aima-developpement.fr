@@ -3,6 +3,7 @@
     --DarkScarlet: #5E031F;
     --SpiroDiscoBall: #17C9E6;
     --Onyx: #383D40;
+    --TransparentGray: #bcbcbc38;
 }
 
 /*----- SCROLLBAR -----*/
@@ -31,7 +32,13 @@ html {
     color: black;
     scroll-behavior: smooth;
 }
-body {
+body {    
     margin: 0;
+    width: 100vw;
+    min-height: 100vh;
     font-family: 'Open-Sans', sans-serif;
+}
+main {
+    height: 88vh;
+    width: 100vw;
 }
