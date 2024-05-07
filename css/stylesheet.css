@@ -1,0 +1,37 @@
+/*----- VARIABLES -----*/
+:root {
+    --DarkScarlet: #5E031F;
+    --SpiroDiscoBall: #17C9E6;
+    --Onyx: #383D40;
+}
+
+/*----- SCROLLBAR -----*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--Onyx);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--SpiroDiscoBall);
+}
+
+/* -----GENERAL----- */
+html {
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+}
