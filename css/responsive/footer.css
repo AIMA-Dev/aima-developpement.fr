@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+    #footerTop {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #left {
+        margin-bottom: 20px;
+    }
+}

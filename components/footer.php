@@ -51,6 +51,9 @@
         <select name="lang" id="lang">
             <option value="en">en 🇬🇧</option>
             <option value="fr">fr 🇫🇷</option>
+            <option value="de">de 🇩🇪</option>
+            <option value="es">es 🇪🇸</option>
+            <option value="it">it 🇮🇹</option>
         </select>
     </div>
 </div>
