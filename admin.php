@@ -8,7 +8,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 <html lang="<?php echo $lang; ?>">
 
 <head>
-    <title><?php getValueFromJson('title'); ?></title>
+    <title><?php echo getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
 </head>
 
@@ -16,9 +16,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
     <header>
         <?php include ('components/header.php'); ?>
     </header>
-    <main>
-        <?php getValueFromJson('text') ?>
-    </main>
+    <main></main>
     <footer>
         <?php include ('components/footer.php'); ?>
     </footer>
