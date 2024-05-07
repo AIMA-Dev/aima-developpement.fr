@@ -49,11 +49,11 @@
     </div>
     <div>
         <select name="lang" id="lang">
-            <option value="en">en 🇬🇧</option>
-            <option value="fr">fr 🇫🇷</option>
-            <option value="de">de 🇩🇪</option>
-            <option value="es">es 🇪🇸</option>
-            <option value="it">it 🇮🇹</option>
+            <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>en 🇬🇧</option>
+            <option value="fr" <?php if ($_SESSION['lang'] == 'fr') echo 'selected'; ?>>fr 🇫🇷</option>
+            <option value="de" <?php if ($_SESSION['lang'] == 'de') echo 'selected'; ?>>de 🇩🇪</option>
+            <option value="es" <?php if ($_SESSION['lang'] == 'es') echo 'selected'; ?>>es 🇪🇸</option>
+            <option value="it" <?php if ($_SESSION['lang'] == 'it') echo 'selected'; ?>>it 🇮🇹</option>
         </select>
     </div>
 </div>

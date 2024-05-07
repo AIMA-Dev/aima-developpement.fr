@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/responsive/footer.css">
 <!-- JavaScript -->
 <script src="js/header.js" defer></script>
+<script src="js/lang.js" defer></script>
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -7,9 +7,9 @@
     </a>
 </div>
 <div id="headerRight">
-    <a href="/index.php">Home</a>
-    <a href="/cyclotrons.php">Cyclotrons</a>
-    <a href="/team.php">Team</a>
-    <a href="/career.php">Career</a>
-    <a href="/contact.php">Contact</a>
+    <a href="/index.php"><?php getValueFromJson('home') ?></a>
+    <a href="/cyclotrons.php"><?php getValueFromJson('cyclotrons') ?></a>
+    <a href="/team.php"><?php getValueFromJson('team') ?></a>
+    <a href="/career.php"><?php getValueFromJson('career') ?></a>
+    <a href="/contact.php"><?php getValueFromJson('contact') ?></a>
 </div>

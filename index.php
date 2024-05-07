@@ -10,7 +10,7 @@
         <?php include ('components/header.php'); ?>
     </header>
     <main>
-
+        <?php getValueFromJson('text') ?>
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>
