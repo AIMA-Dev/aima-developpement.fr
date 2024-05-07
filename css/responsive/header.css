@@ -1,0 +1,31 @@
+@media (max-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #headerLeft {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #headerLeft>#phoneMenu {
+        display: block;
+        width: fit-content;
+        cursor: pointer;
+    }
+
+    #headerLeft>a>img {
+        height: 10vh;
+    }
+
+    #phoneMenu>img {
+        height: 5vh !important;
+    }
+
+    #headerRight {
+        display: flex;
+        flex-direction: column;
+    }
+}

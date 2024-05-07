@@ -10,17 +10,21 @@ header>* {
     padding: 10px 20px;
 }
 
-header>a>img {
+#headerLeft>a>img {
     height: 100%;
 }
 
-header>div {
+#headerLeft>#phoneMenu {
+    display: none;
+}
+
+#headerRight {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-header>div>a {
+#headerRight>a {
     margin: 0 40px;
     text-decoration: none;
     color: black;
@@ -29,13 +33,17 @@ header>div>a {
     transition: ease-in-out 0.25s;
 }
 
-header>div>a:not(:last-of-type):hover {
+#headerRight>a:not(:last-of-type):hover {
     border-bottom: var(--DarkScarlet) 2px solid;
 }
 
-header>div>a:last-of-type {
+#headerRight>a:last-of-type {
     border-radius: 5px;
     padding: 15px 25px;
     background-color: var(--SpiroDiscoBall);
     color: white;
+}
+
+#headerRight>a:last-of-type:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
 }

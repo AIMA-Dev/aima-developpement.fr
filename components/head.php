@@ -11,6 +11,10 @@
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/responsive/stylesheet.css">
+<link rel="stylesheet" href="css/responsive/header.css">
+<link rel="stylesheet" href="css/responsive/footer.css">
+<!-- JavaScript -->
+<script src="js/header.js" defer></script>
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
