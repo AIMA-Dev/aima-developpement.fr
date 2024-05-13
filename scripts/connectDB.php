@@ -12,11 +12,13 @@ function connectToDB() {
 
     $sql = file_get_contents('initDB.sql');
 
-    if ($conn->query($sql) === TRUE) {
-        echo "Table created successfully\n";
+    if (mysqli_multi_query($conn, $sql)) {
+        echo "Tables created successfully\n";
+        mysqli_close($conn);
+        $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
+        return $conn;
     } else {
-        echo "Error creating table: " . $conn->error . "\n";
+        echo "Error creating tables: " . mysqli_error($conn) . "\n";
+        mysqli_close($conn);
     }
-    
-    return $conn;
 }

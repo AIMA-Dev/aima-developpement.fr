@@ -3,33 +3,38 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['username']) && isset($_POST['password']) && !empty($_POST['username']) && !empty($_POST['password'])) {
         $username = $_POST['username'];
         $password = $_POST['password'];
-        
+
+        //Set session variable to false by default
+        session_start();
+        $_SESSION['admin'] = false;
+
         // Check credentials in DB
         include_once 'connectDB.php';
         $conn = connectToDB();
-        $query = "SELECT * FROM parameters WHERE key='$username'";
+        $query = "SELECT * FROM settings WHERE `name`='$username'";
         $result = mysqli_query($conn, $query);
-        if ($result) {
+
+        if (mysqli_num_rows($result) > 0) {
             $row = mysqli_fetch_assoc($result);
-            $DBpassword = $row['value'];
+            if ($row["val"] == $password) {
+                $_SESSION['admin'] = true;
+                mysqli_close($conn);
+                header("Location: ../admin.php");
+                exit;
+            } else {
+                echo "Mot de passe incorrect.";
+                $_SESSION['admin'] = false;
+                mysqli_close($conn);
+                header("Refresh:0; url=../admin.php");
+                exit();
+            }
         } else {
-            echo "Error executing query: " . mysqli_error($conn);
+            echo "Username inconnu.";
+            $_SESSION['admin'] = false;
+            mysqli_close($conn);
+            header("Refresh:0; url=../admin.php");
+            exit();
         }
-
-        // Check if password is correct
-        if ($password === $DBpassword) {
-            session_start();
-            $_SESSION['admin'] = true;
-
-            header("Location: ../admin.php");
-            exit;
-        } else {
-            echo "Incorrect username or password.";
-        }
-    } else {
-        echo "Please fill in all fields.";
     }
-} else {
-    echo "Unauthorized access.";
 }
 ?>

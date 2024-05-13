@@ -1,7 +1,7 @@
-CREATE TABLE IF NOT EXISTS parameters (
-    `key` VARCHAR(255) NOT NULL,
-    `value` VARCHAR(255) NOT NULL,
-    PRIMARY KEY (`key`)
+CREATE TABLE IF NOT EXISTS settings (
+    `name` VARCHAR(255) NOT NULL,
+    `val` VARCHAR(255) NOT NULL,
+    PRIMARY KEY (`name`)
 );
 
-INSERT INTO parameters (`key`, `value`) VALUES ('admin', 'admin');
+INSERT INTO settings (`name`, `val`) VALUES ('admin', 'admin');
