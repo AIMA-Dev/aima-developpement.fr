@@ -39,13 +39,20 @@ function getValueFromJson($key)
     $json = file_get_contents($filePath);
     $data = json_decode($json, true);
 
-    if (isset($data[$key])) {
-        print($data[$key]);
-        return $data[$key];
-    } else {
-        print("Error: key not found in $callerDir/$filePath");
-        return null;
+    # Split the key and get the value
+    $keys = explode('.', $key);
+    $current = $data;
+    foreach ($keys as $part) {
+        if (isset($current[$part])) {
+            $current = $current[$part];
+        } else {
+            print("Error: key '$key' not found in $callerDir/$filePath");
+            return null;
+        }
     }
+
+    print($current);
+    return $current;
 }
 
 function changeLang($lang)
