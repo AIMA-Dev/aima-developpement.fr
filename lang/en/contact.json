@@ -1,3 +1,11 @@
 {
-    "title": "Contact | AIMA Developpement"
+    "title": "Contact | AIMA Developpement",
+    "description": "Please contact us!",
+    "form": {
+        "firstname": "Firstname...",
+        "lastname": "Lastname...",
+        "email": "Email...",
+        "message": "Message...",
+        "submit": "Submit"
+    }
 }
