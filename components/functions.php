@@ -32,6 +32,7 @@ function getValueFromJson($key)
     $callerFile = debug_backtrace()[0]['file'];
     $callerFileName = basename($callerFile);
     $file = substr($callerFileName, 0, -4); # Remove .php extension
+    $callerDir = dirname($callerFile);
 
     # Get value from json file
     $filePath = "lang/$lang/$file.json";
@@ -42,7 +43,7 @@ function getValueFromJson($key)
         print($data[$key]);
         return $data[$key];
     } else {
-        print("Error: key not found in $filePath");
+        print("Error: key not found in $callerDir/$filePath");
         return null;
     }
 }
