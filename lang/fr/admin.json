@@ -1,0 +1,18 @@
+{
+    "title": "Admin | AIMA Developpement",
+    "description": "Panneau d'administration",
+    "maintenance": {
+        "title": "Maintenance",
+        "status": "Status de maintenance :",
+        "toggle": "Basculer la maintenance :"
+    },
+    "phpmailer": {
+        "title": "PHPMailer",
+        "email": "Email pour le formulaire de contact :",
+        "changePassword": "Changer le mot de passe SMTP :",
+        "changePasswordPlaceholder": "Nouveau mot de passe",
+        "changeEmail": "Changer l'adresse email :",
+        "changeEmailPlaceholder": "Nouvel email",
+        "submit": "Définir"
+    }
+}
