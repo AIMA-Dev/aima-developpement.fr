@@ -11,3 +11,6 @@
 
 # Git
 .gitattributes
+
+# Folders
+PHPMailer-6.9.1
