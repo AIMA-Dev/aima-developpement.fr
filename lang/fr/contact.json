@@ -5,6 +5,7 @@
         "firstname": "Prénom...",
         "lastname": "Nom...",
         "email": "Email...",
+        "subject": "Sujet...",
         "message": "Message...",
         "submit": "Envoyer"
     }

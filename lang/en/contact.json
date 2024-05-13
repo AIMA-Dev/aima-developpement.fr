@@ -5,6 +5,7 @@
         "firstname": "Firstname...",
         "lastname": "Lastname...",
         "email": "Email...",
+        "subject": "Subject...",
         "message": "Message...",
         "submit": "Submit"
     }

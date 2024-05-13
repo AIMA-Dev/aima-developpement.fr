@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+    form {
+        flex-direction: column-reverse;
+        margin: 10vh 20vw;
+    }
+
+    #formRight,
+    #formLeft {
+        width: 100%;
+    }
+
+    #formRight>div>* {
+        width: 40%;
+    }
+
+    #formLeft>textarea {
+        min-height: 100px;
+    }
+}
