@@ -1,19 +1,34 @@
+<?php
+include_once 'components/functions.php';
+session_start();
+$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $lang; ?>">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin LogIn</title>
+    <meta name="robots" content="noindex, nofollow">
+    <title><?php getValueFromJson('title'); ?></title>
+    <?php include 'components/head.php'; ?>
 </head>
+
 <body>
+    <header>
+        <?php include ('components/header.php'); ?>
+    </header>
     <main>
         <form action="scripts/adminAuth.php" method="POST">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-            <button type="submit">Log In</button>
+            <label for="username"><?php getValueFromJson('form.username'); ?></label>
+            <input type="text" id="username" name="username" placeholder="<?php getValueFromJson('form.username'); ?>">
+            <label for="password"><?php getValueFromJson('form.password'); ?></label>
+            <input type="password" id="password" name="password" placeholder="<?php getValueFromJson('form.password'); ?>">
+            <button type="submit"><?php getValueFromJson('form.submit'); ?></button>
         </form>
     </main>
+    <footer>
+        <?php include ('components/footer.php'); ?>
+    </footer>
 </body>
+
 </html>

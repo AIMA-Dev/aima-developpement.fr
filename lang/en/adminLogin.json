@@ -1,0 +1,8 @@
+{
+    "title": "LogIn | AIMA Developpement",
+    "form": {
+        "username": "Username",
+        "password": "Password",
+        "submit": "LogIn"
+    }
+}
