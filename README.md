@@ -4,6 +4,8 @@
 
 This repository contains the source code for the aima-developpement.fr website.
 
+Uses [PHPMailer-6.9.1](https://github.com/PHPMailer/PHPMailer)
+
 ## Installation
 
 To install and run the website locally, follow these steps:
