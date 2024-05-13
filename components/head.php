@@ -4,6 +4,7 @@ if (!isset($ROOT_PATH)) {
 }
 ?>
 
+<!--Développé avec ❤️ par : www.noasecond.com-->
 <!-- Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
