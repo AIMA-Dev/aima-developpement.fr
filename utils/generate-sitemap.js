@@ -3,7 +3,7 @@ const path = require('path');
 
 // Generate sitemap content
 function generateSitemap(pages) {
-    const baseUrl = 'https://localhost:3000';
+    const baseUrl = 'http://localhost:3000';
     const currentDate = new Date().toISOString().split('T')[0];
     
     let xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -35,7 +35,7 @@ const pages = [
 
 
 // Write content to sitemap.xml
-const sitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
+const sitemapPath = path.join(__dirname, 'sitemap.xml');
 const sitemapContent = generateSitemap(pages);
 
 fs.writeFile(sitemapPath, sitemapContent, err => {
