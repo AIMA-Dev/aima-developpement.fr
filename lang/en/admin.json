@@ -13,6 +13,12 @@
         "changePasswordPlaceholder": "New password",
         "changeEmail": "Change Email:",
         "changeEmailPlaceholder": "New email",
+        "host": "Current host:",
+        "changeHost": "Change Host:",
+        "changeHostPlaceholder": "New host",
+        "port": "Current port:",
+        "changePort": "Change Port:",
+        "changePortPlaceholder": "New port",
         "submit": "set"
     }
 }
