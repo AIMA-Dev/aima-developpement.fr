@@ -1,9 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
+// Variables to setup
+const baseUrl = 'http://localhost:3000'; // Base URL of the website
+const excludedPages = ['admin.php', '404.php', '500.php', '403.php']; // Pages to exclude from the sitemap
+const priorityPages = ['index.php']; // Priority is set to 1 for these pages
+const defaultPriority = 0.8; // Default priority for pages
+
 // Generate sitemap content
-function generateSitemap(pages) {
-    const baseUrl = 'http://localhost:3000';
+function generateSitemap(pages, priorityPages) {
     const currentDate = new Date().toISOString().split('T')[0];
 
     let xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -15,7 +20,7 @@ function generateSitemap(pages) {
             <loc>${baseUrl}${page}</loc>
             <lastmod>${currentDate}</lastmod>
             <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
+            <priority>${priorityPages.includes(page) ? '1' : defaultPriority}</priority>
         </url>`;
     });
 
@@ -26,19 +31,18 @@ function generateSitemap(pages) {
 }
 
 // List pages to include in the sitemap
-const excludedPages = ['admin.php', '404.php', '500.php', '403.php'];
 const pages = fs.readdirSync(path.join(__dirname, '../'))
-    .filter(file => file.endsWith('.php') && !excludedPages.includes(file))
-    .map(file => `/${file.replace('.php', '')}`);
+    .filter(file => file.endsWith('.php') && !excludedPages.includes(file));
+    //.map(file => `/${file.replace('.php', '')}`); // Extension remover
 
 // Write content to sitemap.xml
 const sitemapPath = path.join(__dirname, '../sitemap.xml');
-const sitemapContent = generateSitemap(pages);
+const sitemapContent = generateSitemap(pages, priorityPages);
 
 fs.writeFile(sitemapPath, sitemapContent, err => {
     if (err) {
-        console.error('Erreur lors de la génération du sitemap :', err);
+        console.error('Error while generating the sitemap:', err);
     } else {
-        console.log('Le fichier sitemap.xml a été généré avec succès !');
+        console.log('The file sitemap.xml has been generated successfully!');
     }
 });
