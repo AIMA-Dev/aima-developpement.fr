@@ -32,7 +32,7 @@ const pages = fs.readdirSync(path.join(__dirname, '../'))
     .map(file => `/${file.replace('.php', '')}`);
 
 // Write content to sitemap.xml
-const sitemapPath = path.join(__dirname, 'sitemap.xml');
+const sitemapPath = path.join(__dirname, '../sitemap.xml');
 const sitemapContent = generateSitemap(pages);
 
 fs.writeFile(sitemapPath, sitemapContent, err => {
