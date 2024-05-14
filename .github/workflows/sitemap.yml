@@ -21,9 +21,6 @@ jobs:
       - name: Generate sitemap
         run: node utils/generate-sitemap.js
 
-      - name: Add sitemap to git
-        run: git add sitemap.xml
-
       - name: Commit sitemap
         run: |
           git config --local user.email "action@github.com"
