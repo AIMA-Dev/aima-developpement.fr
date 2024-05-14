@@ -13,6 +13,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 <html lang="<?php echo $lang; ?>">
 
 <head>
+    <meta name="robots" content="noindex, nofollow">
     <title><?php echo getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/admin.css">
