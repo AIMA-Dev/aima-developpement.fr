@@ -2,6 +2,9 @@
 if (!isset($ROOT_PATH)) {
     $ROOT_PATH = '';
 }
+
+session_start();
+$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 ?>
 
 <!--Développé avec ❤️ par : www.noasecond.com-->
