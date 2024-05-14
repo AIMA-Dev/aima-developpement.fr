@@ -5,7 +5,10 @@
 This repository contains the source code for the aima-developpement.fr website.
 
 Uses [PHPMailer-6.9.1](https://github.com/PHPMailer/PHPMailer)
+
 Uses [AutoSitemapUpdater-v1.0](https://github.com/YoruKiwi/AutoSitemapUpdater)
+
+Uses [AutoDeployToFTP-v1.0](https://github.com/YoruKiwi/AutoDeployToFTP)
 
 ## Installation
 
