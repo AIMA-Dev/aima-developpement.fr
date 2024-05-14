@@ -16,16 +16,29 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
+// Check values in DB
+include_once 'connectDB.php';
+$conn = connectToDB();
+$query = "SELECT * FROM settings";
+$result = mysqli_query($conn, $query);
+# Set server settings from DB values
+$row = mysqli_fetch_assoc($result);
+$mailHost = $row['mailHost'];
+$mailUser = $row['mailUser'];
+$mailPassword = $row['mailPassword'];
+$mailPort = $row['mailPort'];
+mysqli_close($conn);
+
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host = 'smtp.example.com';
+    $mail->Host = $mailHost;
     $mail->SMTPAuth = true;
-    $mail->Username = 'user@example.com';
-    $mail->Password = 'secret';
+    $mail->Username = $mailUser;
+    $mail->Password = $mailPassword;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-    $mail->Port = 465;
+    $mail->Port = $mailPort;
 
     # Mail for AIMA
     //Recipients
