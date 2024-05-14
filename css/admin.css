@@ -13,7 +13,7 @@ section {
 
 h2 {
     padding: 5px;
-    background-color: white;
+    background-color: var(--White);
     position: absolute;
     margin-top: -65px;
     margin-left: -40px;

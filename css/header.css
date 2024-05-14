@@ -27,7 +27,7 @@ header>* {
 #headerRight>a {
     margin: 0 40px;
     text-decoration: none;
-    color: black;
+    color: var(--Black);
     font-size: 1.1rem;
     border-bottom: transparent 2px solid;
     transition: ease-in-out 0.25s;
@@ -41,7 +41,7 @@ header>* {
     border-radius: 5px;
     padding: 15px 25px;
     background-color: var(--SpiroDiscoBall);
-    color: white;
+    color: var(--White);
 }
 
 #headerRight>a:last-of-type:hover {

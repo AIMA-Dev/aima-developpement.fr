@@ -4,6 +4,8 @@
     --SpiroDiscoBall: #17C9E6;
     --Onyx: #383D40;
     --TransparentGray: #bcbcbc38;
+    --White: #fff;
+    --Black: #000;
 }
 
 /*----- SCROLLBAR -----*/
@@ -29,7 +31,7 @@
 html {
     overflow-x: hidden;
     background-color: var(--TransparentGray);
-    color: black;
+    color: var(--Black);
     scroll-behavior: smooth;
 }
 
@@ -38,7 +40,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     font-family: 'Open-Sans', sans-serif;
-    background-color: white;
+    background-color: var(--White);
 }
 
 main {
@@ -49,7 +51,7 @@ main {
 h1 {
     font-size: 2.5em;
     font-weight: 500;
-    color: black;
+    color: var(--Black);
 }
 
 /*----- COMPONENTS -----*/
@@ -86,7 +88,7 @@ h1 {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: var(--White);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -124,7 +126,7 @@ textarea {
 }
 
 input[type="submit"] {
-    color: white;
+    color: var(--White);
     background-color: var(--SpiroDiscoBall);
     cursor: pointer;
     transition: ease-in-out 0.25s;

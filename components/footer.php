@@ -48,6 +48,7 @@
         <a href="#">Sitemap</a>
     </div>
     <div>
+        <a id="themeSwitch"><img src="/assets/img/icons/settings_brightness.svg" alt="Toggle Dark/Light Theme"></a>
         <select name="lang" id="lang">
             <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>en 🇬🇧</option>
             <option value="fr" <?php if ($_SESSION['lang'] == 'fr') echo 'selected'; ?>>fr 🇫🇷</option>

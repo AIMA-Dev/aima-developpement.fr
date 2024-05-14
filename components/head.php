@@ -23,6 +23,7 @@ if (!isset($ROOT_PATH)) {
 <script src="js/lang.js" defer></script>
 <script src="js/title.js" defer></script>
 <script src="js/header.js" defer></script>
+<script src="js/footer.js" defer></script>
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
