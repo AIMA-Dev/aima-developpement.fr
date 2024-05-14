@@ -11,12 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Check credentials in DB
         include_once 'connectDB.php';
         $conn = connectToDB();
-        $query = "SELECT * FROM settings WHERE `name`='$username'";
+        $query = "SELECT * FROM accounts WHERE `username`='$username'";
         $result = mysqli_query($conn, $query);
 
         if (mysqli_num_rows($result) > 0) {
             $row = mysqli_fetch_assoc($result);
-            if ($row["val"] == $password) {
+            if ($row["password"] == $password) {
                 $_SESSION['admin'] = true;
                 mysqli_close($conn);
                 header("Location: ../admin.php");
