@@ -36,23 +36,3 @@ form {
 #formLeft>textarea {
     height: 100%;
 }
-
-input,
-textarea {
-    border: none;
-    background-color: var(--TransparentGray);
-    border-radius: 5px;
-    padding: 15px;
-    resize: none;
-}
-
-input[type="submit"] {
-    color: white;
-    background-color: var(--SpiroDiscoBall);
-    cursor: pointer;
-    transition: ease-in-out 0.25s;
-}
-
-input[type="submit"]:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
