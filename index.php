@@ -1,5 +1,6 @@
 <?php
 include_once 'components/functions.php';
+include_once 'scripts/encryption.php';
 session_start();
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 ?>
@@ -17,7 +18,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <?php include ('components/header.php'); ?>
     </header>
     <main>
-        <?php getValueFromJson('text') ?>
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>
