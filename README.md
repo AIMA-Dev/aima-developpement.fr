@@ -1,6 +1,6 @@
 # aima-developpement.fr
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,php,js,svg,git,figma,vscode"/></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,php,js,svg,git,github,githubactions,figma,vscode"/></a>
 
 This repository contains the source code for the aima-developpement.fr website.
 
