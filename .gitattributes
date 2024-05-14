@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ignore system files
+.DS_Store -export-ignore
+
+# Define linguist language for files
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.php linguist-language=PHP
+
+# Help Linguist ignore assets files
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.gif linguist-vendored
+*.svg linguist-vendored
+
+# Define binary files as non-text files
+*.eot binary
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
