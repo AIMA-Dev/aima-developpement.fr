@@ -20,7 +20,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
     </header>
     <main>
         <h1><?php getValueFromJson('description'); ?></h1>
-        <div id="classWrap">
+        <h2><?php getValueFromJson('ourteam'); ?></h2>
+        <div class="classWrap">
             <?php
             $title = getValueFromJson('pierremandrillion.name', false);
             $job = getValueFromJson('pierremandrillion.job', false);
@@ -47,6 +48,83 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             $job = getValueFromJson('antoinezoude.job', false);
             $imgUrl = getValueFromJson('antoinezoude.image', false);
             $link = getValueFromJson('antoinezoude.linkedin', false);
+            include 'components/card.php';
+            ?>
+        </div>
+        <h2><?php getValueFromJson('ouradvisors'); ?></h2>
+        <h3><?php getValueFromJson('scientificadvisory'); ?></h3>
+        <div class="classWrap">
+            <?php
+            $title = "Prof. Georfes Charpak (1924 - 2010)";
+            $job = "Prix Nobel de Physique 1992";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Prof. François Demard";
+            $job = "Directeur honoraire centre Antoine Lacassagne";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Dr. Renaud Guignard";
+            $job = "Médecin nucléariste";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Gilles Viot";
+            $job = "Expert radiochimiste";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Dr. Joel Hérault";
+            $job = "Expert en physique médicale";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Prof. Jérome Doyen";
+            $job = "Oncologue radiothérapeute";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+        </div>
+        <h3><?php getValueFromJson('technicalboard'); ?></h3>
+        <div class="classWrap">
+            <?php
+            $title = "Jean-Claude Grini";
+            $job = "Expert électronicien";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Guillaume Magrin";
+            $job = "Expert accel. médicaux";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Henri Braquet";
+            $job = "Expert comptabilité";
+            $imgUrl = "";
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = "Alexandre Giusto";
+            $job = "Ex chef BE Medicyc";
+            $imgUrl = "";
+            $link = "";
             include 'components/card.php';
             ?>
         </div>

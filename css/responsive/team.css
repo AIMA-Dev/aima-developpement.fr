@@ -1,20 +1,20 @@
 @media (max-width: 900px) {
-    #classWrap {
+    .classWrap {
         grid-template-columns: 1fr 1fr;
     }
 
-    #classWrap>* {
+    .classWrap>* {
         margin: 15px;
         width: 50%;
     }
 }
 
 @media (max-width: 600px) {
-    #classWrap {
+    .classWrap {
         grid-template-columns: 1fr;
     }
 
-    #classWrap>* {
+    .classWrap>* {
         margin: 25px 0px;
         width: 70%;
     }

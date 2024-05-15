@@ -1,11 +1,15 @@
 {
     "title": "Equipe | AIMA Developpement",
-    "description": "Notre équipe",
+    "description": "A propos de nous",
+    "ourteam": "Notre équipe",
+    "ouradvisors": "Nos conseillers scientifiques",
+    "scientificadvisory": "Le conseil scientifique : Le comité Charpak",
+    "technicalboard": "Le conseil technique : Suivi de l'avancement du projet",
     "pierremandrillion": {
         "name": "Pierre Mandrillion",
         "job": "PDG et fondateur",
         "description": "",
-        "image": "https://placehold.co/500x500",
+        "image": "",
         "linkedin": "https://www.linkedin.com/in/pierre-mandrillon-9676a8174/"
     },
     "matthieuconjat": {

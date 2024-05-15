@@ -2,12 +2,21 @@ h1 {
     padding: 20px;
 }
 
-#classWrap {
+h2 {
+    padding: 0px 40px;
+}
+
+h3 {
+    padding: 0px 40px;
+}
+
+.classWrap {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
 }
 
-#classWrap>* {
+.classWrap>* {
     margin: 25px;
+    width: 65%;
 }
