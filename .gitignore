@@ -6,8 +6,6 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 *.vsix
-.history
-.ionide
 
 # Git
 .gitattributes
@@ -17,3 +15,6 @@ PHPMailer-6.9.1
 
 # Files
 debug.php
+.env
+.history
+.ionide
