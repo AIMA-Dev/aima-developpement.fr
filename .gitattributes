@@ -4,6 +4,9 @@
 # Ignore system files
 .DS_Store -export-ignore
 
+# Ignore PHPMailer files
+PHPMailer-6.9.1/* linguist-vendored
+
 # Define linguist language for files
 *.html linguist-language=HTML
 *.css linguist-language=CSS
