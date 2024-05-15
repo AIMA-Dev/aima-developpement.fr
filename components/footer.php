@@ -41,11 +41,11 @@
 <div id="footerBottom">
     <a>© AIMA DEVELOPPEMENT 2024</a>
     <div>
-        <a href="#">Personal Datas</a>
+        <a href="personaldatas.php"><?php getValueFromJson('personaldatas'); ?></a>
         <a>&nbsp;|&nbsp;</a>
-        <a href="#">Legal Notice</a>
+        <a href="legalnotice.php"><?php getValueFromJson('legalnotice'); ?></a>
         <a>&nbsp;|&nbsp;</a>
-        <a href="#">Sitemap</a>
+        <a href="sitemap.xml"><?php getValueFromJson('sitemap'); ?></a>
     </div>
     <div>
         <a id="themeSwitch"><img src="/assets/img/icons/settings_brightness.svg" alt="Toggle Dark/Light Theme"></a>
