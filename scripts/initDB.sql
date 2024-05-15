@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS accounts (
     `password` VARCHAR(255) NOT NULL,
     PRIMARY KEY (`username`)
 );
-INSERT INTO accounts (`username`, `password`) VALUES ('admin', 'admin');
+INSERT INTO accounts (`username`, `password`) VALUES ('admin', 'gUbykF1/7nFuI8JTXWpSMYRwTNHESyDDbX/wJgopnAQ=');
 
 # Settings
 CREATE TABLE IF NOT EXISTS settings (
