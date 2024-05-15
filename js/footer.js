@@ -7,11 +7,11 @@ var blackColor = getComputedStyle(document.documentElement).getPropertyValue('--
 
 document.getElementById('themeSwitch').addEventListener('click', function() {
     if (getComputedStyle(document.documentElement).getPropertyValue('--White') === '#fff') {
-        document.documentElement.style.setProperty('--Onyx', '#424242');
+        document.documentElement.style.setProperty('--Onyx', '#171717');
         document.documentElement.style.setProperty('--SpiroDiscoBall', '#17C9E6');
         document.documentElement.style.setProperty('--DarkScarlet', '#5E031F');
-        document.documentElement.style.setProperty('--TransparentGray', '#3b3b3b');
-        document.documentElement.style.setProperty('--White', 'black');
+        document.documentElement.style.setProperty('--TransparentGray', '#212121');
+        document.documentElement.style.setProperty('--White', '#171717');
         document.documentElement.style.setProperty('--Black', 'white');
     } else {        
         document.documentElement.style.setProperty('--Onyx', onyxColor);
