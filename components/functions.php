@@ -7,14 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-function includeWithVariables($filePath, $variables = array())
-{
-    extract($variables);
-    ob_start();
-    include $filePath;
-    return ob_get_clean();
-}
-
 function getValueFromJson($key, $print = true)
 {
     session_start();
