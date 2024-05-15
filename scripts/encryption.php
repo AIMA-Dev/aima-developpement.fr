@@ -12,7 +12,7 @@ function encrypt($string)
 
 function decrypt($encryptedString)
 {
-    $key = getenv('SECRET_KEY');
+    $key = getenv('ENCRYPTION_KEY');
     $cipher = 'AES-256-CBC';
     $ivLength = openssl_cipher_iv_length($cipher);
     $data = base64_decode($encryptedString);
