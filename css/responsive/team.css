@@ -1,0 +1,21 @@
+@media (max-width: 900px) {
+    #classWrap {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #classWrap>* {
+        margin: 15px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    #classWrap {
+        grid-template-columns: 1fr;
+    }
+
+    #classWrap>* {
+        margin: 25px 0px;
+        width: 70%;
+    }
+}

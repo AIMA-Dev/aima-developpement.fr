@@ -1,0 +1,13 @@
+h1 {
+    padding: 20px;
+}
+
+#classWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#classWrap>* {
+    margin: 25px;
+}
