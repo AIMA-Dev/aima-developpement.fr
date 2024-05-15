@@ -54,6 +54,18 @@ h1 {
     color: var(--Black);
 }
 
+h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--Black);
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--Black);
+}
+
 /*----- COMPONENTS -----*/
 /*Card*/
 .card {
