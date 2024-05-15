@@ -1,0 +1,19 @@
+{
+    "title": "Projects | AIMA Developpement",
+    "description": "Innovative cyclotron design is the core expertise of AIMA",
+    "ionsources": {
+        "title": "Ion Sources",
+        "positive": {
+            "title": "Positive Ion Sources"
+        },
+        "pig": {
+            "title": "Penning Ion Gauge"
+        }
+    },
+    "cyclotrons": {
+        "title": "Cyclotrons"
+    },
+    "beamlines": {
+        "title": "Beamlines"
+    }
+}

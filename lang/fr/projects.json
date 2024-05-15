@@ -1,0 +1,13 @@
+{
+    "title": "Projets | AIMA Developpement",
+    "description": "La conception innovante de cyclotrons est l'expertise principale d'AIMA",
+    "ionsources": {
+        "title": "Sources d'ions"
+    },
+    "cyclotrons": {
+        "title": "Cyclotrons"
+    },
+    "beamlines": {
+        "title": "Lignes de faisceau"
+    }
+}
