@@ -11,6 +11,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
     <meta name="robots" content="noindex, nofollow">
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
+    <link rel="stylesheet" href="css/adminLogin.css">
 </head>
 
 <body>

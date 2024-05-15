@@ -18,6 +18,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <?php include ('components/header.php'); ?>
     </header>
     <main>
+        
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>

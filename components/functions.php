@@ -7,19 +7,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-function includeWithVariables($filePath, $variables = array(), $print = true)
+function includeWithVariables($filePath, $variables = array())
 {
     extract($variables);
     ob_start();
     include $filePath;
-    $output = ob_get_clean();
-    if (!$print) {
-        return $output;
-    }
-    echo $output;
+    return ob_get_clean();
 }
 
-function getValueFromJson($key)
+function getValueFromJson($key, $print = true)
 {
     session_start();
     # Get session variable lang
@@ -51,7 +47,9 @@ function getValueFromJson($key)
         }
     }
 
-    print($current);
+    if ($print) {
+        echo($current);
+    }
     return $current;
 }
 
