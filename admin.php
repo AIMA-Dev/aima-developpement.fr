@@ -77,12 +77,24 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             </div>
         </section>
         <!-- Jobs -->
-        <section>
+        <section id="jobs">
             <h2><?php getValueFromJson('jobs.title'); ?></h2>
             <div>
                 <a><?php getValueFromJson('jobs.jobList') ?></a>
                 <div>
+                    <?php
+                    include_once 'scripts/connectDB.php';
+                    $conn = connectToDB();
+                    $query = "SELECT * FROM jobs";
+                    $result = mysqli_query($conn, $query);
 
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        $name = $row['name'];
+                        $description = $row['description'];
+                        $linkedinUrl = $row['linkedin'];
+                        include 'job.php';
+                    }
+                    ?>
                 </div>
             </div>
             <div>

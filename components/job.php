@@ -1,5 +1,5 @@
 <div class="job">
-    <a><?php echo $title; ?></a>
+    <a><?php echo $name; ?></a>
     <a><img src="" alt="Développer"></a>
     <div class="hiddenContent">
         <a><?php echo $description; ?></a>
