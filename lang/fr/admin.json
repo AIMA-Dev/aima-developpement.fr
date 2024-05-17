@@ -20,5 +20,16 @@
         "changePort": "Changer le port:",
         "changePortPlaceholder": "Nouveau port",
         "submit": "Définir"
+    },
+    "jobs": {
+        "title": "Postes",
+        "jobList": "Liste des postes à pourvoir :",
+        "addJob": "Ajouter un poste :",
+        "form": {
+            "title": "Titre",
+            "description": "Description",
+            "linkedinUrl": "Url LinkedIn",
+            "submit": "Ajouter"
+        }
     }
 }
