@@ -82,17 +82,17 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             <div>
                 <a><?php getValueFromJson('jobs.jobList') ?></a>
                 <div>
-                    
+
                 </div>
             </div>
             <div>
                 <a><?php getValueFromJson('jobs.addJob') ?></a>
-                <div>
+                <form action="scripts/addJob.php" method="POST">
                     <input type="text" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
                     <textarea placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
                     <input type="text" placeholder="<?php getValueFromJson('jobs.form.linkedinUrl') ?>">
                     <input type="submit" value="<?php getValueFromJson('jobs.form.submit') ?>">
-                </div>
+                </form>
             </div>
         </section>
     </main>
