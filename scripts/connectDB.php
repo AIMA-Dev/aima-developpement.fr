@@ -1,4 +1,9 @@
 <?php
+/**
+ * Connects to the database and initializes tables.
+ *
+ * @return mysqli|false The database connection object or false if the connection fails.
+ */
 function connectToDB() {
     $dbHost = "91.216.107.185";
     $dbUser = "blueb1885118";
@@ -22,3 +27,4 @@ function connectToDB() {
         mysqli_close($conn);
     }
 }
+?>

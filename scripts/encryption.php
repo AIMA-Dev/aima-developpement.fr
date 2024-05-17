@@ -1,4 +1,10 @@
 <?php
+/**
+ * Encrypts a given string using AES-256-CBC encryption algorithm.
+ *
+ * @param string $string The string to be encrypted.
+ * @return string The encrypted string.
+ */
 function encrypt($string)
 {
     $key = getenv('ENCRYPTION_KEY');
@@ -10,6 +16,12 @@ function encrypt($string)
     return $encryptedString;
 }
 
+/**
+ * Decrypts an encrypted string using AES-256-CBC encryption.
+ *
+ * @param string $encryptedString The encrypted string to decrypt.
+ * @return string The decrypted string.
+ */
 function decrypt($encryptedString)
 {
     $key = getenv('ENCRYPTION_KEY');

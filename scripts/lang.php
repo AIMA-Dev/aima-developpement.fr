@@ -7,6 +7,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+/**
+ * Retrieves a value from a JSON file based on the given key.
+ *
+ * @param string $key The key to search for in the JSON file.
+ * @param bool $print Whether to print the retrieved value or not. Default is true.
+ * @return mixed|null The retrieved value from the JSON file, or null if the key is not found.
+ */
 function getValueFromJson($key, $print = true)
 {
     session_start();
@@ -45,6 +52,12 @@ function getValueFromJson($key, $print = true)
     return $current;
 }
 
+/**
+ * Changes the language of the session.
+ *
+ * @param string $lang The language code to set.
+ * @return void
+ */
 function changeLang($lang)
 {
     session_start();
