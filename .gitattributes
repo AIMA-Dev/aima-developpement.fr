@@ -25,3 +25,5 @@ PHPMailer-6.9.1/* linguist-vendored
 *.ttf binary
 *.woff binary
 *.woff2 binary
+*.ico binary
+*.ttf binary
