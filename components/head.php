@@ -1,10 +1,9 @@
 <?php
-if (!isset($ROOT_PATH)) {
-    $ROOT_PATH = '';
-}
+$language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+$deviceLang = substr($language, 0, 2);
 
 session_start();
-$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
+$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 ?>
 
 <!--Développé avec ❤️ par : www.noasecond.com-->

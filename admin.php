@@ -25,6 +25,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     </header>
     <main>
         <h1><?php getValueFromJson('description'); ?></h1>
+        <!-- Maintenance -->
         <section>
             <h2><?php getValueFromJson('maintenance.title'); ?></h2>
             <div>
@@ -39,6 +40,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
                 </label>
             </div>
         </section>
+        <!-- PHPMailer -->
         <section>
             <h2><?php getValueFromJson('phpmailer.title'); ?></h2>
             <div>
@@ -72,6 +74,25 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
                 <a><?php getValueFromJson('phpmailer.changePort'); ?></a>
                 <input type="email" placeholder="<?php getValueFromJson('phpmailer.changePortPlaceholder'); ?>">
                 <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+            </div>
+        </section>
+        <!-- Jobs -->
+        <section>
+            <h2><?php getValueFromJson('jobs.title'); ?></h2>
+            <div>
+                <a><?php getValueFromJson('jobs.jobList') ?></a>
+                <div>
+                    
+                </div>
+            </div>
+            <div>
+                <a><?php getValueFromJson('jobs.addJob') ?></a>
+                <div>
+                    <input type="text" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
+                    <textarea placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
+                    <input type="text" placeholder="<?php getValueFromJson('jobs.form.linkedinUrl') ?>">
+                    <input type="submit" value="<?php getValueFromJson('jobs.form.submit') ?>">
+                </div>
             </div>
         </section>
     </main>
