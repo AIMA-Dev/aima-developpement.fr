@@ -2,7 +2,7 @@ const langSelector = document.querySelector('#lang');
 
 langSelector.addEventListener('change', function () {
     const lang = langSelector.value;
-    fetch('components/functions.php', {
+    fetch('scripts/lang.php', {
         method: 'POST',
         body: JSON.stringify({ action: 'changeLang', lang: lang })
     })

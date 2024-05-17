@@ -1,5 +1,5 @@
 <?php
-include_once 'components/functions.php';
+include_once 'scripts/lang.php';
 session_start();
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 ?>
