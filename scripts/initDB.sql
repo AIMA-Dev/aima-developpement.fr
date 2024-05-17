@@ -1,6 +1,6 @@
 # Accounts
 CREATE TABLE IF NOT EXISTS accounts (
-    `username` VARCHAR(255) NOT NULL,
+    `username` VARCHAR(255) NOT NULL UNIQUE,
     `password` VARCHAR(255) NOT NULL,
     PRIMARY KEY (`username`)
 );
@@ -8,7 +8,7 @@ INSERT INTO accounts (`username`, `password`) VALUES ('admin', 'gUbykF1/7nFuI8JT
 
 # Settings
 CREATE TABLE IF NOT EXISTS settings (
-    `name` VARCHAR(255) NOT NULL,
+    `name` VARCHAR(255) NOT NULL UNIQUE,
     `val` VARCHAR(255) NOT NULL,
     PRIMARY KEY (`name`)
 );
