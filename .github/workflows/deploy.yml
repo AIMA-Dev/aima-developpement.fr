@@ -31,7 +31,7 @@ jobs:
                         --exclude .DS_Store* \
                         --exclude .editorconfig* \
                         --exclude PHPMailer-6.9.1* \
-                        . /pathToRemoteDirectory"
+                        . /test.blueberrypictures.fr/"
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
