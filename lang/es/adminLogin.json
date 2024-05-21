@@ -1,0 +1,8 @@
+{
+    "title": "Iniciar sesión | AIMA Developpement",
+    "form": {
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "submit": "Iniciar sesión"
+    }
+}

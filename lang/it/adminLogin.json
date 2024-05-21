@@ -1,0 +1,8 @@
+{
+    "title": "Accedi | AIMA Developpement",
+    "form": {
+        "username": "Nome utente",
+        "password": "Password",
+        "submit": "Accedi"
+    }
+}

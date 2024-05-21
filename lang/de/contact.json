@@ -1,0 +1,12 @@
+{
+    "title": "Kontakt | AIMA Developpement",
+    "description": "Bitte kontaktieren Sie uns!",
+    "form": {
+        "firstname": "Vorname...",
+        "lastname": "Nachname...",
+        "email": "E-Mail...",
+        "subject": "Betreff...",
+        "message": "Nachricht...",
+        "submit": "Absenden"
+    }
+}

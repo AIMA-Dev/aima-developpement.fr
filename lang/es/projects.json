@@ -1,0 +1,19 @@
+{
+    "title": "Proyectos | AIMA Developpement",
+    "description": "El diseño innovador de ciclotrones es la experiencia principal de AIMA",
+    "ionsources": {
+        "title": "Fuentes de Iones",
+        "positive": {
+            "title": "Fuentes de Iones Positivos"
+        },
+        "pig": {
+            "title": "Medidor de Iones Penning"
+        }
+    },
+    "cyclotrons": {
+        "title": "Ciclotrones"
+    },
+    "beamlines": {
+        "title": "Líneas de Haz"
+    }
+}

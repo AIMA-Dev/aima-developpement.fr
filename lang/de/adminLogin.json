@@ -1,0 +1,8 @@
+{
+    "title": "Anmelden | AIMA Developpement",
+    "form": {
+        "username": "Benutzername",
+        "password": "Passwort",
+        "submit": "Anmelden"
+    }
+}

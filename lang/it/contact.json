@@ -1,0 +1,12 @@
+{
+    "title": "Contatti | AIMA Developpement",
+    "description": "Contattaci!",
+    "form": {
+        "firstname": "Nome...",
+        "lastname": "Cognome...",
+        "email": "Email...",
+        "subject": "Oggetto...",
+        "message": "Messaggio...",
+        "submit": "Invia"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Projekte | AIMA Developpement",
+    "description": "Innovative Cyclotron-Design ist die Kernkompetenz von AIMA",
+    "ionsources": {
+        "title": "Ionenquellen",
+        "positive": {
+            "title": "Positive Ionenquellen"
+        },
+        "pig": {
+            "title": "Penning-Ionenmessgerät"
+        }
+    },
+    "cyclotrons": {
+        "title": "Zyklotrone"
+    },
+    "beamlines": {
+        "title": "Strahlführungen"
+    }
+}

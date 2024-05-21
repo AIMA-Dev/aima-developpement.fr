@@ -1,0 +1,35 @@
+{
+    "title": "Admin | AIMA Developpement",
+    "description": "Admin-Panel",
+    "maintenance": {
+        "title": "Wartung",
+        "status": "Wartungsstatus:",
+        "toggle": "Wartung umschalten:"
+    },
+    "phpmailer": {
+        "title": "PHPMailer",
+        "email": "Aktuelle E-Mail-Adresse des Kontaktformulars:",
+        "changePassword": "SMTP-Passwort ändern:",
+        "changePasswordPlaceholder": "Neues Passwort",
+        "changeEmail": "E-Mail-Adresse ändern:",
+        "changeEmailPlaceholder": "Neue E-Mail-Adresse",
+        "host": "Aktueller Host:",
+        "changeHost": "Host ändern:",
+        "changeHostPlaceholder": "Neuer Host",
+        "port": "Aktueller Port:",
+        "changePort": "Port ändern:",
+        "changePortPlaceholder": "Neuer Port",
+        "submit": "Setzen"
+    },
+    "jobs": {
+        "title": "Jobs",
+        "jobList": "Jobliste:",
+        "addJob": "Job hinzufügen:",
+        "form": {
+            "title": "Titel",
+            "description": "Beschreibung",
+            "linkedinUrl": "LinkedIn-URL",
+            "submit": "Hinzufügen"
+        }
+    }
+}
