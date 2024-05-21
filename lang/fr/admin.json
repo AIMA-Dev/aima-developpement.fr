@@ -31,5 +31,9 @@
             "linkedinUrl": "Url LinkedIn",
             "submit": "Ajouter"
         }
+    },
+    "session": {
+        "title": "Session",
+        "logout": "Déconnexion"
     }
 }
