@@ -30,7 +30,8 @@
             "description": "Beschreibung",
             "linkedinUrl": "LinkedIn-URL",
             "submit": "Hinzufügen"
-        }
+        },
+        "noJobs": "Keine offenen Stellen"
     },
     "session": {
         "title": "Sitzung",

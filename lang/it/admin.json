@@ -30,7 +30,8 @@
             "description": "Descrizione",
             "linkedinUrl": "URL LinkedIn",
             "submit": "Aggiungi"
-        }
+        },
+        "noJobs": "Nessun lavoro disponibile"
     },
     "session": {
         "title": "Sessione",

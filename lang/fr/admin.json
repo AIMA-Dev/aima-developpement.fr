@@ -30,7 +30,8 @@
             "description": "Description",
             "linkedinUrl": "Url LinkedIn",
             "submit": "Ajouter"
-        }
+        },
+        "noJobs": "Aucun poste à pourvoir"
     },
     "session": {
         "title": "Session",
