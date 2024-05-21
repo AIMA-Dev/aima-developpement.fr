@@ -2,31 +2,31 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
             <loc>http://localhost:3000/career.php</loc>
-            <lastmod>2024-05-17</lastmod>
+            <lastmod>2024-05-21</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
         <url>
             <loc>http://localhost:3000/contact.php</loc>
-            <lastmod>2024-05-17</lastmod>
+            <lastmod>2024-05-21</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
         <url>
             <loc>http://localhost:3000/index.php</loc>
-            <lastmod>2024-05-17</lastmod>
+            <lastmod>2024-05-21</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
         <url>
             <loc>http://localhost:3000/projects.php</loc>
-            <lastmod>2024-05-17</lastmod>
+            <lastmod>2024-05-21</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
         <url>
             <loc>http://localhost:3000/team.php</loc>
-            <lastmod>2024-05-17</lastmod>
+            <lastmod>2024-05-21</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
