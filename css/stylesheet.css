@@ -66,14 +66,86 @@ h3 {
     color: var(--Black);
 }
 
+span.highlight {
+    background-color: yellowgreen;
+}
+
 /*----- COMPONENTS -----*/
 /*Job*/
 .job {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.jobheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobheader>a {
+    font-weight: 600;
+}
+
+.jobheader>img {
+    cursor: pointer;
+    width: 15px;
+    height: auto;
+}
+
+img.developed {
+    transform: rotate(180deg);
 }
 
 .hiddenContent {
     display: none;
+}
+
+.hiddenContent.developed {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.job .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.job .applyLinkedin {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.job .applyLinkedin>img {
+    margin-right: 10px;
+}
+
+.job .sendEmail {
+    background-color: var(--SpiroDiscoBall);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.job .sendEmail>img {
+    margin-right: 10px;
 }
 
 /*Card*/
