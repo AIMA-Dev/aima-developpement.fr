@@ -80,6 +80,7 @@ footer>* {
     justify-content: space-between;
     align-items: center;
     height: 5vh;
+    min-height: 30px;
 }
 
 #footerBottom>*:first-child,
