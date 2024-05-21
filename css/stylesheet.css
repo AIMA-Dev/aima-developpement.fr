@@ -4,6 +4,7 @@
     --SpiroDiscoBall: #17C9E6;
     --Onyx: #383D40;
     --TransparentGray: #bcbcbc38;
+    --Alert: #ff6f64;
     --White: #fff;
     --Black: #000;
 }
@@ -71,6 +72,14 @@ span.highlight {
 }
 
 /*----- COMPONENTS -----*/
+/*Alert*/
+.alert {
+    padding: 20px;
+    background-color: var(--Alert);
+    color: white;
+    border-radius: 10px;
+}
+
 /*Job*/
 .job {
     display: flex;
