@@ -33,14 +33,18 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 $result = mysqli_query($conn, $query);
                 if (mysqli_num_rows($result) > 0) {
                     while ($row = mysqli_fetch_assoc($result)) {
-                        $title = $row['title'];
+                        $name = $row['name'];
                         $description = $row['description'];
-                        $linkedin = $row['linkedin'];
-                        $email = $row['email'];
+                        $linkedinUrl = $row['linkedin'];
+                        if (empty($linkedinUrl)) {
+                            $linkedinUrl = 'https://www.linkedin.com/company/aima-developpement/jobs/';
+                        }
+                        $linkedin = getValueFromJson('jobs.linkedin', false);
+                        $email = getValueFromJson('jobs.email', false);
                         include 'components/job.php';
                     }
                 } else {
-                    echo '<div class="alert"><a>' . getValueFromJson("noJobs", false) . '</a></div>';
+                    echo '<div class="alert"><a>' . getValueFromJson("jobs.noJobs", false) . '</a></div>';
                 }
                 mysqli_close($conn);
             } catch (Exception $e) {

@@ -17,6 +17,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <title><?php echo getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/admin.css">
+    <script src="js/job.js" defer></script>
 </head>
 
 <body>
@@ -81,21 +82,31 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             <h2><?php getValueFromJson('jobs.title'); ?></h2>
             <div>
                 <a><?php getValueFromJson('jobs.jobList') ?></a>
-                <div>
+                <div id="jobsWrap">
                     <?php
-                    include_once 'scripts/connectDB.php';
-                    $conn = connectToDB();
-                    $query = "SELECT * FROM jobs";
-                    $result = mysqli_query($conn, $query);
-                    if (mysqli_num_rows($result) == 0) {
-                        echo '<div class="alert"><a>' . getValueFromJson("jobs.noJobs", false) . '</a></div>';
-                    } else {
-                        while ($row = mysqli_fetch_assoc($result)) {
-                            $name = $row['name'];
-                            $description = $row['description'];
-                            $linkedinUrl = $row['linkedin'];
-                            include 'job.php';
+                    try {
+                        include_once 'scripts/connectDB.php';
+                        $conn = connectToDB();
+                        $query = "SELECT * FROM jobs";
+                        $result = mysqli_query($conn, $query);
+                        if (mysqli_num_rows($result) > 0) {
+                            while ($row = mysqli_fetch_assoc($result)) {
+                                $name = $row['name'];
+                                $description = $row['description'];
+                                $linkedinUrl = $row['linkedin'];
+                                if (empty($linkedinUrl)) {
+                                    $linkedinUrl = 'https://www.linkedin.com/company/aima-developpement/jobs/';
+                                }
+                                $linkedin = getValueFromJson('jobs.linkedin', false);
+                                $email = getValueFromJson('jobs.email', false);
+                                include 'components/job.php';
+                            }
+                        } else {
+                            echo '<div class="alert"><a>' . getValueFromJson("jobs.noJobs", false) . '</a></div>';
                         }
+                        mysqli_close($conn);
+                    } catch (Exception $e) {
+                        echo "An error occurred: " . $e->getMessage();
                     }
                     ?>
                 </div>
