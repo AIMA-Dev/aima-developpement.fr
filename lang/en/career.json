@@ -1,5 +1,9 @@
 {
     "title": "Career | AIMA Developpement",
     "search": "Search",
-    "noJobs": "No job offers are currently available."
+    "jobs": {
+        "noJobs": "No job offers are currently available.",
+        "linkedin": "Apply on Linkedin",
+        "email": "Send an email"
+    }
 }

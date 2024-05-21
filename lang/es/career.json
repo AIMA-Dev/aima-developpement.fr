@@ -1,5 +1,9 @@
 {
     "title": "Carrera | AIMA Developpement",
     "search": "Buscar",
-    "noJobs": "Actualmente no hay ofertas de trabajo disponibles."
+    "jobs": {
+        "noJobs": "No hay ofertas de trabajo disponibles en este momento.",
+        "linkedin": "Aplicar en Linkedin",
+        "email": "Enviar un correo electrónico"
+    }
 }

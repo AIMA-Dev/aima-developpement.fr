@@ -31,7 +31,9 @@
             "linkedinUrl": "LinkedIn-URL",
             "submit": "Hinzufügen"
         },
-        "noJobs": "Keine offenen Stellen"
+        "noJobs": "Keine offenen Stellen",
+        "linkedin": "Auf LinkedIn bewerben",
+        "email": "Eine E-Mail senden"
     },
     "session": {
         "title": "Sitzung",

@@ -31,7 +31,9 @@
             "linkedinUrl": "linkedin Url",
             "submit": "Add"
         },
-        "noJobs": "No jobs available"
+        "noJobs": "No jobs available",
+        "linkedin": "Apply on Linkedin",
+        "email": "Send an email"
     },
     "session": {
         "title": "Session",

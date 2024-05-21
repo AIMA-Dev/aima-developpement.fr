@@ -1,5 +1,9 @@
 {
     "title": "Emplois | AIMA Developpement",
     "search": "Rechercher",
-    "noJobs": "Aucune offre d'emploi n'est disponible pour le moment."
+    "jobs": {
+        "noJobs": "Aucune offre d'emploi n'est actuellement disponible.",
+        "linkedin": "Postuler sur Linkedin",
+        "email": "Envoyer un email"
+    }
 }

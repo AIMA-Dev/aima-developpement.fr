@@ -31,7 +31,9 @@
             "linkedinUrl": "Url LinkedIn",
             "submit": "Ajouter"
         },
-        "noJobs": "Aucun poste à pourvoir"
+        "noJobs": "Aucun poste à pourvoir",
+        "linkedin": "Postuler sur Linkedin",
+        "email": "Envoyer un email"
     },
     "session": {
         "title": "Session",
