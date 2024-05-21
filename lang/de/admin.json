@@ -31,5 +31,9 @@
             "linkedinUrl": "LinkedIn-URL",
             "submit": "Hinzufügen"
         }
+    },
+    "session": {
+        "title": "Sitzung",
+        "logout": "Abmelden"
     }
 }
