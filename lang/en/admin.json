@@ -30,6 +30,8 @@
             "description": "Description",
             "linkedinUrl": "linkedin Url",
             "submit": "Add"
-        }
-    }
+        },
+        "noJobs": "No jobs available"
+    },
+    "logout": "Logout"
 }
