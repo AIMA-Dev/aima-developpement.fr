@@ -20,9 +20,12 @@ function connectToDB() {
     }
 
     try {
-        $sql = file_get_contents('initDB.sql');
+        if (substr_compare(getcwd(), 'scripts', -strlen('scripts')) === 0) {
+            $sql = file_get_contents('initDB.sql');
+        } else {
+            $sql = file_get_contents('scripts/initDB.sql');
+        }
         if (mysqli_multi_query($conn, $sql)) {
-            echo "Tables created successfully\n";
             mysqli_close($conn);
             $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
             return $conn;

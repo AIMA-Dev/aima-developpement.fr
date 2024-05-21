@@ -1,3 +1,12 @@
+# Jobs
+CREATE TABLE IF NOT EXISTS jobs (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) NOT NULL,
+    `description` TEXT NOT NULL,
+    `linkedin` TEXT,
+    PRIMARY KEY (`id`)
+);
+
 # Accounts
 CREATE TABLE IF NOT EXISTS accounts (
     `username` VARCHAR(255) NOT NULL UNIQUE,
@@ -16,12 +25,3 @@ INSERT INTO settings (`name`, `val`) VALUES ('mailHost', 'smtp.example.com');
 INSERT INTO settings (`name`, `val`) VALUES ('mailUser', 'user@example.com');
 INSERT INTO settings (`name`, `val`) VALUES ('mailPassword', 'secret');
 INSERT INTO settings (`name`, `val`) VALUES ('mailPort', '465');
-
-# Jobs
-CREATE TABLE IF NOT EXISTS jobs (
-    `id` INT NOT NULL AUTO_INCREMENT,
-    `name` VARCHAR(255) NOT NULL,
-    `description` TEXT NOT NULL,
-    `linkedin` TEXT,
-    PRIMARY KEY (`id`)
-);
