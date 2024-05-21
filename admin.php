@@ -113,12 +113,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
         <!-- LogOut -->
         <section>
             <h2><?php getValueFromJson('session.title'); ?></h2>
-            <?php
-            if (isset($_POST['end_session'])) {
-                $_SESSION['admin'] = false;
-            }
-            ?>
-            <form action="" method="POST">
+            <form action="scripts/adminLogOut.php" method="POST">
                 <input type="submit" name="end_session" value="<?php getValueFromJson('session.logout') ?>">
             </form>
         </section>
