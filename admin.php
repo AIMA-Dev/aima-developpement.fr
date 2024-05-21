@@ -88,7 +88,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
                     $query = "SELECT * FROM jobs";
                     $result = mysqli_query($conn, $query);
                     if (mysqli_num_rows($result) == 0) {
-                        echo "<p>" . getValueFromJson('jobs.noJobs') . "</p>";
+                        echo '<div class="alert"><a>' . getValueFromJson("jobs.noJobs", false) . '</a></div>';
                     } else {
                         while ($row = mysqli_fetch_assoc($result)) {
                             $name = $row['name'];
@@ -112,13 +112,14 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
         </section>
         <!-- LogOut -->
         <section>
+            <h2><?php getValueFromJson('session.title'); ?></h2>
             <?php
             if (isset($_POST['end_session'])) {
                 $_SESSION['admin'] = false;
             }
             ?>
             <form action="" method="POST">
-                <input type="submit" name="end_session" value="<?php getValueFromJson('logout') ?>">
+                <input type="submit" name="end_session" value="<?php getValueFromJson('session.logout') ?>">
             </form>
         </section>
     </main>
