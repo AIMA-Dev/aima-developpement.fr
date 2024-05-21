@@ -1,8 +1,11 @@
 <?php
 include_once 'scripts/lang.php';
 include_once 'scripts/encryption.php';
+$language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+$deviceLang = substr($language, 0, 2);
+
 session_start();
-$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
+$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +21,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <?php include ('components/header.php'); ?>
     </header>
     <main>
-        
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>

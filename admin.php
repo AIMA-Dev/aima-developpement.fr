@@ -1,7 +1,10 @@
 <?php
 include_once 'scripts/lang.php';
+$language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+$deviceLang = substr($language, 0, 2);
+
 session_start();
-$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
+$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 
 if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     header('Location: adminLogin.php');
