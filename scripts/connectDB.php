@@ -5,10 +5,10 @@
  * @return mysqli|false The database connection object or false if the connection fails.
  */
 function connectToDB() {
-    $dbHost = "91.216.107.185";
-    $dbUser = "blueb1885118";
-    $dbPass = "poaexeyfbb";
-    $dbName = "blueb1885118";
+    $dbHost = getenv('DB_HOST');
+    $dbUser = getenv('DB_USER');
+    $dbPass = getenv('DB_PASS');
+    $dbName = getenv('DB_NAME');
 
     $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
     if (!$conn) {
@@ -25,6 +25,7 @@ function connectToDB() {
     } else {
         echo "Error creating tables: " . mysqli_error($conn) . "\n";
         mysqli_close($conn);
+        return false;
     }
 }
 ?>
