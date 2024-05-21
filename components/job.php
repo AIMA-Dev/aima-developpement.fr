@@ -1,17 +1,13 @@
 <div class="job">
     <div class="jobheader">
         <a><?php echo $name; ?></a>
+        <?php if ($canDelete) {
+            echo '<div>';
+        } ?>
         <img class="develop" src="assets/img/icons/develop.svg" alt="Develop">
         <?php if ($canDelete) {
-            echo '<img src="assets/img/icons/delete.svg" alt="Delete job" class="deleteJob" onclick="deleteJobFromDB()">';
-
-            function deleteJobFromDB()
-            {
-                include_once 'scripts/connectDB.php';
-                $conn = connectToDB();
-                $query = "DELETE FROM jobs WHERE name = '$name'";
-                mysqli_close($conn);
-            }
+            echo '<img src="assets/img/icons/delete.svg" alt="Delete job" class="deleteJob" onclick="deleteJob()">';
+            echo '</div>';
         } ?>
     </div>
     <div class="hiddenContent">
@@ -24,3 +20,16 @@
         </div>
     </div>
 </div>
+
+<script>
+    function deleteJob() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText);
+            }
+        };
+        xhttp.open("GET", "../scripts/deleteJob.php?name=<?php echo $name; ?>", true);
+        xhttp.send();
+    }
+</script>

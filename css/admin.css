@@ -54,4 +54,5 @@ section>div>*:not(:first-child) {
 .deleteJob {
     width: 20px;
     height: auto;
+    cursor: pointer;
 }
