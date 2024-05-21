@@ -50,3 +50,8 @@ section>div>*:not(:first-child) {
 .job a {
     text-wrap: wrap;
 }
+
+.deleteJob {
+    width: 20px;
+    height: auto;
+}

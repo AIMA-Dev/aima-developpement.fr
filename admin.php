@@ -99,6 +99,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
                                 }
                                 $linkedin = getValueFromJson('jobs.linkedin', false);
                                 $email = getValueFromJson('jobs.email', false);
+                                $canDelete = true;
                                 include 'components/job.php';
                             }
                         } else {
