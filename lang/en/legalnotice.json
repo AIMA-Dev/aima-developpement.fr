@@ -1,0 +1,28 @@
+{
+    "title": "AIMA Developpement",
+    "description": "Legal Notice",
+    "identity": {
+        "title": "Identity",
+        "name": "Company Name: ",
+        "juridicalForm": "Legal Form: ",
+        "capital": "Amount of Share Capital: "
+    },
+    "coordonates": {
+        "title": "Contact Information",
+        "address": "Registered Office Address: ",
+        "email": "Email Address: ",
+        "phone": "Phone: "
+    },
+    "websitehosting": {
+        "title": "Website Hosting",
+        "name": "Hosting Provider Name: ",
+        "socialReason": "Legal Name: ",
+        "address": "Address: ",
+        "phone": "Phone Number: "
+    },
+    "commercialActivity": {
+        "title": "Commercial Activities",
+        "RCS": "Company Registration Number: ",
+        "TVA": "VAT Number: "
+    }
+}

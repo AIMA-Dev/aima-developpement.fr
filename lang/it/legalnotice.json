@@ -1,0 +1,28 @@
+{
+    "title": "AIMA Developpement",
+    "description": "Avviso legale",
+    "identity": {
+        "title": "Identità",
+        "name": "Ragione sociale: ",
+        "juridicalForm": "Forma giuridica: ",
+        "capital": "Importo del capitale sociale: "
+    },
+    "coordonates": {
+        "title": "Coordinate",
+        "address": "Indirizzo sede legale: ",
+        "email": "Indirizzo email: ",
+        "phone": "Telefono: "
+    },
+    "websitehosting": {
+        "title": "Hosting del sito",
+        "name": "Nome dell'host: ",
+        "socialReason": "Ragione sociale: ",
+        "address": "Indirizzo: ",
+        "phone": "Numero di telefono: "
+    },
+    "commercialActivity": {
+        "title": "Attività commerciali",
+        "RCS": "Numero RCS: ",
+        "TVA": "Numero di partita IVA: "
+    }
+}

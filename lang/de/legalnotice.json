@@ -1,0 +1,28 @@
+{
+    "title": "AIMA Developpement",
+    "description": "Impressum",
+    "identity": {
+        "title": "Identität",
+        "name": "Firmenname: ",
+        "juridicalForm": "Rechtsform: ",
+        "capital": "Stammkapital: "
+    },
+    "coordonates": {
+        "title": "Kontakt",
+        "address": "Geschäftsadresse: ",
+        "email": "E-Mail-Adresse: ",
+        "phone": "Telefon: "
+    },
+    "websitehosting": {
+        "title": "Website-Hosting",
+        "name": "Name des Hosts: ",
+        "socialReason": "Firmenname: ",
+        "address": "Adresse: ",
+        "phone": "Telefonnummer: "
+    },
+    "commercialActivity": {
+        "title": "Gewerbliche Tätigkeit",
+        "RCS": "Handelsregisternummer: ",
+        "TVA": "Umsatzsteuer-Identifikationsnummer: "
+    }
+}
