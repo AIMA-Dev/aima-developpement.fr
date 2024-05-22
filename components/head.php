@@ -1,5 +1,5 @@
 <?php
-// include_once ('./scripts/getSetting.php');
+include_once ('./scripts/getSetting.php');
 session_start();
 
 //Language
