@@ -1,5 +1,5 @@
 <?php
-include_once ('./scripts/getSetting.php');
+// include_once ('./scripts/getSetting.php');
 session_start();
 
 //Language
@@ -21,6 +21,19 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <!-- Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#5E031F" />
+<meta name="description" content="Accelerator for Industrial and Medical Applications" />
+<!-- OpenGraph / Facebook -->
+<meta property="og:title" content="AIMA Developpement" />
+<meta property="og:description" content="Accelerator for Industrial and Medical Applications" />
+<meta property="og:image" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.png" />
+<meta property="og:image:alt" content="AIMA Developpement Logo" />
+<!-- Twitter -->
+<meta name="twitter:title" content="AIMA Developpement" />
+<meta name="twitter:description" content="Accelerator for Industrial and Medical Applications" />
+<meta name="twitter:url" content="https://www.aima-developpement.fr/" />
+<meta name="twitter:image:src" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.png" />
+<meta name="twitter:image:alt" content="AIMA Developpement Logo" />
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
