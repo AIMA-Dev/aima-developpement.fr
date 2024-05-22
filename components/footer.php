@@ -39,7 +39,7 @@
     </div>
 </div>
 <div id="footerBottom">
-    <a>© AIMA DEVELOPPEMENT 2024</a>
+    <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/aima-developpement-480635630">© AIMA DEVELOPPEMENT 2024</a>
     <div>
         <a href="personaldatas.php"><?php getValueFromJson('personaldatas'); ?></a>
         <a>&nbsp;|&nbsp;</a>
