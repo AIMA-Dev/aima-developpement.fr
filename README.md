@@ -19,6 +19,8 @@ To install and run the website locally, follow these steps:
 
 ## Usage
 
+Setup the database infos into scripts/connectDB.php
+
 Once the development server is running, you can access the website at `http://localhost:3000`. 
 
 ## Contributing
