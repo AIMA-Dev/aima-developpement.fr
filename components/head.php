@@ -1,9 +1,20 @@
 <?php
+include_once ('./scripts/getSetting.php');
+session_start();
+
+//Language
 $language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
 $deviceLang = substr($language, 0, 2);
-
-session_start();
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
+
+//Maintenance
+$pagesAffectedByMaintenance = array('index.php', 'projects.php', 'team.php', 'career.php', 'contact.php');
+if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
+    if(getSettingInDB('maintenance') == 'true') {
+        header('Location: maintenance.php');
+        exit;
+    }
+}
 ?>
 
 <!--Développé avec ❤️ par : www.noasecond.com-->
