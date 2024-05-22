@@ -1,5 +1,7 @@
 <?php
+error_reporting(E_ERROR);
 include_once './initEnv.php';
+include_once './scripts/initEnv.php';
 initEnvironmentVars();
 
 /**

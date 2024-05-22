@@ -1,6 +1,5 @@
 <?php
 include_once 'scripts/lang.php';
-include_once 'scripts/encryption.php';
 $language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
 $deviceLang = substr($language, 0, 2);
 

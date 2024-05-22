@@ -38,9 +38,11 @@ function initEnvironmentVars()
         }
         fclose($fopen);
     }
-
+    
     foreach ($var_arrs as $name => $value) {
-        putenv("{$name}={$value}");
-        $_ENV[$name] = $value;
+        if (!getenv($name)) {
+            putenv("{$name}={$value}");
+            $_ENV[$name] = $value;
+        }
     }
 }
