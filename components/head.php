@@ -8,7 +8,7 @@ $deviceLang = substr($language, 0, 2);
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 
 //Maintenance
-$pagesAffectedByMaintenance = array('index.php', 'projects.php', 'team.php', 'career.php', 'contact.php');
+$pagesAffectedByMaintenance = array('/index.php', '/projects.php', '/team.php', '/career.php', '/contact.php');
 if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
     if(getSettingInDB('maintenance') == 'true') {
         header('Location: maintenance.php');
