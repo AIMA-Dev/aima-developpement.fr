@@ -22,7 +22,7 @@ function addJobInDB($name, $description, $linkedinUrl)
     $conn = connectToDB();
     $sql = "INSERT INTO jobs (`name`, `description`, `linkedin`) VALUES ('$name', '$description', '$linkedinUrl')";
     if ($conn->query($sql) === TRUE) {
-        echo "New job added successfully";
+        header('Location: ../admin.php');
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

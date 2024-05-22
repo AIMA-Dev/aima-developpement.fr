@@ -6,7 +6,7 @@
         } ?>
         <img class="develop" src="assets/img/icons/develop.svg" alt="Develop">
         <?php if ($canDelete) {
-            echo '<img src="assets/img/icons/delete.svg" alt="Delete job" class="deleteJob" onclick="deleteJob()">';
+            echo '<img src="assets/img/icons/delete.svg" alt="Delete job" class="deleteJob" onclick="window.location.href = \'/scripts/deleteJob.php?name=' . $name . '\';">';
             echo '</div>';
         } ?>
     </div>
@@ -20,16 +20,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    function deleteJob() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                console.log(this.responseText);
-            }
-        };
-        xhttp.open("GET", "../scripts/deleteJob.php?name=<?php echo $name; ?>", true);
-        xhttp.send();
-    }
-</script>

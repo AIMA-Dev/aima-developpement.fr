@@ -118,9 +118,9 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             <div>
                 <a><?php getValueFromJson('jobs.addJob') ?></a>
                 <form action="scripts/addJob.php" method="POST">
-                    <input type="text" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
-                    <textarea placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
-                    <input type="text" placeholder="<?php getValueFromJson('jobs.form.linkedinUrl') ?>">
+                    <input type="text" name="name" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
+                    <textarea name="description" placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
+                    <input name="linkedinUrl" type="text" placeholder="<?php getValueFromJson('jobs.form.linkedinUrl') ?>">
                     <input type="submit" value="<?php getValueFromJson('jobs.form.submit') ?>">
                 </form>
             </div>
