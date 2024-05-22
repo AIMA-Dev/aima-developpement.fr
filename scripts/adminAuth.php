@@ -37,14 +37,14 @@ function authAdmin()
                     echo "Mot de passe incorrect.";
                     $_SESSION['admin'] = false;
                     mysqli_close($conn);
-                    header("Refresh:10; url=../admin.php");
+                    header('Location: ../admin.php');
                     exit();
                 }
             } else {
                 echo "Username inconnu.";
                 $_SESSION['admin'] = false;
                 mysqli_close($conn);
-                header("Refresh:0; url=../admin.php");
+                header('Location: ../admin.php');
                 exit();
             }
         }
