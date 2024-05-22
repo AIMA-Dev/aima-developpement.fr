@@ -79,7 +79,7 @@ include ('scripts/getSetting.php');
             <div>
                 <a><?php getValueFromJson('phpmailer.changeHost'); ?></a>
                 <form action="scripts/setSetting.php" method="POST">
-                    <input type="email" name="value"
+                    <input type="text" name="value"
                         placeholder="<?php getValueFromJson('phpmailer.changeHostPlaceholder'); ?>">
                     <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
                     <input type="hidden" name="setting" value="phpmailerHost">
@@ -92,7 +92,7 @@ include ('scripts/getSetting.php');
             <div>
                 <a><?php getValueFromJson('phpmailer.changePort'); ?></a>
                 <form action="scripts/setSetting.php" method="POST">
-                    <input type="email" name="value"
+                    <input type="number" name="value"
                         placeholder="<?php getValueFromJson('phpmailer.changePortPlaceholder'); ?>">
                     <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
                     <input type="hidden" name="setting" value="phpmailerPort">
