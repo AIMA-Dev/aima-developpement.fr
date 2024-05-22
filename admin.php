@@ -10,6 +10,8 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     header('Location: adminLogin.php');
     exit;
 }
+
+include ('scripts/getSetting.php');
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +22,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <title><?php echo getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/admin.css">
+    <script src="js/admin.js" defer></script>
     <script src="js/job.js" defer></script>
 </head>
 
@@ -34,12 +37,12 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             <h2><?php getValueFromJson('maintenance.title'); ?></h2>
             <div>
                 <a><?php getValueFromJson('maintenance.status'); ?></a>
-                <a><b>None</b></a>
+                <a><b><?php echo getSettingInDB('maintenance'); ?></b></a>
             </div>
             <div>
                 <a><?php getValueFromJson('maintenance.toggle'); ?></a>
                 <label class="switch">
-                    <input type="checkbox" checked>
+                    <input id="toggleMaintenance" type="checkbox" <?php echo (getSettingInDB('maintenance') == 'true' ? 'checked' : ''); ?>>
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -49,35 +52,51 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             <h2><?php getValueFromJson('phpmailer.title'); ?></h2>
             <div>
                 <a><?php getValueFromJson('phpmailer.email'); ?></a>
-                <a><b>None</b></a>
+                <a><b><?php echo getSettingInDB('phpmailerEmail'); ?></b></a>
             </div>
             <div>
                 <a><?php getValueFromJson('phpmailer.changeEmail'); ?></a>
-                <input type="email" placeholder="<?php getValueFromJson('phpmailer.changeEmailPlaceholder'); ?>">
-                <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                <form action="scripts/setSetting.php" method="POST">
+                    <input type="email" name="value"
+                        placeholder="<?php getValueFromJson('phpmailer.changeEmailPlaceholder'); ?>">
+                    <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                    <input type="hidden" name="setting" value="phpmailerEmail">
+                </form>
             </div>
             <div>
                 <a><?php getValueFromJson('phpmailer.changePassword'); ?></a>
-                <input type="password" placeholder="<?php getValueFromJson('phpmailer.changePasswordPlaceholder'); ?>">
-                <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                <form action="scripts/setSetting.php" method="POST">
+                    <input type="password" name="value"
+                        placeholder="<?php getValueFromJson('phpmailer.changePasswordPlaceholder'); ?>">
+                    <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                    <input type="hidden" name="setting" value="phpmailerPassword">
+                </form>
             </div>
             <div>
                 <a><?php getValueFromJson('phpmailer.host'); ?></a>
-                <a><b>None</b></a>
+                <a><b><?php echo getSettingInDB('phpmailerHost'); ?></b></a>
             </div>
             <div>
                 <a><?php getValueFromJson('phpmailer.changeHost'); ?></a>
-                <input type="email" placeholder="<?php getValueFromJson('phpmailer.changeHostPlaceholder'); ?>">
-                <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                <form action="scripts/setSetting.php" method="POST">
+                    <input type="email" name="value"
+                        placeholder="<?php getValueFromJson('phpmailer.changeHostPlaceholder'); ?>">
+                    <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                    <input type="hidden" name="setting" value="phpmailerHost">
+                </form>
             </div>
             <div>
                 <a><?php getValueFromJson('phpmailer.port'); ?></a>
-                <a><b>None</b></a>
+                <a><b><?php echo getSettingInDB('phpmailerPort'); ?></b></a>
             </div>
             <div>
                 <a><?php getValueFromJson('phpmailer.changePort'); ?></a>
-                <input type="email" placeholder="<?php getValueFromJson('phpmailer.changePortPlaceholder'); ?>">
-                <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                <form action="scripts/setSetting.php" method="POST">
+                    <input type="email" name="value"
+                        placeholder="<?php getValueFromJson('phpmailer.changePortPlaceholder'); ?>">
+                    <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
+                    <input type="hidden" name="setting" value="phpmailerPort">
+                </form>
             </div>
         </section>
         <!-- Jobs -->
@@ -117,10 +136,12 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
             </div>
             <div>
                 <a><?php getValueFromJson('jobs.addJob') ?></a>
-                <form action="scripts/addJob.php" method="POST">
+                <form action="scripts/adminJobs.php" method="POST">
                     <input type="text" name="name" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
-                    <textarea name="description" placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
-                    <input name="linkedinUrl" type="text" placeholder="<?php getValueFromJson('jobs.form.linkedinUrl') ?>">
+                    <textarea name="description"
+                        placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
+                    <input name="linkedinUrl" type="text"
+                        placeholder="<?php getValueFromJson('jobs.form.linkedinUrl') ?>">
                     <input type="submit" value="<?php getValueFromJson('jobs.form.submit') ?>">
                 </form>
             </div>

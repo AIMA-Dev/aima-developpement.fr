@@ -6,7 +6,7 @@
         } ?>
         <img class="develop" src="assets/img/icons/develop.svg" alt="Develop">
         <?php if ($canDelete) {
-            echo '<img src="assets/img/icons/delete.svg" alt="Delete job" class="deleteJob" onclick="window.location.href = \'/scripts/deleteJob.php?name=' . $name . '\';">';
+            echo '<img src="assets/img/icons/delete.svg" alt="Delete job" class="deleteJob" onclick="window.location.href = \'/scripts/adminJobs.php?name=' . $name . '\';">';
             echo '</div>';
         } ?>
     </div>

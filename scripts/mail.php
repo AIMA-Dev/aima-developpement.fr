@@ -23,10 +23,10 @@ $query = "SELECT * FROM settings";
 $result = mysqli_query($conn, $query);
 # Set server settings from DB values
 $row = mysqli_fetch_assoc($result);
-$mailHost = $row['mailHost'];
-$mailUser = $row['mailUser'];
-$mailPassword = $row['mailPassword'];
-$mailPort = $row['mailPort'];
+$mailHost = $row['phpmailerHost'];
+$mailUser = $row['phpmailerUser'];
+$mailPassword = $row['phpmailerPassword'];
+$mailPort = $row['phpmailerPort'];
 mysqli_close($conn);
 
 try {
