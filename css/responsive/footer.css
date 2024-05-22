@@ -4,7 +4,42 @@
         flex-direction: column;
         align-items: stretch;
     }
+
     #left {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #footerTop>#left,
+    #footerTop>#right {
+        flex-direction: column;
+    }
+
+    footer hr {
+        display: none;
+    }
+
+    #footerContact {
+        margin-top: 50px;
+    }
+
+    footer #right>p {
+        text-align: center;
+    }
+
+    #footerBottom {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #footerBottom>* {
+        margin: 10px 0;
+    }
+
+    #footerBottom>*:first-child, #footerBottom>*:last-child {
+        width: 90%;
+        text-align: center;
     }
 }
