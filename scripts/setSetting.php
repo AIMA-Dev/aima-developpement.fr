@@ -1,9 +1,16 @@
 <?php
 include_once 'connectDB.php';
+include_once 'encryption.php';
+
+$settingsToEncrypt = ['phpmailerPassword'];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['setting'];
     $val = $_POST['value'];
+
+    if (in_array($name, $settingsToEncrypt)) {
+        $val = encrypt($val);
+    }
 
     changeSettingInDB($name, $val);
 }
@@ -11,6 +18,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $name = $_GET['setting'];
     $val = $_GET['value'];
+
+    if (in_array($name, $settingsToEncrypt)) {
+        $val = encrypt($val);
+    }
 
     changeSettingInDB($name, $val);
 }
