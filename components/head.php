@@ -22,6 +22,8 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#5E031F" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#5E031F" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#5E031F" />
 <meta name="description" content="Accelerator for Industrial and Medical Applications" />
 <!-- OpenGraph / Facebook -->
 <meta property="og:title" content="AIMA Developpement" />
