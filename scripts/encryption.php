@@ -1,4 +1,7 @@
 <?php
+include_once './initEnv.php';
+initEnvironmentVars();
+
 /**
  * Encrypts a given string using AES-256-CBC encryption algorithm.
  *

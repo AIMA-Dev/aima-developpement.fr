@@ -15,6 +15,6 @@ PHPMailer-6.9.1
 
 # Files
 debug.php
-.env
+# .env
 .history
 .ionide

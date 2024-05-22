@@ -1,18 +1,18 @@
 <?php
+include_once './initEnv.php';
+initEnvironmentVars();
+
 /**
  * Connects to the database and initializes tables.
  *
  * @return mysqli|false The database connection object or false if the connection fails.
  */
-function connectToDB() {
-    // $dbHost = $_ENV['DB_HOST'];
-    // $dbUser = $_ENV['DB_USER'];
-    // $dbPass = $_ENV['DB_PASS'];
-    // $dbName = $_ENV['DB_NAME'];
-    $dbHost = '91.216.107.185';
-    $dbUser = 'blueb1885118';
-    $dbName = 'blueb1885118';
-    $dbPass = 'poaexeyfbb';
+function connectToDB()
+{
+    $dbHost = getenv('DB_HOST');
+    $dbUser = getenv('DB_USER');
+    $dbPass = getenv('DB_PASS');
+    $dbName = getenv('DB_NAME');
 
     $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
     if (!$conn) {

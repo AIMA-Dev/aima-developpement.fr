@@ -25,10 +25,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 header("Location: ../admin.php");
                 exit;
             } else {
-                echo "Mot de passe incorrect.";
+                echo "Mot de passe incorrect.";                
                 $_SESSION['admin'] = false;
                 mysqli_close($conn);
-                header("Refresh:0; url=../admin.php");
+                header("Refresh:10; url=../admin.php");
                 exit();
             }
         } else {
