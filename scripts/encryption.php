@@ -1,18 +1,5 @@
 <?php
-// error_reporting(E_ERROR);
-// try {
-//     include_once './initEnv.php';
-// } catch (Exception $e) {
-//     exit();
-// }
-// try {
-//     include_once './scripts/initEnv.php';  
-// } catch (Exception $e) {
-//     exit();
-// }
-
 include_once './initEnv.php';
-
 initEnvironmentVars();
 
 /**
