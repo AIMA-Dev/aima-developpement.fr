@@ -3,7 +3,7 @@ const path = require('path');
 
 // Variables to setup
 const baseUrl = 'www.aima-developpement.fr/'; // Base URL of the website
-const excludedPages = ['admin.php', 'adminLogin.php','404.php', '500.php', '403.php', 'personaldatas.php', 'legalnotice.php']; // Pages to exclude from the sitemap
+const excludedPages = ['maintenance.php', 'admin.php', 'adminLogin.php','404.php', '500.php', '403.php', 'personaldatas.php', 'legalnotice.php']; // Pages to exclude from the sitemap
 const priorityPages = ['index.php']; // Priority is set to 1 for these pages
 const defaultPriority = 0.8; // Default priority for pages
 
