@@ -22,6 +22,7 @@ include ('scripts/getSetting.php');
     <title><?php echo getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/responsive/admin.css">
     <script src="js/admin.js" defer></script>
     <script src="js/job.js" defer></script>
 </head>

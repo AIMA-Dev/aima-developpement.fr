@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+    section {
+        margin: 25px;
+        padding: 40px 25px;
+    }
+
+    h2 {
+        padding: 5px;
+        margin-top: -55px;
+        margin-left: -10px;
+    }
+}

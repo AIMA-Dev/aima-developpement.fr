@@ -15,6 +15,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/adminLogin.css">
+    <link rel="stylesheet" href="css/responsive/adminLogin.css">
 </head>
 
 <body>
