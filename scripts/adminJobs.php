@@ -48,6 +48,6 @@ function deleteJobInDB($name)
     header('Location: ../admin.php');
 }
 
-// Développé avec ❤️ par : www.noasecond.com.
+
 
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

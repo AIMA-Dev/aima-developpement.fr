@@ -5,6 +5,6 @@ header('Location: ../adminLogin.php');
 exit;
 
 
-// Développé avec ❤️ par : www.noasecond.com.
+
 
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

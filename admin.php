@@ -163,6 +163,6 @@ include ('scripts/getSetting.php');
 </html>
 
 
-// Développé avec ❤️ par : www.noasecond.com.
+
 
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

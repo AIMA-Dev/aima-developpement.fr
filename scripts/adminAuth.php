@@ -53,6 +53,6 @@ function authAdmin()
 }
 
 
-// Développé avec ❤️ par : www.noasecond.com.
+
 
 <!-- Développé avec ❤️ par : www.noasecond.com. -->
