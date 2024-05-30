@@ -16,9 +16,9 @@
                 <img src="/assets/img/icons/linkedin.svg" alt="linkedin">
                 @aima-developpement
             </a>
-            <a href="mailto:contact@aima-developpement.fr">
+            <a href="mailto:contact@aima.fr">
                 <img src="/assets/img/icons/mail.svg" alt="mail">
-                contact@aima-developpement.fr
+                contact@aima.fr
             </a>
             <a href="tel:+33493835841">
                 <img src="/assets/img/icons/phone.svg" alt="phone">
