@@ -3,13 +3,13 @@ import re
 
 # Configurations des commentaires pour chaque type de fichier
 comments = {
-    '.php': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->",
-    '.js': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
-    '.html': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->",
-    '.yml': "\n\n# Développé avec ❤️ par : www.noasecond.com.",
-    '.css': "\n\n/* Développé avec ❤️ par : www.noasecond.com. */",
-    '.sql': "\n\n-- Développé avec ❤️ par : www.noasecond.com.",
-    '.py': "\n\n# Développé avec ❤️ par : www.noasecond.com."
+    '.php': "<!-- Développé avec ❤️ par : www.noasecond.com. -->",
+    '.js': "// Développé avec ❤️ par : www.noasecond.com.",
+    '.html': "<!-- Développé avec ❤️ par : www.noasecond.com. -->",
+    '.yml': "# Développé avec ❤️ par : www.noasecond.com.",
+    '.css': "/* Développé avec ❤️ par : www.noasecond.com. */",
+    '.sql': "-- Développé avec ❤️ par : www.noasecond.com.",
+    '.py': "# Développé avec ❤️ par : www.noasecond.com."
 }
 extensions = tuple(comments.keys())
 exclude_dirs = ['PHPMailer-6.9.1', '.git', '.github']
