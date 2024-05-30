@@ -43,7 +43,7 @@ try {
     # Mail for AIMA
     //Recipients
     $mail->setFrom('info@aima-developement.com', 'AIMA Website');
-    $mail->addAddress('contact@aima-developpement.fr');
+    $mail->addAddress('contact@aima.fr');
 
     //Content
     $mail->isHTML(true);

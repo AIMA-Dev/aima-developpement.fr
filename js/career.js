@@ -15,7 +15,7 @@ searchInput.addEventListener('input', () => {
         jobDiv.style.display = 'block';
     });
 
-    //recall job.js
+    // Adding listener on arrow (recall job.js)
     jobDivs.forEach((jobDiv) => {
         var developImage = jobDiv.querySelector('.develop');
         var hiddenContent = jobDiv.querySelector('.hiddenContent');
@@ -34,6 +34,7 @@ searchInput.addEventListener('input', () => {
         //highlight new search term
         jobDivs.forEach(jobDiv => {
             const jobText = jobDiv.textContent.toLowerCase();
+            
             if (jobText.includes(searchTerm)) {
                 const matchingText = jobText.match(new RegExp(searchTerm, 'gi')); // gi = global, case-insensitive
                 if (matchingText) {
