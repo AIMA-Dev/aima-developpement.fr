@@ -65,3 +65,5 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 
 
 // Développé avec ❤️ par : www.noasecond.com.
+
+<!-- Développé avec ❤️ par : www.noasecond.com. -->

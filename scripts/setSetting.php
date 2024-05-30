@@ -52,3 +52,5 @@ function changeSettingInDB($name, $val)
 }
 
 // Développé avec ❤️ par : www.noasecond.com.
+
+<!-- Développé avec ❤️ par : www.noasecond.com. -->
