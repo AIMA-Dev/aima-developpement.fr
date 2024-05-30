@@ -50,8 +50,4 @@ function deleteJobInDB($name)
 ?>
 
 
-
-
-
-
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

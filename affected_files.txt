@@ -4,8 +4,6 @@
 admin.php
 adminLogin.php
 affected_files.txt
-after_files.txt
-before_files.txt
 career.php
 components/card.php
 components/footer.php
@@ -13,7 +11,13 @@ components/head.php
 components/header.php
 components/job.php
 contact.php
+css/admin.css
+css/adminLogin.css
+css/responsive/team.css
+css/stylesheet.css
+css/team.css
 index.php
+js/noRightClick.js
 legalnotice.php
 maintenance.php
 personaldatas.php
@@ -29,3 +33,4 @@ scripts/lang.php
 scripts/mail.php
 scripts/setSetting.php
 team.php
+utils/generate-sitemap.js

@@ -67,8 +67,4 @@ function changeLang($lang)
 ?>
 
 
-
-
-
-
 <!-- Développé avec ❤️ par : www.noasecond.com. -->
