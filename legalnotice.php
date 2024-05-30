@@ -57,3 +57,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 </body>
 
 </html>
+
+
+// Développé avec ❤️ par : www.noasecond.com.

@@ -55,3 +55,6 @@ searchInput.addEventListener('input', () => {
         });
     }
 });
+
+
+// Développé avec ❤️ par : www.noasecond.com.
