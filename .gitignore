@@ -15,6 +15,10 @@ PHPMailer-6.9.1
 
 # Files
 debug.php
+affected_files.txt
+after_files.txt
+before_files.txt
+
 # .env
 .history
 .ionide
