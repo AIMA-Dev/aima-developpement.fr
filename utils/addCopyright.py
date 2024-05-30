@@ -2,15 +2,18 @@ import os
 import re
 
 # Configurations des commentaires pour chaque type de fichier
+copyright_comment = "Développé avec ❤️ par : www.noasecond.com."
+
 comments = {
-    '.php': "<!-- Développé avec ❤️ par : www.noasecond.com. -->",
-    '.js': "// Développé avec ❤️ par : www.noasecond.com.",
-    '.html': "<!-- Développé avec ❤️ par : www.noasecond.com. -->",
-    '.yml': "# Développé avec ❤️ par : www.noasecond.com.",
-    '.css': "/* Développé avec ❤️ par : www.noasecond.com. */",
-    '.sql': "-- Développé avec ❤️ par : www.noasecond.com.",
-    '.py': "# Développé avec ❤️ par : www.noasecond.com."
+    '.php': "<!-- {} -->".format(copyright_comment),
+    '.js': "// {}".format(copyright_comment),
+    '.html': "<!-- {} -->".format(copyright_comment),
+    '.yml': "# {}".format(copyright_comment),
+    '.css': "/* {} */".format(copyright_comment),
+    '.sql': "-- {}".format(copyright_comment),
+    '.py': "# {}".format(copyright_comment)
 }
+
 extensions = tuple(comments.keys())
 exclude_dirs = ['PHPMailer-6.9.1', '.git', '.github']
 exclude_files = ['sitemap.xml', '.gitattributes', '.gitignore']
@@ -28,7 +31,13 @@ def add_comment_to_file(file_path, comment):
     with open(file_path, 'r+') as file:
         content = file.read()
         # Remove old comment if present
-        content = re.sub(r'(\n\n// Développé avec ❤️ par : www.noasecond.com.|<!-- Développé avec ❤️ par : www.noasecond.com. -->|\n\n# Développé avec ❤️ par : www.noasecond.com.|\n\n/\* Développé avec ❤️ par : www.noasecond.com. \*/|\n\n-- Développé avec ❤️ par : www.noasecond.com.)', '', content)
+        content = re.sub(r'(\n\n{}|\n\n{}|\n\n{}|\n\n{}|\n\n{})'.format(
+            comments['.js'],
+            comments['.html'],
+            comments['.yml'],
+            comments['.css'],
+            comments['.sql']
+        ), '', content)
 
         # Remove trailing empty lines
         content = content.rstrip()
