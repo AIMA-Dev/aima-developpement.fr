@@ -38,12 +38,13 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Commit sitemap
+      - name: Commit affected files
         run: |
-          git add sitemap.xml
-          git commit -m ":construction_worker: Update sitemap.xml" || true
-          git pull --rebase
-          git push origin main
+          git add affected_files.txt
+          git commit -m "Commit affected files" || true
+
+      - name: Pull changes
+        run: git pull --rebase
 
       - name: Print affected files
         if: success()
