@@ -4,7 +4,6 @@ import re
 # Configurations des commentaires pour chaque type de fichier
 comments = {
     '.php': {
-        # 'default': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
         'default': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->",
         'html': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->"
     },
@@ -17,7 +16,7 @@ comments = {
 }
 extensions = tuple(comments.keys())
 exclude_dirs = ['PHPMailer-6.9.1', '.git', '.github']
-exclude_files = ['sitemap.xml','.gitattributes', '.gitignore']
+exclude_files = ['sitemap.xml', '.gitattributes', '.gitignore']
 
 def should_exclude(file_path):
     for excl_dir in exclude_dirs:
@@ -33,7 +32,14 @@ def add_comment_to_file(file_path, comment):
         content = file.read()
         # Remove old comment if present
         content = re.sub(r'(\n\n// Développé avec ❤️ par : www.noasecond.com.|<!-- Développé avec ❤️ par : www.noasecond.com. -->|\n\n# Développé avec ❤️ par : www.noasecond.com.|\n\n/\* Développé avec ❤️ par : www.noasecond.com. \*/|\n\n-- Développé avec ❤️ par : www.noasecond.com.)', '', content)
+
+        # Remove trailing empty lines
+        content = content.rstrip()
+        
         if comment.strip() not in content:
+            # Add a newline if the last line is not empty
+            if not content.endswith(('\n', '\r')):
+                content += "\n"
             file.seek(0)
             file.write(content + comment)
             file.truncate()
