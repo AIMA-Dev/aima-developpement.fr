@@ -24,3 +24,5 @@ document.getElementById('themeSwitch').addEventListener('click', function() {
 });
 
 # Développé avec ❤️ par : www.noasecond.com.
+
+// Développé avec ❤️ par : www.noasecond.com.

@@ -18,3 +18,5 @@ langSelector.addEventListener('change', function () {
 });
 
 # Développé avec ❤️ par : www.noasecond.com.
+
+// Développé avec ❤️ par : www.noasecond.com.

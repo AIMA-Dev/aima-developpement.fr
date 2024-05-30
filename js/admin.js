@@ -5,3 +5,5 @@ toggleMaintenanceCheckbox.addEventListener('change', () => {
 });
 
 # Développé avec ❤️ par : www.noasecond.com.
+
+// Développé avec ❤️ par : www.noasecond.com.

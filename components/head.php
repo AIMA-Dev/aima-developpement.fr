@@ -64,3 +64,5 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
 # Développé avec ❤️ par : www.noasecond.com.
+
+// Développé avec ❤️ par : www.noasecond.com.

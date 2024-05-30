@@ -27,3 +27,5 @@ INSERT INTO settings (`name`, `val`) VALUES ('mailPassword', 'secret');
 INSERT INTO settings (`name`, `val`) VALUES ('mailPort', '465');
 
 # Développé avec ❤️ par : www.noasecond.com.
+
+-- Développé avec ❤️ par : www.noasecond.com.
