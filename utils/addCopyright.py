@@ -10,7 +10,7 @@ comments = {
     '.sql': "\n\n-- Développé avec ❤️ par : www.noasecond.com.",
     '.py': "\n\n# Développé avec ❤️ par : www.noasecond.com."
 }
-extensions = comments.keys()
+extensions = tuple(comments.keys())
 exclude_dirs = ['PHPMailer-6.9.1', '.git', '.github']
 exclude_files = ['sitemap.xml','.gitattributes', '.gitignore']
 
