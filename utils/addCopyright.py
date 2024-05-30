@@ -32,6 +32,14 @@ def add_comment_to_file(file_path, comment):
         if comment.strip() not in content:
             file.write(comment)
 
+def detect_comment_type_for_php(content):
+    php_tags = content.count('<?php')
+    html_tags = content.count('<') + content.count('>')
+    if php_tags > html_tags:
+        return comments['.php']['default']
+    else:
+        return comments['.php']['html']
+
 def main():
     for root, dirs, files in os.walk('.'):
         # Exclude specified directories
@@ -41,13 +49,10 @@ def main():
             if file.endswith(extensions) and not should_exclude(file_path):
                 ext = os.path.splitext(file)[1]
                 if ext == '.php':
-                    # Read the file to determine if it contains HTML
+                    # Read the file to determine the type of content
                     with open(file_path, 'r') as f:
                         content = f.read()
-                        if '<' in content and '>' in content:
-                            comment = comments['.php']['html']
-                        else:
-                            comment = comments['.php']['default']
+                        comment = detect_comment_type_for_php(content)
                 else:
                     comment = comments[ext]
                 add_comment_to_file(file_path, comment)
