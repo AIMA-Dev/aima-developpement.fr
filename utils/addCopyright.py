@@ -1,4 +1,5 @@
 import os
+import re
 
 # Configurations des commentaires pour chaque type de fichier
 comments = {
@@ -30,8 +31,12 @@ def should_exclude(file_path):
 def add_comment_to_file(file_path, comment):
     with open(file_path, 'r+') as file:
         content = file.read()
+        # Remove old comment if present
+        content = re.sub(r'(\n\n// Développé avec ❤️ par : www.noasecond.com.|<!-- Développé avec ❤️ par : www.noasecond.com. -->|\n\n# Développé avec ❤️ par : www.noasecond.com.|\n\n/\* Développé avec ❤️ par : www.noasecond.com. \*/|\n\n-- Développé avec ❤️ par : www.noasecond.com.)', '', content)
         if comment.strip() not in content:
-            file.write(comment)
+            file.seek(0)
+            file.write(content + comment)
+            file.truncate()
 
 def main():
     for root, dirs, files in os.walk('.'):
