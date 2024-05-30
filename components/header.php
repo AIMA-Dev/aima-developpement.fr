@@ -13,3 +13,5 @@
     <a href="/career.php"><?php getValueFromJson('career') ?></a>
     <a href="/contact.php"><?php getValueFromJson('contact') ?></a>
 </div>
+
+# Développé avec ❤️ par : www.noasecond.com.

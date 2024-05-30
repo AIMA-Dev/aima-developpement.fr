@@ -7,3 +7,5 @@ window.onload = function () {
     document.title = isPageActive ? pageTitle : attentionMessage;
   });
 };
+
+# Développé avec ❤️ par : www.noasecond.com.

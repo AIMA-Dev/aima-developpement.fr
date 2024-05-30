@@ -25,3 +25,5 @@ INSERT INTO settings (`name`, `val`) VALUES ('mailHost', 'smtp.example.com');
 INSERT INTO settings (`name`, `val`) VALUES ('mailUser', 'user@example.com');
 INSERT INTO settings (`name`, `val`) VALUES ('mailPassword', 'secret');
 INSERT INTO settings (`name`, `val`) VALUES ('mailPort', '465');
+
+# Développé avec ❤️ par : www.noasecond.com.
