@@ -30,6 +30,7 @@ function authAdmin()
                 $targetPassword = decrypt($row["password"]);
                 if ($targetPassword == $password) {
                     $_SESSION['admin'] = true;
+                    $_SESSION['expire_time'] = time() + (5 * 60); // Session expiration time 5 minutes
                     mysqli_close($conn);
                     header("Location: ../admin.php");
                     exit;
