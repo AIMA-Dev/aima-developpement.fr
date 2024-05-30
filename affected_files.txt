@@ -3,6 +3,9 @@
 500.php
 admin.php
 adminLogin.php
+affected_files.txt
+after_files.txt
+before_files.txt
 career.php
 components/card.php
 components/footer.php

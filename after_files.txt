@@ -82,6 +82,8 @@ PHPMailer-6.9.1/src/SMTP.php
 README.md
 admin.php
 adminLogin.php
+affected_files.txt
+after_files.txt
 assets/img/brand/logo_3200x2400 - White - Glyphe.png
 assets/img/brand/logo_3200x3120 - Color - Full.png
 assets/img/favicon/android-chrome-192x192.png
@@ -100,6 +102,7 @@ assets/img/icons/menu_open.svg
 assets/img/icons/phone.svg
 assets/img/icons/search.svg
 assets/img/icons/settings_brightness.svg
+before_files.txt
 career.php
 components/card.php
 components/footer.php
