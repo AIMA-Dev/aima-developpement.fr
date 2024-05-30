@@ -1,8 +1,16 @@
 import os
 
-# Configurations
-comment = "\n\n# Développé avec ❤️ par : www.noasecond.com."
-extensions = ('.php', '.js', '.html', '.yml', '.css', '.sql', '.py')
+# Configurations des commentaires pour chaque type de fichier
+comments = {
+    '.php': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
+    '.js': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
+    '.html': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->",
+    '.yml': "\n\n# Développé avec ❤️ par : www.noasecond.com.",
+    '.css': "\n\n/* Développé avec ❤️ par : www.noasecond.com. */",
+    '.sql': "\n\n-- Développé avec ❤️ par : www.noasecond.com.",
+    '.py': "\n\n# Développé avec ❤️ par : www.noasecond.com."
+}
+extensions = comments.keys()
 exclude_dirs = ['PHPMailer-6.9.1', '.git', '.gitattributes', '.gitignore']
 exclude_files = ['exclude_this_file.php']
 
@@ -15,7 +23,7 @@ def should_exclude(file_path):
             return True
     return False
 
-def add_comment_to_file(file_path):
+def add_comment_to_file(file_path, comment):
     with open(file_path, 'r+') as file:
         content = file.read()
         if comment.strip() not in content:
@@ -26,8 +34,10 @@ def main():
         # Exclude specified directories
         dirs[:] = [d for d in dirs if d not in exclude_dirs]
         for file in files:
-            if file.endswith(extensions) and not should_exclude(os.path.join(root, file)):
-                add_comment_to_file(os.path.join(root, file))
+            file_path = os.path.join(root, file)
+            if file.endswith(extensions) and not should_exclude(file_path):
+                ext = os.path.splitext(file)[1]
+                add_comment_to_file(file_path, comments[ext])
 
 if __name__ == "__main__":
     main()
