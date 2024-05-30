@@ -167,4 +167,6 @@ include ('scripts/getSetting.php');
 
 
 
+
+
 <!-- Développé avec ❤️ par : www.noasecond.com. -->
