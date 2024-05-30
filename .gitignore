@@ -18,6 +18,7 @@ debug.php
 affected_files.txt
 after_files.txt
 before_files.txt
+*.txt
 
 # .env
 .history
