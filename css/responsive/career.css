@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+    #jobsWrap {
+        width: 95vw;
+    }
+
+    #searchWrap>input {
+        width: 60vw;
+    }
+}

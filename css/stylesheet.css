@@ -89,7 +89,7 @@ a, p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: solid 1px black;
+    border: solid 1px var(--Black);
     border-radius: 10px;
     margin: 20px;
     padding: 10px 20px;
@@ -140,7 +140,7 @@ img.developed {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: var(--Black);
 }
 
 .job .applyLinkedin>img {

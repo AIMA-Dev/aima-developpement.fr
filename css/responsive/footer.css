@@ -29,6 +29,10 @@
         text-align: center;
     }
 
+    #footerTop>#right>iframe {
+        width: 80%;
+    }
+
     #footerBottom {
         flex-direction: column;
         height: auto;
@@ -38,7 +42,8 @@
         margin: 10px 0;
     }
 
-    #footerBottom>*:first-child, #footerBottom>*:last-child {
+    #footerBottom>*:first-child,
+    #footerBottom>*:last-child {
         width: 90%;
         text-align: center;
     }

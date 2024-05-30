@@ -13,14 +13,15 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 <head>
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
+    <link rel="stylesheet" href="css/career.css">
+    <link rel="stylesheet" href="css/responsive/career.css">
+    <script src="js/career.js" defer></script>
+    <script src="js/job.js" defer></script>
 </head>
 
 <body>
     <header>
         <?php include ('components/header.php'); ?>
-        <link rel="stylesheet" href="css/career.css">
-        <script src="js/career.js" defer></script>
-        <script src="js/job.js" defer></script>
     </header>
     <main>
         <div id="searchWrap">
