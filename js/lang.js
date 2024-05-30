@@ -16,5 +16,3 @@ langSelector.addEventListener('change', function () {
             location.reload();
         });
 });
-
-# Développé avec ❤️ par : www.noasecond.com.

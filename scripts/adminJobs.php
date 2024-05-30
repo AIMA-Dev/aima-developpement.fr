@@ -47,5 +47,3 @@ function deleteJobInDB($name)
     mysqli_close($conn);
     header('Location: ../admin.php');
 }
-
-# Développé avec ❤️ par : www.noasecond.com.

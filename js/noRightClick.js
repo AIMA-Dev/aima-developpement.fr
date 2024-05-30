@@ -8,4 +8,3 @@ document.addEventListener('mousedown', function (e) {
     }
 });
 
-# Développé avec ❤️ par : www.noasecond.com.

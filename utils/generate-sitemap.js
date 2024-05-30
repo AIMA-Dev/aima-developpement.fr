@@ -45,4 +45,3 @@ fs.writeFile(sitemapPath, sitemapContent, err => {
     } else {
         console.log('The file sitemap.xml has been generated successfully!');
     }
-});

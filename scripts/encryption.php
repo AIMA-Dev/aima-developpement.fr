@@ -36,6 +36,3 @@ function decrypt($encryptedString)
     $decrypted = openssl_decrypt($encrypted, $cipher, $key, OPENSSL_RAW_DATA, $iv);
     return $decrypted;
 }
-?>
-
-# Développé avec ❤️ par : www.noasecond.com.
