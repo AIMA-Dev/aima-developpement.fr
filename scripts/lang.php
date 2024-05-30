@@ -64,3 +64,6 @@ function changeLang($lang)
     $_SESSION['lang'] = $lang;
     exit();
 }
+
+
+// Développé avec ❤️ par : www.noasecond.com.

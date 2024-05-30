@@ -25,3 +25,6 @@ document.querySelector("#phoneMenu").addEventListener("transitionend", function 
         headerRight.display = "none";
     }
 });
+
+
+// Développé avec ❤️ par : www.noasecond.com.
