@@ -21,6 +21,11 @@ jobs:
       - name: Generate sitemap
         run: node utils/generate-sitemap.js
 
+      - name: List affected files
+        run: |
+          git diff --name-only HEAD~1 > affected_files.txt
+          cat affected_files.txt
+
       - name: Commit sitemap
         run: |
           git config --local user.email "action@github.com"
