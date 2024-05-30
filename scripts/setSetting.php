@@ -50,7 +50,5 @@ function changeSettingInDB($name, $val)
     }
     $conn->close();
 }
-
-
-
+?>
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

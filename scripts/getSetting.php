@@ -29,8 +29,5 @@ function getSettingInDB($name, $settingsToDecrypt = [])
         return "None";
     }
 }
-
-
-
-
+?>
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

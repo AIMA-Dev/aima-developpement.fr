@@ -46,8 +46,5 @@ function initEnvironmentVars()
         }
     }
 }
-
-
-
-
+?>
 <!-- Développé avec ❤️ par : www.noasecond.com. -->
