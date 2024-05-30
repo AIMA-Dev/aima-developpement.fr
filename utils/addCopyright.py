@@ -11,8 +11,8 @@ comments = {
     '.py': "\n\n# Développé avec ❤️ par : www.noasecond.com."
 }
 extensions = comments.keys()
-exclude_dirs = ['PHPMailer-6.9.1', '.git', '.gitattributes', '.gitignore']
-exclude_files = ['exclude_this_file.php']
+exclude_dirs = ['PHPMailer-6.9.1', '.git', '.github']
+exclude_files = ['sitemap.xml','.gitattributes', '.gitignore']
 
 def should_exclude(file_path):
     for excl_dir in exclude_dirs:
