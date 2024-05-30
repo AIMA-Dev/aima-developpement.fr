@@ -52,7 +52,7 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <link rel="stylesheet" href="css/responsive/footer.css">
 <!-- JavaScript -->
 <script src="js/lang.js" defer></script>
-<script src="js/title.js" defer></script>
+<script src="js/dynamicTitle.js" defer></script>
 <script src="js/header.js" defer></script>
 <script src="js/footer.js" defer></script>
 <script src="js/noRightClick.js" defer></script>

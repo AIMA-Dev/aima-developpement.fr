@@ -1,17 +1,9 @@
-function f1() {
-    if (document.all) { return false; }
-}
-function f2(e) {
-    if (document.layers || (document.getElementById && !document.all)) {
-        if (e.which == 2 || e.which == 3) { return false; }
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
+document.addEventListener('mousedown', function (e) {
+    if (e.which === 2 || e.which === 3) {
+        e.preventDefault();
     }
-}
-if (document.layers) {
-    document.captureEvents(Event.MOUSEDOWN);
-    document.onmousedown = f1;
-}
-else {
-    document.onmouseup = f2;
-    document.oncontextmenu = f1;
-}
-document.oncontextmenu = function () { return false; };
+});
