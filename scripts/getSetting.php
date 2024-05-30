@@ -30,6 +30,4 @@ function getSettingInDB($name, $settingsToDecrypt = [])
     }
 }
 ?>
-
-
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

@@ -6,6 +6,4 @@
         <p><?php echo $job; ?></p>
     </div>
 </div>
-
-
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

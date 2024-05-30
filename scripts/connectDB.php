@@ -43,6 +43,4 @@ function connectToDB()
     }
 }
 ?>
-
-
 <!-- Développé avec ❤️ par : www.noasecond.com. -->

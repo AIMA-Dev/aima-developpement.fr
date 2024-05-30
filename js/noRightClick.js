@@ -7,6 +7,4 @@ document.addEventListener('mousedown', function (e) {
         e.preventDefault();
     }
 });
-
-
 // Développé avec ❤️ par : www.noasecond.com.
