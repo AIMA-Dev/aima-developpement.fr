@@ -2,7 +2,10 @@ import os
 
 # Configurations des commentaires pour chaque type de fichier
 comments = {
-    '.php': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
+    '.php': {
+        'default': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
+        'html': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->"
+    },
     '.js': "\n\n// Développé avec ❤️ par : www.noasecond.com.",
     '.html': "\n\n<!-- Développé avec ❤️ par : www.noasecond.com. -->",
     '.yml': "\n\n# Développé avec ❤️ par : www.noasecond.com.",
@@ -37,7 +40,17 @@ def main():
             file_path = os.path.join(root, file)
             if file.endswith(extensions) and not should_exclude(file_path):
                 ext = os.path.splitext(file)[1]
-                add_comment_to_file(file_path, comments[ext])
+                if ext == '.php':
+                    # Read the file to determine if it contains HTML
+                    with open(file_path, 'r') as f:
+                        content = f.read()
+                        if '<' in content and '>' in content:
+                            comment = comments['.php']['html']
+                        else:
+                            comment = comments['.php']['default']
+                else:
+                    comment = comments[ext]
+                add_comment_to_file(file_path, comment)
 
 if __name__ == "__main__":
     main()
