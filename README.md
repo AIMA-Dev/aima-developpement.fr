@@ -10,6 +10,8 @@ Uses [AutoSitemapUpdater-v1.0](https://github.com/YoruKiwi/AutoSitemapUpdater)
 
 Uses [AutoDeployToFTP-v1.0](https://github.com/YoruKiwi/AutoDeployToFTP)
 
+Uses [AutoCopyright-v1.0](https://github.com/YoruKiwi/AutoCopyright)
+
 ## Installation
 
 To install and run the website locally, follow these steps:
