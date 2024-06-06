@@ -12,6 +12,9 @@ Uses [AutoDeployToFTP-v1.0](https://github.com/YoruKiwi/AutoDeployToFTP)
 
 Uses [AutoCopyright-v1.0](https://github.com/YoruKiwi/AutoCopyright)
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/sitemap.yml?label=CI)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/deploy.yml?label=CD)
+
 ## Installation
 
 To install and run the website locally, follow these steps:
