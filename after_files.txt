@@ -1,6 +1,7 @@
 .env
 .gitattributes
 .github/workflows/addCopyright.yml
+.github/workflows/codeql.yml
 .github/workflows/deploy.yml
 .github/workflows/sitemap.yml
 .gitignore
