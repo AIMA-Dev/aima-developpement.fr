@@ -39,9 +39,9 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <meta name="twitter:image:src" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.webp" />
 <meta name="twitter:image:alt" content="AIMA Developpement Logo" />
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.webp">
+<link rel="icon" sizes="32x32" href="/assets/img/favicon/favicon-32x32.webp">
+<link rel="icon" sizes="16x16" href="/assets/img/favicon/favicon-16x16.webp">
 <!-- CSS -->
 <link rel="stylesheet" href="css/stylesheet.css">
 <link rel="stylesheet" href="css/header.css">
