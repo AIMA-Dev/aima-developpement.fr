@@ -20,7 +20,6 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 }
 ?>
 
-<!--Développé avec ❤️ par : www.noasecond.com-->
 <!-- Global Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,13 +30,13 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <!-- OpenGraph / Facebook -->
 <meta property="og:title" content="AIMA Developpement" />
 <meta property="og:description" content="Accelerator for Industrial and Medical Applications" />
-<meta property="og:image" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.png" />
+<meta property="og:image" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.webp" />
 <meta property="og:image:alt" content="AIMA Developpement Logo" />
 <!-- Twitter -->
 <meta name="twitter:title" content="AIMA Developpement" />
 <meta name="twitter:description" content="Accelerator for Industrial and Medical Applications" />
 <meta name="twitter:url" content="https://www.aima-developpement.fr/" />
-<meta name="twitter:image:src" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.png" />
+<meta name="twitter:image:src" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.webp" />
 <meta name="twitter:image:alt" content="AIMA Developpement Logo" />
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
