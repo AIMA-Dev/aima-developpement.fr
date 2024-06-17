@@ -4,4 +4,4 @@ $_SESSION['admin'] = false;
 header('Location: ../adminLogin.php');
 exit;
 ?>
-<!-- Développé avec ❤️ par : www.noasecond.com. -->
+<!-- Développé par Noa Second -->

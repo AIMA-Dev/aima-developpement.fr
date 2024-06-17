@@ -65,4 +65,4 @@ function changeLang($lang)
     exit();
 }
 ?>
-<!-- Développé avec ❤️ par : www.noasecond.com. -->
+<!-- Développé par Noa Second -->

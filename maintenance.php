@@ -1,2 +1,2 @@
 Site en maintenance
-<!-- Développé avec ❤️ par : www.noasecond.com. -->
+<!-- Développé par Noa Second -->

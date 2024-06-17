@@ -46,4 +46,4 @@ fs.writeFile(sitemapPath, sitemapContent, err => {
         console.log('The file sitemap.xml has been generated successfully!');
     }
 });
-// Développé avec ❤️ par : www.noasecond.com.
+// Développé par Noa Second

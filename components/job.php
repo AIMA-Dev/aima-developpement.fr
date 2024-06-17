@@ -20,4 +20,4 @@
         </div>
     </div>
 </div>
-<!-- Développé avec ❤️ par : www.noasecond.com. -->
+<!-- Développé par Noa Second -->

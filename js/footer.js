@@ -22,4 +22,4 @@ document.getElementById('themeSwitch').addEventListener('click', function() {
         document.documentElement.style.setProperty('--Black', blackColor);
     }
 });
-// Développé avec ❤️ par : www.noasecond.com.
+// Développé par Noa Second

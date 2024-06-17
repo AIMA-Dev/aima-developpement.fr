@@ -37,4 +37,4 @@ function decrypt($encryptedString)
     return $decrypted;
 }
 ?>
-<!-- Développé avec ❤️ par : www.noasecond.com. -->
+<!-- Développé par Noa Second -->
