@@ -2,35 +2,112 @@
     "title": "Equipe | AIMA Developpement",
     "description": "A propos de nous",
     "ourteam": "Notre équipe",
-    "ouradvisors": "Nos conseillers scientifiques",
-    "scientificadvisory": "Le conseil scientifique : Le comité Charpak",
-    "technicalboard": "Le conseil technique : Suivi de l'avancement du projet",
     "pierremandrillion": {
         "name": "Pierre Mandrillion",
         "job": "PDG et fondateur",
         "description": "",
-        "image": "",
-        "linkedin": "https://www.linkedin.com/in/pierre-mandrillon-9676a8174/"
+        "image": "assets/img/team/PierreMandrillon.webp",
+        "url": "https://www.linkedin.com/in/pierre-mandrillon-9676a8174/"
     },
     "matthieuconjat": {
         "name": "Matthieu Conjat",
         "job": "Ingénieur d’études",
         "description": "",
-        "image": "https://media.licdn.com/dms/image/C5603AQG2YaVOZHGVQg/profile-displayphoto-shrink_800_800/0/1517058066712?e=1721260800&v=beta&t=Ybgek019KWVVBvz_hoGkFC5_CdmiiKxItv_RU_n1nq4",
-        "linkedin": "https://www.linkedin.com/in/matthieu-conjat-ba1431128/"
+        "image": "assets/img/team/MatthieuConjat.webp",
+        "url": "https://www.linkedin.com/in/matthieu-conjat-ba1431128/"
     },
     "raphaëldevianne": {
         "name": "Raphaël Devianne",
         "job": "Ingénieur mécanicien",
         "description": "",
-        "image": "https://media.licdn.com/dms/image/C4E03AQHOUu21NGgJaQ/profile-displayphoto-shrink_800_800/0/1610640311310?e=1721260800&v=beta&t=RLxDMUDAIB04DrBePdZVqS3T4Gx-odjJGwg9emwzv0E",
-        "linkedin": "https://www.linkedin.com/in/rapha%C3%ABl-devianne-3a3453170/"
+        "image": "assets/img/team/RaphaëlDevianne.webp",
+        "url": "https://www.linkedin.com/in/rapha%C3%ABl-devianne-3a3453170/"
     },
     "antoinezoude": {
         "name": "Antoine Zoude",
         "job": "Ingénieur mécanicien",
         "description": "",
-        "image": "https://media.licdn.com/dms/image/C4D03AQHC3vrJp9VO6w/profile-displayphoto-shrink_800_800/0/1609919104122?e=1721260800&v=beta&t=6Z3dJcvvB2-1G5BQH8yV6MNoibJruhXoS1C3bzLsYcA",
-        "linkedin": "https://www.linkedin.com/in/antoine-zoude-8b5608176/"
+        "image": "assets/img/team/AntoineZoude.webp",
+        "url": "https://www.linkedin.com/in/antoine-zoude-8b5608176/"
+    },
+    "ouradvisors": "Nos conseillers scientifiques",
+    "scientificadvisory": "Le conseil scientifique : Le comité Charpak",
+    "georgescharpak": {
+        "name": "Georges Charpak",
+        "job": "Prix Nobel de physique 1992",
+        "description": "",
+        "image": "assets/img/team/GeorgesCharpak.webp",
+        "url": "https://fr.wikipedia.org/wiki/Georges_Charpak"
+    },
+    "francoisdemard": {
+        "name": "Pr. François Demard",
+        "job": "Directeur honoraire",
+        "description": "",
+        "image": "assets/img/team/FrançoisDemard.webp",
+        "url": ""
+    },
+    "renaudguignard": {
+        "name": "Dr. Renaud Guignard",
+        "job": "FMH Médecin Nucléaire expert",
+        "description": "",
+        "image": "assets/img/team/RenaudGuignard.webp",
+        "url": ""
+    },
+    "gillesviot": {
+        "name": "Gilles Viot",
+        "job": "Expert radiochimiste",
+        "description": "",
+        "image": "assets/img/team/GillesViot.webp",
+        "url": ""
+    },
+    "joelherault": {
+        "name": "Dr. Joel Herault",
+        "job": "Expert physique médicale IMPT, CAL, Nice",
+        "description": "",
+        "image": "assets/img/team/JoelHerault.webp",
+        "url": ""
+    },
+    "alessandralombardi": {
+        "name": "Dr. Alessandra Lombardi",
+        "job": "CERN Expert en physique Accélérateur",
+        "description": "",
+        "image": "assets/img/team/AlessandraLombardi.webp",
+        "url": ""
+    },
+    "jeromedoyen": {
+        "name": "Pr. Jérôme Doyen",
+        "job": "Radiothérapeute expert Centre Antoine Lacassagne, Nice",
+        "description": "",
+        "image": "assets/img/team/JeromeDoyen.webp",
+        "url": ""
+    },
+    "technicalboard": "Le conseil technique : Suivi de l'avancement du projet",
+    "jeanclaudegrini": {
+        "name": "Jean-Claude Grini",
+        "job": "Expert électronicien",
+        "description": "",
+        "image": "assets/img/team/JeanClaudeGrini.webp",
+        "url": ""
+    },
+    "guillaumemagrin": {
+        "name": "Guillaume Magrin",
+        "job": "Expert accel. médicaux",
+        "description": "",
+        "image": "assets/img/team/GuillaumeMagrin.webp",
+        "url": ""
+    },
+    "henribraquet": {
+        "name": "Henri Braquet",
+        "job": "Expert comptabilité électromagnétique",
+        "description": "",
+        "image": "assets/img/team/HenriBraquet.webp",
+        "url": ""
+    },
+    "alexandregiusto": {
+        "name": "Alexandre Giusto",
+        "job": "Ex chef BE Medicyc",
+        "description": "",
+        "image": "assets/img/team/AlexandreGiusto.webp",
+        "url": ""
     }
 }
