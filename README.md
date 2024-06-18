@@ -2,15 +2,15 @@
 
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,php,js,svg,git,github,githubactions,figma,vscode"/></a>
 
-This repository contains the source code for the aima-developpement.fr website.
+This repository contains the source code for the [aima-developpement.fr](https://www.aima-developpement.fr) website.
 
-Uses [PHPMailer-6.9.1](https://github.com/PHPMailer/PHPMailer)
+Uses [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
-Uses [AutoSitemapUpdater-v1.0](https://github.com/YoruKiwi/AutoSitemapUpdater)
+Uses [AutoSitemapUpdater](https://github.com/YoruKiwi/AutoSitemapUpdater)
 
-Uses [AutoDeployToFTP-v1.0](https://github.com/YoruKiwi/AutoDeployToFTP)
+Uses [AutoDeployToFTP](https://github.com/YoruKiwi/AutoDeployToFTP)
 
-Uses [AutoCopyright-v1.0](https://github.com/YoruKiwi/AutoCopyright)
+Uses [AutoCopyright](https://github.com/YoruKiwi/AutoCopyright)
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/sitemap.yml?label=CI-Sitemap)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/codeql.yml?label=CI-Security)
@@ -25,9 +25,9 @@ To install and run the website locally, follow these steps:
 
 ## Usage
 
-Setup the database infos into scripts/connectDB.php
+Setup the infos into .env
 
-Once the development server is running, you can access the website at `http://localhost:3000`. 
+Once the development server is running, you can access the website at `http://localhost:3000` or at `127.0.0.1:3000` 
 
 ## Contributing
 
@@ -35,7 +35,7 @@ If you would like to contribute to this project, please follow these guidelines:
 
 1. Fork the repository
 2. Create a new branch: `git checkout -b my-feature`
-3. Make your changes and commit them: `git commit -am 'Add some feature'`
+3. Make your changes and commit them: `git commit -am 'Add some feature'` note that your commit message may start with a [gitmoji](https://gitmoji.dev/)
 4. Push the branch to your forked repository: `git push origin my-feature`
 5. Submit a pull request
 
