@@ -12,9 +12,9 @@ Uses [AutoDeployToFTP](https://github.com/YoruKiwi/AutoDeployToFTP)
 
 Uses [AutoCopyright](https://github.com/YoruKiwi/AutoCopyright)
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/sitemap.yml?label=CI-Sitemap)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/codeql.yml?label=CI-Security)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/aima-developpement.fr/deploy.yml?label=CD-Deploy)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AIMA-Dev/aima-developpement.fr/sitemap.yml?label=CI-Sitemap)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AIMA-Dev/aima-developpement.fr/codeql.yml?label=CI-Security)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AIMA-Dev/aima-developpement.fr/deploy.yml?label=CD-Deploy)
 
 ## Installation
 
