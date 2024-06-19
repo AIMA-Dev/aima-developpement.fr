@@ -1,4 +1,19 @@
 {
     "title": "AIMA Developpement",
-    "text": "Welcome"
+    "description": "La nostra storia",
+    "text": "AIMA Sviluppo progetta, costruisce e testa nuovi ciclotroni economici e linee di fascio dedicate per varie applicazioni mediche e industriali dal 2005. L'esperienza deriva dal laboratorio di ciclotroni del Centre Antoine Lacassagne (CAL), che ha progettato e costruito MEDICYC, la prima struttura ospedaliera con ciclotrone in Francia per la protonterapia. All'epoca, il progetto MEDICYC era guidato da Pierre Mandrillon. Prima di ritirarsi dal CAL e dal progetto MEDICYC, ha fondato AIMA ed è ancora il suo CEO.",
+    "expertise": {
+        "1": {
+            "title": "Progettazione e test di sorgenti di ioni",
+            "text": "Sorgenti di ioni multicuspide compatte ad alta luminosità per la produzione di ioni negativi (H- e D-) e positivi (H+ e H2+). Sorgenti interne di ioni a catodo freddo del tipo Penning Ion Gauge (PIG) per la produzione di ioni positivi."
+        },
+        "2": {
+            "title": "Progettazione di ciclotroni",
+            "text": "AIMA ha sviluppato la sua esperienza progettando numerosi ciclotroni di varie prestazioni, spaziando da pochi MeV per la produzione di radioisotopi, macchine per la protonterapia ad alta energia da 230 MeV e ciclotroni ad altissima potenza (1 GeV-12 mA) per applicazioni industriali come la trasmutazione dei rifiuti nucleari. Come azienda orientata alla ricerca e sviluppo, AIMA ha effettuato studi di ingegneria preliminari di vari sottosistemi di ciclotroni, come magneti e tipiche cavità RF."
+        },
+        "3": {
+            "title": "Linee di fascio",
+            "text": "AIMA ha progettato e ottimizzato la linea di fascio fissa del protonterapia S2C2™ da 230 MeV del Centre Antoine Lacassagne di Nizza, capace di scansione a punti."
+        }
+    }
 }
