@@ -18,3 +18,4 @@ imgWraps.forEach(imgWrap => {
         });
     });
 });
+// © AIMA DEVELOPPEMENT 2024
