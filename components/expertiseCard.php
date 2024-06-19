@@ -27,3 +27,4 @@
     </div>
     <div class="colorBlock right"<?php if ($side === "left") echo 'style="background-color: transparent;"'; ?>></div>
 </div>
+<!-- Développé par Noa Second -->
