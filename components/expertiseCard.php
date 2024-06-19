@@ -17,7 +17,7 @@
                     <?php
                         foreach ($images as $index => $image) {
                             $dotClass = ($index === 0) ? 'dotActive' : '';
-                            echo '<span class="dot ' . $dotClass . '" onclick="currentSlide(' . ($index + 1) . ')"></span>';
+                            echo '<span class="dot ' . $dotClass . '"></span>';
                         }
                     ?>
                 </div>

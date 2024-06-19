@@ -13,6 +13,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 <head>
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
+    <script src="js/expertise.js" defer></script>
 </head>
 
 <body>
@@ -20,21 +21,17 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include ('components/header.php'); ?>
     </header>
     <main>
-        <h1>Our story</h1>
-        <a>AIMA Développement is designing, building and testing new cost-effective cyclotrons and dedicated beam lines
-            for various medical and industrial applications since 2005. The expertise stems from the cyclotron
-            laboratory of the Centre Antoine Lacassagne (CAL), that designed and built MEDICYC, the first hospital-based
-            cyclotron facility in France for protontherapy. At this time, the MEDICYC project was led by Pierre
-            Mandrillon. Before retiring from the CAL and the MEDICYC project, he founded AIMA, and is still its CEO.</a>
+        <h1><?php getValueFromJson('description'); ?></h1>
+        <a><?php getValueFromJson('text'); ?></a>
         <div>
             <?php
                 $side = 'right';
                 $title = getValueFromJson('expertise.1.title', false);
                 $text = getValueFromJson('expertise.1.text', false);
                 $images = [
-                    'https://placehold.co/1x1',
-                    'https://placehold.co/2x2',
-                    'https://placehold.co/3x3'
+                    'https://placehold.co/100x100',
+                    'https://placehold.co/200x200',
+                    'https://placehold.co/300x300'
                 ];
                 include ('components/expertiseCard.php');
             ?>
