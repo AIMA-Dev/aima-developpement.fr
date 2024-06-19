@@ -55,4 +55,4 @@ searchInput.addEventListener('input', () => {
         });
     }
 });
-// Développé par Noa Second
+// © AIMA DEVELOPPEMENT 2024

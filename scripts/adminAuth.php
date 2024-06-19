@@ -52,4 +52,4 @@ function authAdmin()
     }
 }
 ?>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

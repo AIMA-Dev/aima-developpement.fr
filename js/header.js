@@ -25,4 +25,4 @@ document.querySelector("#phoneMenu").addEventListener("transitionend", function 
         headerRight.display = "none";
     }
 });
-// Développé par Noa Second
+// © AIMA DEVELOPPEMENT 2024

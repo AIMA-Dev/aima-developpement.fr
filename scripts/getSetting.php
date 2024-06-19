@@ -30,4 +30,4 @@ function getSettingInDB($name, $settingsToDecrypt = [])
     }
 }
 ?>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

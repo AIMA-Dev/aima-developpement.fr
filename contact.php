@@ -43,4 +43,4 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 </body>
 
 </html>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

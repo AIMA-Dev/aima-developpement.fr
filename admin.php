@@ -161,4 +161,4 @@ include ('scripts/getSetting.php');
 </body>
 
 </html>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

@@ -7,4 +7,4 @@ document.addEventListener('mousedown', function (e) {
         e.preventDefault();
     }
 });
-// Développé par Noa Second
+// © AIMA DEVELOPPEMENT 2024

@@ -51,4 +51,4 @@ function changeSettingInDB($name, $val)
     $conn->close();
 }
 ?>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

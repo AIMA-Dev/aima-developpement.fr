@@ -65,4 +65,4 @@ function changeLang($lang)
     exit();
 }
 ?>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

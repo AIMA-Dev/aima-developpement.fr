@@ -48,4 +48,4 @@ function deleteJobInDB($name)
     header('Location: ../admin.php');
 }
 ?>
-<!-- Développé par Noa Second -->
+<!-- © AIMA DEVELOPPEMENT 2024 -->

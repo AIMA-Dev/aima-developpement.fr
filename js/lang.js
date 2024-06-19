@@ -16,4 +16,4 @@ langSelector.addEventListener('change', function () {
             location.reload();
         });
 });
-// Développé par Noa Second
+// © AIMA DEVELOPPEMENT 2024

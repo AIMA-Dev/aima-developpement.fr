@@ -22,4 +22,4 @@ document.getElementById('themeSwitch').addEventListener('click', function() {
         document.documentElement.style.setProperty('--Black', blackColor);
     }
 });
-// Développé par Noa Second
+// © AIMA DEVELOPPEMENT 2024

@@ -7,4 +7,4 @@ window.onload = function () {
     document.title = isPageActive ? pageTitle : attentionMessage;
   });
 };
-// Développé par Noa Second
+// © AIMA DEVELOPPEMENT 2024
