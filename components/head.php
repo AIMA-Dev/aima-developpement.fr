@@ -50,11 +50,11 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <link rel="stylesheet" href="css/responsive/header.css">
 <link rel="stylesheet" href="css/responsive/footer.css">
 <!-- JavaScript -->
+<script src="js/rightClick.js" defer></script>
 <script src="js/lang.js" defer></script>
 <script src="js/dynamicTitle.js" defer></script>
 <script src="js/header.js" defer></script>
 <script src="js/footer.js" defer></script>
-<script src="js/noRightClick.js" defer></script>
 <!-- Ajax -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Fonts -->
