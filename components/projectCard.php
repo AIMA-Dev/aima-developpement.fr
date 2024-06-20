@@ -6,3 +6,4 @@
         <a href="#"><?php echo $more ?><img src="assets/img/icons/arrow.svg" alt="arrow"></a>
     </div>
 </div>
+<!-- © AIMA DEVELOPPEMENT 2024 -->
