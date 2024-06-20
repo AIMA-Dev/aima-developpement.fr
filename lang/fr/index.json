@@ -2,6 +2,36 @@
     "title": "AIMA Developpement",
     "description": "Our story",
     "text": "Depuis 2005, AIMA Développement conçoit, construit et teste des designs de cyclotrons innovants pour des applications médicales et industrielles. Son expertise provient du laboratoire du Centre Antoine Lacassagne (CAL), qui a conçu et construit MEDICYC, le premier accélérateur français utilisé pour la protonthérapie dans un hôpital. Pierre Mandrillon était le porteur du projet MEDICYC. Avant de prendre sa retraite du CAL, il fonda AIMA, dont il est toujours le PDG.",
+    "timeline": {
+        "1": {
+            "date": "1999",
+            "text": "AIMA-SA est fondée par Pierre Mandrillon"
+        },
+        "2": {
+            "date": "2002 - 2005",
+            "text": "Premier cyclotron conçu et construit par l’entreprise : AIMA-PN, pour la production de radioisotopes. A notre connaissance, cette machine est toujours en opération"
+        },
+        "3": {
+            "date": "2006",
+            "text": "Premier cyclotron conçu et construit par l’entreprise : AIMA-PN, pour la production de radioisotopes. A notre connaissance, cette machine est toujours en opération"
+        },
+        "4": {
+            "date": "2009 - 2011",
+            "text": "AIMA conçoit le synchrocyclotron supraconducteur  S2C2TM. Cet accélérateur est maintenant vendu par la société belge IBA sous le nom « Proteus One »"
+        },
+        "5": {
+            "date": "2011 - 2012",
+            "text": "Construction du banc de test pour sources d’ions. AIMA conçoit et teste avec succès sur son banc plusieurs sources d’ions, dont celle du S2C2™"
+        },
+        "6": {
+            "date": "2015",
+            "text": "Début du projet  MinicycTM. Ce cyclotron auto-blindé sera utilisé pour la production de radioisotopes à la demande"
+        },
+        "7": {
+            "date": "2023",
+            "text": "Améliorations du banc de test. AIMA teste et améliore avec succès la source d’ions utilisée pour le cyclotron de protonthérapie d’un des leaders du marché"
+        }
+    },
     "expertise": {
         "1": {
             "title": "Test et conception de sources d’ions",

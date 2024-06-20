@@ -2,6 +2,38 @@
     "title": "AIMA Developpement",
     "description": "La nostra storia",
     "text": "AIMA Sviluppo progetta, costruisce e testa nuovi ciclotroni economici e linee di fascio dedicate per varie applicazioni mediche e industriali dal 2005. L'esperienza deriva dal laboratorio di ciclotroni del Centre Antoine Lacassagne (CAL), che ha progettato e costruito MEDICYC, la prima struttura ospedaliera con ciclotrone in Francia per la protonterapia. All'epoca, il progetto MEDICYC era guidato da Pierre Mandrillon. Prima di ritirarsi dal CAL e dal progetto MEDICYC, ha fondato AIMA ed è ancora il suo CEO.",
+    "timeline": {
+        "timeline": {
+            "1": {
+                "date": "1999",
+                "text": "AIMA-SA viene fondata da Pierre Mandrillon"
+            },
+            "2": {
+                "date": "2002 - 2005",
+                "text": "Primo ciclotrone progettato e costruito dall'azienda: AIMA-PN, per la produzione di isotopi. Per quanto ne sappiamo, il ciclotrone è ancora in funzione"
+            },
+            "3": {
+                "date": "2006",
+                "text": "AIMA-SA diventa AIMA Développement"
+            },
+            "4": {
+                "date": "2009 - 2011",
+                "text": "AIMA ha progettato il sincrociclotrone superconduttore S2C2™. Questo acceleratore è ora venduto dall'azienda IBA con il nome di « Proteus One »"
+            },
+            "5": {
+                "date": "2011 - 2012",
+                "text": "Costruzione della piastra di prova delle sorgenti di ioni. AIMA ha progettato e testato con successo molte sorgenti di ioni, inclusa quella del S2C2™ sulla sua piastra di prova"
+            },
+            "6": {
+                "date": "2015",
+                "text": "Inizio del progetto Minicyc™. Questo ciclotrone auto-schermato sarà utilizzato per la produzione di isotopi su richiesta"
+            },
+            "7": {
+                "date": "2023",
+                "text": "Miglioramento della piastra di prova. AIMA ha testato e migliorato la sorgente di ioni utilizzata da uno dei leader di mercato nella protonterapia."
+            }
+        }
+    },
     "expertise": {
         "1": {
             "title": "Progettazione e test di sorgenti di ioni",

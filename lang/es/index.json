@@ -2,6 +2,36 @@
     "title": "AIMA Developpement",
     "description": "Nuestra historia",
     "text": "AIMA Desarrollo ha estado diseñando, construyendo y probando nuevos ciclotrones rentables y líneas de haz dedicadas para varias aplicaciones médicas e industriales desde 2005. La experiencia proviene del laboratorio de ciclotrones del Centre Antoine Lacassagne (CAL), que diseñó y construyó MEDICYC, la primera instalación hospitalaria de ciclotrones en Francia para la protonterapia. En ese momento, el proyecto MEDICYC fue dirigido por Pierre Mandrillon. Antes de retirarse del CAL y del proyecto MEDICYC, fundó AIMA y sigue siendo su CEO.",
+    "timeline": {
+        "1": {
+            "date": "1999",
+            "text": "AIMA-SA es fundada por Pierre Mandrillon"
+        },
+        "2": {
+            "date": "2002 - 2005",
+            "text": "Primer ciclotrón diseñado y construido por la empresa: AIMA-PN, para la producción de isótopos. Hasta donde sabemos, el ciclotrón todavía está en funcionamiento"
+        },
+        "3": {
+            "date": "2006",
+            "text": "AIMA-SA se convierte en AIMA Développement"
+        },
+        "4": {
+            "date": "2009 - 2011",
+            "text": "AIMA diseñó el sincrociclotrón superconductor S2C2™. Este acelerador ahora es vendido por la empresa IBA bajo el nombre de « Proteus One »"
+        },
+        "5": {
+            "date": "2011 - 2012",
+            "text": "Construcción del banco de pruebas de fuentes de iones. AIMA diseñó y probó con éxito muchas fuentes de iones, incluida la del S2C2™ en su banco de pruebas"
+        },
+        "6": {
+            "date": "2015",
+            "text": "Comienzo del proyecto Minicyc™. Este ciclotrón auto-blindado se utilizará para la producción de isótopos bajo demanda"
+        },
+        "7": {
+            "date": "2023",
+            "text": "Mejora del banco de pruebas. AIMA probó y mejoró la fuente de iones utilizada por uno de los líderes del mercado de la protonterapia."
+        }
+    },
     "expertise": {
         "1": {
             "title": "Diseño y pruebas de fuentes de iones",

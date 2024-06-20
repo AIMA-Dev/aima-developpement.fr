@@ -2,6 +2,36 @@
     "title": "AIMA Developpement",
     "description": "Our story",
     "text": "AIMA Développement is designing, building and testing new cost-effective cyclotrons and dedicated beam lines for various medical and industrial applications since 2005. The expertise stems from the cyclotron laboratory of the Centre Antoine Lacassagne (CAL), that designed and built MEDICYC, the first hospital-based cyclotron facility in France for protontherapy. At this time, the MEDICYC project was led by Pierre Mandrillon. Before retiring from the CAL and the MEDICYC project, he founded AIMA, and is still its CEO.",
+    "timeline": {
+        "1": {
+            "date": "1999",
+            "text": "AIMA-SA is founded by Pierre Mandrillon"
+        },
+        "2": {
+            "date": "2002 - 2005",
+            "text": "First cyclotron designed and built by the company : AIMA-PN, for isotopes production. As far as we know, the cyclotron is still in operation"
+        },
+        "3": {
+            "date": "2006",
+            "text": "AIMA-SA becomes AIMA Développement"
+        },
+        "4": {
+            "date": "2009 - 2011",
+            "text": "AIMA designed the superconducting synchrocyclotron S2C2™. This accelerator is now sold by the company IBA under the name « Proteus One »"
+        },
+        "5": {
+            "date": "2011 - 2012",
+            "text": "Construction of the Ion Sources test bench. AIMA designed and successfully tested many ion sources, including the one of the S2C2™ on its test bench"
+        },
+        "6": {
+            "date": "2015",
+            "text": "Beginning of the Minicyc™ project. This self-shielded cyclotron will be used for dose-on-demand isotopes production"
+        },
+        "7": {
+            "date": "2023",
+            "text": "Improvement of the test bench. AIMA tested and improved the ion source used by one of the protontherapy market leader."
+        }
+    },
     "expertise": {
         "1": {
             "title": "Ion source designs and tests",
