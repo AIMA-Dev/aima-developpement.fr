@@ -1,0 +1,20 @@
+.projectHeader {
+    display: flex;
+}
+
+.projectHeader>*:not(.separator) {
+    width: 50%;
+}
+
+.projectHeader>.content {
+    background-color: var(--DarkScarlet);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.separator {
+    width: 10%;
+    margin-left: -10%;
+    background: linear-gradient(-45deg, rgba(94,3,31,1) 40%, rgba(94,3,31,0) 40%);
+}

@@ -14,7 +14,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/projectCard.css">
+    <link rel="stylesheet" href="css/components/projectCard.css">
 </head>
 
 <body>
@@ -30,6 +30,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 $description = getValueFromJson('cyclotrons.1.description', false);
                 $stat = getValueFromJson('cyclotrons.1.stat', false);
                 $more = getValueFromJson('more', false);
+                $url = "MiniCyc.php";
                 include ('components/projectCard.php');
             ?>
             <?php
