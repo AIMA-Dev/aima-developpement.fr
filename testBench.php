@@ -45,3 +45,4 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 </body>
 
 </html>
+<!-- © AIMA DEVELOPPEMENT 2024 -->
