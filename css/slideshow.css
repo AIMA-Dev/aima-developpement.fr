@@ -64,6 +64,10 @@
     color: white;
 }
 
+.slideshowContainer .row {
+    display: flex;
+}
+
 .slideshowContainer .row:after {
     content: "";
     display: table;
@@ -73,7 +77,7 @@
 /* Six columns side by side */
 .slideshowContainer .column {
     float: left;
-    width: 16.66%;
+    width: 100%;
 }
 
 /* Add a transparency effect for thumnbail images */

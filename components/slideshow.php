@@ -19,7 +19,7 @@
         <?php
             foreach ($images as $key => $image) {
                 echo '<div class="column">';
-                echo '<img class="demo cursor" src="' . $image . '" style="width:100%" onclick="currentSlide(' . ($key + 1) . ')" alt="' . $titles[$key] . '">';
+                echo '<img class="demo cursor" src="' . $image . '" style="width:100%;height: 100px;object-fit: cover;" onclick="currentSlide(' . ($key + 1) . ')" alt="' . $titles[$key] . '">';
                 echo '</div>';
         }
         ?>
