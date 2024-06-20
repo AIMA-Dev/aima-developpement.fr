@@ -1,0 +1,12 @@
+{
+    "title": "Banc de test | AIMA Developpement",
+    "description": "Notre banc de test",
+    "text": "Afin de caractériser et d'optimiser des schémas d'injection innovants, AIMA a construit un banc d'essai d'injection. Ce banc est basé sur un aimant à grand gap (diamètre de pôle 750 mm) avec un alésage axial permettant de tester des dispositifs horizontaux et axiaux. Il permet de tester à la fois des sources internes de type PIG et des sources externes plus importantes (ECR ou multicusp).",
+    "slideshow": {
+        "slideshow": {
+            "1": "La source d'ions interne S2C2™ a été développée et testée avec succès sur le banc d'essai d'AIMA",
+            "2": "La source d'ions interne S2C2™ a été développée et testée avec succès sur le banc d'essai d'AIMA",
+            "3": "La source d'ions interne S2C2™ a été développée et testée avec succès sur le banc d'essai d'AIMA"
+        }
+    }
+}
