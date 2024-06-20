@@ -13,7 +13,13 @@
         justify-content: space-between;
     }
     main {
-        padding: 0px;
+        padding: 0px 2vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    main {
+        padding: 0px 5vw;
     }
 }
 /* © AIMA DEVELOPPEMENT 2024 */

@@ -47,13 +47,16 @@ body {
 main {
     min-height: auto;
     /* width: 100vw; */
-    padding: 0px 100px;
+    padding: 0px 15vw;
 }
 
 h1 {
     font-size: 2.5em;
     font-weight: 500;
     color: var(--Black);
+    background: linear-gradient(0deg, var(--SpiroDiscoBall) 35%, transparent 0%);
+    padding: 0 15px 0 5px;
+    width: fit-content;
 }
 
 h2 {
@@ -77,89 +80,6 @@ a, p {
 }
 
 /*----- COMPONENTS -----*/
-/*ExpertiseCard*/
-.expertiseCard {
-    margin: 0px -100px;
-    padding: 50px 100px;
-    width: 100%;
-    min-height: 200px;
-    display: flex;
-    flex-direction: row;
-}
-
-.expertiseCard .centerContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.expertiseCard .centerContent>div {
-    display: flex;
-    flex-direction: row;
-}
-
-.expertiseCard .centerContent>div>a {
-    text-align: justify;
-}
-
-.expertiseCard .imgWrap {
-    margin-right: 20px;
-}
-
-.expertiseCard .imgWrap>img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.expertiseCard .imgActive {
-    display: block;
-}
-
-.expertiseCard .imgInactive {
-    display: none;
-}
-
-.expertiseCard .dotWrap  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-}
-
-.expertiseCard .dot {
-    height: 10px;
-    width: 10px;
-    background-color: var(--TransparentGray);
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.expertiseCard .dotActive {
-    background-color: var(--DarkScarlet);
-}
-
-.expertiseCard .colorBlock {
-    width: 20px;
-    height: auto;
-}
-
-.expertiseCard .colorBlock.right {
-    margin-left: 110px;
-    margin-right: -100px;
-    background-color: var(--SpiroDiscoBall);
-}
-
-.expertiseCard .colorBlock.left {
-    margin-right: 50px;
-    margin-left: -100px;
-    background-color: var(--DarkScarlet);
-}
-
-
-
 /*Alert*/
 .alert {
     padding: 20px;
