@@ -5,4 +5,10 @@ h2 {
 h3 {
     padding: 0px 40px;
 }
+
+section#cyclotronsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 /* © AIMA DEVELOPPEMENT 2024 */

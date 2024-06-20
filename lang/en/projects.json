@@ -1,19 +1,30 @@
 {
     "title": "Projects | AIMA Developpement",
-    "description": "Innovative cyclotron design is the core expertise of AIMA",
-    "ionsources": {
-        "title": "Ion Sources",
-        "positive": {
-            "title": "Positive Ion Sources"
+    "cyclotrons": {
+        "title": "Cyclotrons",
+        "1": {
+            "title": "AIMA - PN",
+            "description": "Entirely designed and built by AIMA",
+            "stat": "15.4MeV"
         },
-        "pig": {
-            "title": "Penning Ion Gauge"
+        "2": {
+            "title": "S2C2™",
+            "description": "Design : outstanding collaboration between AIMA and IBA",
+            "stat": "230MeV"
+        },
+        "3": {
+            "title": "MiniCyc™",
+            "description": "The next generation of cyclotrons for radioisotopes production",
+            "stat": "8.5MeV"
         }
     },
-    "cyclotrons": {
-        "title": "Cyclotrons"
+    "nuclear": {
+        "title": "Nuclear",
+        "1": {
+            "title": "LECYD - 600",
+            "description": "A new type of nuclear power",
+            "stat": "270MWe"
+        }
     },
-    "beamlines": {
-        "title": "Beamlines"
-    }
+    "more": "Learn more"
 }

@@ -1,19 +1,30 @@
 {
-    "title": "Progetti | AIMA Developpement",
-    "description": "La progettazione innovativa del ciclotrone è l'expertise principale di AIMA",
-    "ionsources": {
-        "title": "Sorgenti di ioni",
-        "positive": {
-            "title": "Sorgenti di ioni positivi"
+    "title": "Projects | AIMA Developpement",
+    "cyclotrons": {
+        "title": "Cyclotrons",
+        "1": {
+            "title": "AIMA - PN",
+            "description": "Entirely designed and built by AIMA",
+            "stat": "15.4MeV"
         },
-        "pig": {
-            "title": "Misuratore di ioni Penning"
+        "2": {
+            "title": "S2C2™",
+            "description": "Design : outstanding collaboration between AIMA and IBA",
+            "stat": "230MeV"
+        },
+        "3": {
+            "title": "MiniCyc™",
+            "description": "The next generation of cyclotrons for radioisotopes production",
+            "stat": "8.5MeV"
         }
     },
-    "cyclotrons": {
-        "title": "Ciclotroni"
+    "nuclear": {
+        "title": "Nuclear",
+        "1": {
+            "title": "LECYD - 600",
+            "description": "A new type of nuclear power",
+            "stat": "270MWe"
+        }
     },
-    "beamlines": {
-        "title": "Linee di fascio"
-    }
+    "more": "Learn more"
 }
