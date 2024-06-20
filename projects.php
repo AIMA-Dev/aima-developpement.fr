@@ -22,17 +22,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     </header>
     <main>
         <h1><?php getValueFromJson('description'); ?></h1>
-        <section>
-            <h2><?php getValueFromJson('ionsources.title'); ?></h2>
-            <h3><?php getValueFromJson('ionsources.positive.title') ?></h3>
-            <h3><?php getValueFromJson('ionsources.pig.title') ?></h3>
-        </section>
-        <section>
-            <h2><?php getValueFromJson('cyclotrons.title'); ?></h2>
-        </section>
-        <section>
-            <h2><?php getValueFromJson('beamlines.title'); ?></h2>
-        </section>
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>

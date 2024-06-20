@@ -13,6 +13,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 <head>
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive/index.css">
     <script src="js/expertise.js" defer></script>
 </head>
 
@@ -23,38 +25,79 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <main>
         <h1><?php getValueFromJson('description'); ?></h1>
         <a><?php getValueFromJson('text'); ?></a>
-        <div>
-            <?php
-                $side = 'right';
-                $title = getValueFromJson('expertise.1.title', false);
-                $text = getValueFromJson('expertise.1.text', false);
-                $images = [
-                    'https://placehold.co/100x100',
-                    'https://placehold.co/200x200',
-                    'https://placehold.co/300x300'
-                ];
-                include ('components/expertiseCard.php');
-            ?>
-            <?php
-                $side = 'left';
-                $title = getValueFromJson('expertise.2.title', false);
-                $text = getValueFromJson('expertise.2.text', false);
-                $images = [
-                    'https://placehold.co/1x1'
-                ];
-                include ('components/expertiseCard.php');
-            ?>
-            <?php
-                $side = 'right';
-                $title = getValueFromJson('expertise.3.title', false);
-                $text = getValueFromJson('expertise.3.text', false);
-                $images = [
-                    'https://placehold.co/1x1',
-                    'https://placehold.co/2x2'
-                ];
-                include ('components/expertiseCard.php');
-            ?>
-        </div>
+        <section id="timeline">
+            <ul>
+                <li style="--accent-color:#17C9E6">
+                    <div class="date"><?php getValueFromJson('timeline.1.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.1.text'); ?></div>
+                </li>
+                <li style="--accent-color:#383D40">
+                    <div class="date"><?php getValueFromJson('timeline.2.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.2.text'); ?></div>
+                </li>
+                <li style="--accent-color:#5E031F">
+                    <div class="date"><?php getValueFromJson('timeline.3.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.3.text'); ?></div>
+                </li>
+                <li style="--accent-color:#17C9E6">
+                    <div class="date"><?php getValueFromJson('timeline.4.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.4.text'); ?></div>
+                </li>
+                <li style="--accent-color:#383D40">
+                    <div class="date"><?php getValueFromJson('timeline.5.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.5.text'); ?></div>
+                </li>
+                <li style="--accent-color:#5E031F">
+                    <div class="date"><?php getValueFromJson('timeline.6.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.6.text'); ?></div>
+                </li>
+                <li style="--accent-color:#17C9E6">
+                    <div class="date"><?php getValueFromJson('timeline.7.date'); ?></div>
+                    <div class="title"></div>
+                    <div class="descr"><?php getValueFromJson('timeline.7.text'); ?></div>
+                </li>
+            </ul>
+        </section>
+        <section id="expertise">
+            <div>
+                <?php
+                    $side = 'right';
+                    $title = getValueFromJson('expertise.1.title', false);
+                    $text = getValueFromJson('expertise.1.text', false);
+                    $images = [
+                        'assets/img/expertise/ionSource1.webp',
+                        'assets/img/expertise/ionSource2.webp'
+                    ];
+                    include ('components/expertiseCard.php');
+                ?>
+                <?php
+                    $side = 'left';
+                    $title = getValueFromJson('expertise.2.title', false);
+                    $text = getValueFromJson('expertise.2.text', false);
+                    $images = [
+                        'assets/img/expertise/cyclotron1.webp',
+                        'assets/img/expertise/cyclotron2.webp'
+                    ];
+                    include ('components/expertiseCard.php');
+                ?>
+                <?php
+                    $side = 'right';
+                    $title = getValueFromJson('expertise.3.title', false);
+                    $text = getValueFromJson('expertise.3.text', false);
+                    $images = [
+                        'assets/img/expertise/beamline1.webp',
+                        'assets/img/expertise/beamline2.webp'
+                    ];
+                    include ('components/expertiseCard.php');
+                ?>
+            </div>
+        </section>
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>
