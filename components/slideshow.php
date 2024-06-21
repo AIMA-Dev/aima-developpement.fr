@@ -3,7 +3,7 @@
     foreach ($images as $image) {
         echo '<div class="mySlides">';
         echo '<div class="numbertext">' . ($key + 1) . ' / ' . count($images) . '</div>';
-        echo '<img src="' . $image . '" style="width:100%">';
+        echo '<img src="' . $image . '" style="width:100%" alt="">';
         echo '</div>';
     }
     ?>

@@ -1,5 +1,6 @@
 .projectHeader {
     display: flex;
+    margin: 50px 0;
 }
 
 .projectHeader>*:not(.separator) {
@@ -11,11 +12,13 @@
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .separator {
     width: 10%;
     margin-left: -10%;
-    background: linear-gradient(-45deg, rgba(94,3,31,1) 40%, rgba(94,3,31,0) 40%);
+    background: linear-gradient(-80deg, rgba(94,3,31,1) 40%, rgba(94,3,31,0) 40%);
 }
 /* © AIMA DEVELOPPEMENT 2024 */
