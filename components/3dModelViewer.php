@@ -10,3 +10,4 @@
         <img src="assets/img/icons/ar_hand_prompt.png">
     </div>
 </model-viewer>
+<!-- © AIMA DEVELOPPEMENT 2024 -->

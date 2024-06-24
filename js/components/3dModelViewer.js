@@ -11,3 +11,4 @@ const onProgress = (event) => {
     }
   };
   document.querySelector('model-viewer').addEventListener('progress', onProgress);
+// © AIMA DEVELOPPEMENT 2024
