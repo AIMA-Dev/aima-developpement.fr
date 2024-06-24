@@ -16,6 +16,15 @@
     justify-content: center;
 }
 
+.projectHeader>.content>a:nth-child(1) {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.projectHeader>.content>a:nth-child(2) {
+    font-size: 1.2rem;
+}
+
 .separator {
     width: 10%;
     margin-left: -10%;

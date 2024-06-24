@@ -25,38 +25,41 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <h1><?php getValueFromJson('cyclotrons.title'); ?></h1>
         <section id="cyclotronsWrap">
             <?php
-                $image = "https://placehold.co/600x400/orange/white";
+                $image = "assets/img/projects/aima-pn.webp";
                 $title = getValueFromJson('cyclotrons.1.title', false);
                 $description = getValueFromJson('cyclotrons.1.description', false);
                 $stat = getValueFromJson('cyclotrons.1.stat', false);
                 $more = getValueFromJson('more', false);
-                $url = "MiniCyc.php";
+                $url = "AIMAPN.php";
                 include ('components/projectCard.php');
             ?>
             <?php
-                $image = "https://placehold.co/600x400/orange/white";
+                $image = "assets/img/projects/s2c2.webp";
                 $title = getValueFromJson('cyclotrons.2.title', false);
                 $description = getValueFromJson('cyclotrons.2.description', false);
                 $stat = getValueFromJson('cyclotrons.2.stat', false);
                 $more = getValueFromJson('more', false);
+                $url = "S2C2.php";
                 include ('components/projectCard.php');
             ?>
             <?php
-                $image = "https://placehold.co/600x400/orange/white";
+                $image = "assets/img/projects/minicyc/thumbnail.webp";
                 $title = getValueFromJson('cyclotrons.3.title', false);
                 $description = getValueFromJson('cyclotrons.3.description', false);
                 $stat = getValueFromJson('cyclotrons.3.stat', false);
                 $more = getValueFromJson('more', false);
+                $url = "MiniCyc.php";
                 include ('components/projectCard.php');
             ?>
         </section>
         <h1><?php getValueFromJson('nuclear.title'); ?></h1>
         <?php
-            $image = "https://placehold.co/600x400/orange/white";
+            $image = "assets/img/projects/lecyd600.webp";
             $title = getValueFromJson('nuclear.1.title', false);
             $description = getValueFromJson('nuclear.1.description', false);
             $stat = getValueFromJson('nuclear.1.stat', false);
             $more = getValueFromJson('more', false);
+            $url = "LECYD600.php";
             include ('components/projectCard.php');
         ?>
     </main>

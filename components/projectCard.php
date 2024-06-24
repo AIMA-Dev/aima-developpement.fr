@@ -1,4 +1,5 @@
 <div class="projectCard">
+    <a class="stat"><?php echo $stat ?></a>
     <img src="<?php echo $image ?>" alt="cyclotron">
     <div class="content">
         <a><?php echo $title ?></a><br>

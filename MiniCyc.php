@@ -14,56 +14,63 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/minicyc.css">
-    <link rel="stylesheet" href="css/components/slideshow.css">
     <link rel="stylesheet" href="css/components/projectHeader.css">
+    <link rel="stylesheet" href="css/components/slideshow.css">
+    <link rel="stylesheet" href="css/components/3dModelViewer.css">
+    <script src="js/slideshow.js" defer></script>
+    <script src="js/components/3dModelViewer.js" defer></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 
 <body>
     <header>
         <?php
-            $title = getValueFromJson('header.title', false);
-            $description = getValueFromJson('header.description', false);
-            include ('components/header.php');
+        $title = getValueFromJson('header.title', false);
+        $description = getValueFromJson('header.description', false);
+        include ('components/header.php');
         ?>
     </header>
     <main>
         <?php include ('components/projectHeader.php'); ?>
+        <?php
+            $thumbnail = "assets/img/projects/minicyc/thumbnail.webp";
+            $model = "assets/3D/minicyc.glb";
+            include ('components/3dModelViewer.php');
+        ?>
         <a><?php getValueFromJson('intro'); ?></a>
         <a><?php getValueFromJson('elements.text'); ?></a>
         <div id="elements">
             <div>
                 <img src="assets/img/tableofelements/Florine.svg" alt="Florin">
-                <?php getValueFromJson('elements.fluorine'); ?>
+                <a><?php getValueFromJson('elements.fluorine'); ?></a>
             </div>
             <div>
                 <img src="assets/img/tableofelements/Gallium.svg" alt="Gallium">
-                <?php getValueFromJson('elements.gallium'); ?>
+                <a><?php getValueFromJson('elements.gallium'); ?></a>
             </div>
             <div>
                 <img src="assets/img/tableofelements/Nitrogen.svg" alt="Nitrogen">
-                <?php getValueFromJson('elements.nitrogen'); ?>
+                <a><?php getValueFromJson('elements.nitrogen'); ?></a>
             </div>
             <div>
                 <img src="assets/img/tableofelements/Oxygen.svg" alt="Oxygen">
-                <?php getValueFromJson('elements.oxygen'); ?>
+                <a><?php getValueFromJson('elements.oxygen'); ?></a>
             </div>
             <div>
                 <img src="assets/img/tableofelements/Copper.svg" alt="Copper">
-                <?php getValueFromJson('elements.copper'); ?>
+                <a><?php getValueFromJson('elements.copper'); ?></a>
             </div>
         </div>
         <?php
-            $images = [
-                "https://placehold.co/600x400/orange/white",
-                "https://placehold.co/600x400/orange/white",
-                "https://placehold.co/600x400/orange/white"
-            ];
-            $titles = [
-                getValueFromJson('slideshow.1',false),
-                getValueFromJson('slideshow.2',false),
-                getValueFromJson('slideshow.3',false)
-            ];
-            include ('components/slideshow.php');
+        $images = [
+            "assets/img/projects/minicyc/slideshow1.webp",
+            "assets/img/projects/minicyc/slideshow2.webp"
+        ];
+        $titles = [
+            getValueFromJson('slideshow.1', false),
+            getValueFromJson('slideshow.2', false)
+        ];
+        include ('components/slideshow.php');
         ?>
     </main>
     <footer>

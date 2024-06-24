@@ -13,4 +13,9 @@
 #elements>div>img {
     width: 10vw;
 }
+
+#elements a {
+    text-align: center;
+    margin-top: 10px;
+}
 /* © AIMA DEVELOPPEMENT 2024 */

@@ -5,6 +5,14 @@
     width: 20vw;
 }
 
+.projectCard .stat {
+    position: absolute;
+    padding: 8px;
+    border-radius: 5px 0px;
+    background-color: var(--SpiroDiscoBall);
+    color: white;
+}
+
 .projectCard>img {
     border-radius: 5px 5px 0 0;
     width: 20vw;

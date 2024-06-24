@@ -12,5 +12,9 @@
         "nitrogen": "Nitrogen-13 (N13)<br>Under study",
         "oxygen": "Oxygen-15 (O15)<br>Under study",
         "copper": "Copper-64 (Cu64)<br>Under study"
+    },
+    "slideshow": {
+        "1": "Minicyc™ typical layout",
+        "2": "Minicyc™ typical layout"
     }
 }
