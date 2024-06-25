@@ -1,6 +1,6 @@
 <div class="slideshowContainer">
     <?php
-    foreach ($images as $image) {
+    foreach ($images as $key => $image) {
         echo '<div class="mySlides">';
         echo '<div class="numbertext">' . ($key + 1) . ' / ' . count($images) . '</div>';
         echo '<img src="' . $image . '" style="width:100%" alt="">';
