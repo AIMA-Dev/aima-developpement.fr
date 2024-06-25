@@ -34,7 +34,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 include ('components/projectCard.php');
             ?>
             <?php
-                $image = "assets/img/projects/s2c2.webp";
+                $image = "assets/img/projects/s2c2/thumbnail.webp";
                 $title = getValueFromJson('cyclotrons.2.title', false);
                 $description = getValueFromJson('cyclotrons.2.description', false);
                 $stat = getValueFromJson('cyclotrons.2.stat', false);
