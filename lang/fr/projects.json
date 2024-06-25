@@ -4,27 +4,27 @@
         "title": "Cyclotrons",
         "1": {
             "title": "AIMA - PN",
-            "description": "Entirely designed and built by AIMA",
+            "description": "Entièrement conçu et construit par AIMA",
             "stat": "15.4MeV"
         },
         "2": {
             "title": "S2C2™",
-            "description": "Design : outstanding collaboration between AIMA and IBA",
+            "description": "Conception : une collaboration exceptionnelle entre AIMA et IBA",
             "stat": "230MeV"
         },
         "3": {
             "title": "MiniCyc™",
-            "description": "The next generation of cyclotrons for radioisotopes production",
+            "description": "La prochaine génération de cyclotrons pour la production de radioisotopes",
             "stat": "8.5MeV"
         }
     },
     "nuclear": {
-        "title": "Nuclear",
+        "title": "Nucléaire",
         "1": {
             "title": "LECYD - 600",
-            "description": "A new type of nuclear power",
+            "description": "Un nouveau type de centrale nucléaire",
             "stat": "270MWe"
         }
     },
-    "more": "Learn more"
+    "more": "En savoir plus"
 }
