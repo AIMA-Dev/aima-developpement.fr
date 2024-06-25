@@ -1,5 +1,7 @@
 .slideshowContainer img {
     vertical-align: middle;
+    max-height: 400px;
+    object-fit: contain;
 }
 
 /* Position the image container (needed to position the left and right arrows) */

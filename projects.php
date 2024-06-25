@@ -25,7 +25,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <h1><?php getValueFromJson('cyclotrons.title'); ?></h1>
         <section id="cyclotronsWrap">
             <?php
-                $image = "assets/img/projects/aima-pn.webp";
+                $image = "assets/img/projects/aima-pn/thumbnail.webp";
                 $title = getValueFromJson('cyclotrons.1.title', false);
                 $description = getValueFromJson('cyclotrons.1.description', false);
                 $stat = getValueFromJson('cyclotrons.1.stat', false);
@@ -53,15 +53,17 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             ?>
         </section>
         <h1><?php getValueFromJson('nuclear.title'); ?></h1>
-        <?php
-            $image = "assets/img/projects/lecyd600.webp";
-            $title = getValueFromJson('nuclear.1.title', false);
-            $description = getValueFromJson('nuclear.1.description', false);
-            $stat = getValueFromJson('nuclear.1.stat', false);
-            $more = getValueFromJson('more', false);
-            $url = "LECYD600.php";
-            include ('components/projectCard.php');
-        ?>
+        <section id="nuclearWrap">
+            <?php
+                $image = "assets/img/projects/lecyd600/thumbnail.webp";
+                $title = getValueFromJson('nuclear.1.title', false);
+                $description = getValueFromJson('nuclear.1.description', false);
+                $stat = getValueFromJson('nuclear.1.stat', false);
+                $more = getValueFromJson('more', false);
+                $url = "LECYD600.php";
+                include ('components/projectCard.php');
+            ?>
+        </section>
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>

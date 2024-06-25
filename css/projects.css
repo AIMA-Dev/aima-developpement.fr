@@ -6,9 +6,13 @@ h3 {
     padding: 0px 40px;
 }
 
-section#cyclotronsWrap {
+section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+section:last-child {
+    margin-bottom: 50px;
 }
 /* © AIMA DEVELOPPEMENT 2024 */
