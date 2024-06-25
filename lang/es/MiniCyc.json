@@ -1,0 +1,20 @@
+{
+    "title": "MiniCyc | AIMA Developpement",
+    "header": {
+        "title": "MiniCyc™",
+        "description": "La próxima generación de ciclotrones para la producción de radioisótopos"
+    },
+    "intro": "Este es un ciclotrón en miniatura auto-blindado para la producción de radioisótopos bajo demanda. La idea es producir los isótopos cerca del paciente, dentro del hospital. Los costos de mantenimiento y operación se reducen gracias a una tecnología patentada de AIMA",
+    "elements" : {
+        "text": "Minicyc será capaz de producir varios radioisótopos:",
+        "fluorine": "Fluor-18 (F18)",
+        "gallium": "Galio-68 (Ga68)",
+        "nitrogen": "Nitrógeno-13 (N13)<br>En estudio",
+        "oxygen": "Oxígeno-15 (O15)<br>En estudio",
+        "copper": "Cobre-64 (Cu64)<br>En estudio"
+    },
+    "slideshow": {
+        "1": "Diseño típico de Minicyc™",
+        "2": "Diseño típico de Minicyc™"
+    }
+}

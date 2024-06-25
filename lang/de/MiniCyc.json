@@ -1,0 +1,20 @@
+{
+    "title": "MiniCyc | AIMA Developpement",
+    "header": {
+        "title": "MiniCyc™",
+        "description": "Die nächste Generation von Zyklotronen zur Produktion von Radioisotopen"
+    },
+    "intro": "Dies ist ein selbstschirmendes Miniatur-Zyklotron zur bedarfsgesteuerten Produktion von Radioisotopen. Die Idee ist es, die Isotope nahe beim Patienten, innerhalb des Krankenhauses, zu produzieren. Die Wartungs- und Betriebskosten werden dank einer patentierten AIMA-Technologie reduziert.",
+    "elements" : {
+        "text": "Minicyc wird in der Lage sein, mehrere Radioisotope zu produzieren:",
+        "fluorine": "Fluor-18 (F18)",
+        "gallium": "Gallium-68 (Ga68)",
+        "nitrogen": "Stickstoff-13 (N13)<br>In Bearbeitung",
+        "oxygen": "Sauerstoff-15 (O15)<br>In Bearbeitung",
+        "copper": "Kupfer-64 (Cu64)<br>In Bearbeitung"
+    },
+    "slideshow": {
+        "1": "Minicyc™ typische Anordnung",
+        "2": "Minicyc™ typische Anordnung"
+    }
+}

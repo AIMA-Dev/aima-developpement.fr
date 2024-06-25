@@ -1,0 +1,21 @@
+{
+    "title": "MiniCyc | AIMA Developpement",
+    "header": {
+        "title": "S2C2™",
+        "description": "La prossima generazione di ciclotroni per la produzione di radioisotopi"
+    },
+    "intro": "Dal 2009 al 2011, AIMA ha sviluppato il design concettuale di un sincrociclotrone superconduttore chiamato S2C2™ (che è ancora il nostro marchio!). Il team è stato anche coinvolto nella maggior parte degli studi dettagliati dei componenti chiave importanti:",
+    "list": {
+        "1": "Design del magnete",
+        "2": "Studi del sistema di estrazione",
+        "3": "Design dell'iniezione e della regione centrale",
+        "4": "Design preliminare della cavità a radiofrequenza",
+        "5": "Design e test della sorgente di ioni con il nostro banco di prova"
+    },
+    "text": "Questo acceleratore viene utilizzato per la fototerapia ed è venduto dall'azienda IBA con il nome di “Proteus One”",
+    "slideshow": {
+        "1": "Modello 3D del magnete S2C2™",
+        "2": "Modello 3D del magnete S2C2™",
+        "3": "Modello 3D del magnete S2C2™"
+    }
+}

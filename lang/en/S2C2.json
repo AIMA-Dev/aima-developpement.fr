@@ -1,0 +1,21 @@
+{
+    "title": "MiniCyc | AIMA Developpement",
+    "header": {
+        "title": "S2C2™",
+        "description": "outstanding collaboration between AIMA and IBA"
+    },
+    "intro": "From 2009 to 2011, AIMA developed the conceptual design a superconducting synchrocyclotron called S2C2™ (which is still our trademark!). The team was also involved in most of the detailed studies of important key-components :",
+    "list": {
+        "1": "Magnet design",
+        "2": "Extraction system studies",
+        "3": "Injection and central region design",
+        "4": "Preliminary design of the Radiofrequency cavity",
+        "5": "Design and test of the Ion Source with our test bench"
+    },
+    "text": "This accelerator is used for phototherapy and is sold by the company IBA under the name “Proteus One”",
+    "slideshow": {
+        "1": "3D model of the S2C2™ magnet",
+        "2": "3D model of the S2C2™ magnet",
+        "3": "3D model of the S2C2™ magnet"
+    }
+}

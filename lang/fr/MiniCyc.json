@@ -2,19 +2,19 @@
     "title": "MiniCyc | AIMA Developpement",
     "header": {
         "title": "MiniCyc™",
-        "description": "The next generation of cyclotrons for radioisotopes production"
+        "description": "La prochaine génération de cyclotrons pour la production de radio-isotopes"
     },
-    "intro": "This is a self-shielded miniature cyclotron for the dose-on-demand radioisotopes production. The idea is to produce the isotopes close to the patient, inside the hospital. The maintenance and operating costs are reduced thank to a patented AIMA technology",
+    "intro": "Il s'agit d'un cyclotron miniature auto-blindé pour la production de radio-isotopes à la demande. L'idée est de produire les isotopes près du patient, à l'intérieur de l'hôpital. Les coûts de maintenance et d'exploitation sont réduits grâce à une technologie brevetée AIMA",
     "elements" : {
-        "text": "Minicyc will be able to produce several radioisotopes :",
-        "fluorine": "Fluorine-18 (F18)",
+        "text": "Minicyc sera capable de produire plusieurs radio-isotopes :",
+        "fluorine": "Fluor-18 (F18)",
         "gallium": "Gallium-68 (Ga68)",
-        "nitrogen": "Nitrogen-13 (N13)<br>Under study",
-        "oxygen": "Oxygen-15 (O15)<br>Under study",
-        "copper": "Copper-64 (Cu64)<br>Under study"
+        "nitrogen": "Azote-13 (N13)<br>En étude",
+        "oxygen": "Oxygène-15 (O15)<br>En étude",
+        "copper": "Cuivre-64 (Cu64)<br>En étude"
     },
     "slideshow": {
-        "1": "Minicyc™ typical layout",
-        "2": "Minicyc™ typical layout"
+        "1": "Disposition typique de Minicyc™",
+        "2": "Disposition typique de Minicyc™"
     }
 }

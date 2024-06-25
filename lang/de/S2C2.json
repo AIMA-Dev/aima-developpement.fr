@@ -1,0 +1,21 @@
+{
+    "title": "MiniCyc | AIMA Developpement",
+    "header": {
+        "title": "S2C2™",
+        "description": "Die nächste Generation von Zyklotronen zur Radioisotopenproduktion"
+    },
+    "intro": "Von 2009 bis 2011 entwickelte AIMA das Konzeptdesign eines supraleitenden Synchrozyklotrons namens S2C2™ (das immer noch unser Markenzeichen ist!). Das Team war auch an den meisten detaillierten Studien wichtiger Schlüsselkomponenten beteiligt:",
+    "list": {
+        "1": "Magnetdesign",
+        "2": "Studien zum Extraktionssystem",
+        "3": "Design der Injektions- und Zentralregion",
+        "4": "Vorläufiges Design der Hochfrequenzkavität",
+        "5": "Design und Test der Ionenquelle mit unserer Testbank"
+    },
+    "text": "Dieser Beschleuniger wird für die Phototherapie verwendet und von der Firma IBA unter dem Namen „Proteus One“ verkauft",
+    "slideshow": {
+        "1": "3D-Modell des S2C2™-Magneten",
+        "2": "3D-Modell des S2C2™-Magneten",
+        "3": "3D-Modell des S2C2™-Magneten"
+    }
+}
