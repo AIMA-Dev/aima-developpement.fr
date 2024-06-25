@@ -1,4 +1,3 @@
-// Handles loading the events for <model-viewer>'s slotted progress bar
 const onProgress = (event) => {
     const progressBar = event.target.querySelector('.progress-bar');
     const updatingBar = event.target.querySelector('.update-bar');
@@ -11,4 +10,3 @@ const onProgress = (event) => {
     }
   };
   document.querySelector('model-viewer').addEventListener('progress', onProgress);
-// © AIMA DEVELOPPEMENT 2024

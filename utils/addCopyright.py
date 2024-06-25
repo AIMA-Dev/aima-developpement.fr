@@ -16,7 +16,7 @@ comments = {
 
 extensions = tuple(comments.keys())
 exclude_dirs = ['PHPMailer-6.9.1', '.git', '.github']
-exclude_files = ['sitemap.xml', '.gitattributes', '.gitignore']
+exclude_files = ['sitemap.xml', '.gitattributes', '.gitignore', '3dModelViewer.js', '3dModelViewer.php', '3dModelViewer.css']
 
 def should_exclude(file_path):
     for excl_dir in exclude_dirs:
