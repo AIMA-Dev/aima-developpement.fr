@@ -12,6 +12,12 @@
 
 #elements>div>img {
     width: 10vw;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+}
+
+#elements>div>img:hover {
+    transform: scale(1.05);
 }
 
 #elements a {

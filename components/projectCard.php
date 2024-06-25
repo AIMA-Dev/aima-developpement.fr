@@ -1,4 +1,4 @@
-<div class="projectCard">
+<div class="projectCard" onclick="window.location.href = '<?php echo $url ?>';">
     <a class="stat"><?php echo $stat ?></a>
     <img src="<?php echo $image ?>" alt="cyclotron">
     <div class="content">

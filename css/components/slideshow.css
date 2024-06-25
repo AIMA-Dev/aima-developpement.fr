@@ -54,12 +54,14 @@
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    background-color: var(--DarkScarlet);
+    border-radius: 0 0 5px 0;
 }
 
 /* Container for image text */
 .slideshowContainer .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: var(--DarkScarlet);
     padding: 2px 16px;
     color: white;
 }
