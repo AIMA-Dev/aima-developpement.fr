@@ -1,5 +1,5 @@
 {
-    "title": "MiniCyc | AIMA Developpement",
+    "title": "S2C2™ | AIMA Developpement",
     "header": {
         "title": "S2C2™",
         "description": "outstanding collaboration between AIMA and IBA"
@@ -14,8 +14,8 @@
     },
     "text": "This accelerator is used for phototherapy and is sold by the company IBA under the name “Proteus One”",
     "slideshow": {
-        "1": "3D model of the S2C2™ magnet",
-        "2": "3D model of the S2C2™ magnet",
+        "1": "1st phase oscillation in the S2C2™ central region",
+        "2": "1st phase oscillation in the S2C2™ central region",
         "3": "3D model of the S2C2™ magnet"
     }
 }

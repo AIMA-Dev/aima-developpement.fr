@@ -1,0 +1,14 @@
+{
+    "title": "AIMA-PN | AIMA Developpement",
+    "header": {
+        "title": "AIMA-PN",
+        "description": "Entirely designed and built by AIMA"
+    },
+    "intro": "This accelerator is dedicated to Fluorine-18 (F18) production for PET and SPECT. The rights of this machine have been sold to the industry. This cyclotron was entirely designed and built by AIMA. Here are the main characteristics:",
+    "slideshow": {
+        "1": "AIMA-PN soulevé par une grue en direction de son bunker",
+        "2": "Région centrale d’AIMA-PN « le cœur » de l’accélérateur",
+        "3": "AIMA-PN avec sa voie de faisceau et cible externe",
+        "4": "AIMA-PN avec sa voie de faisceau et cible externe"
+    }
+}

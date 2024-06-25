@@ -1,0 +1,14 @@
+{
+    "title": "AIMA-PN | AIMA Developpement",
+    "header": {
+        "title": "AIMA-PN",
+        "description": "Totalmente diseñado y construido por AIMA"
+    },
+    "intro": "Este acelerador está dedicado a la producción de Fluor-18 (F18) para PET y SPECT. Los derechos de esta máquina han sido vendidos a la industria. Este ciclotrón fue totalmente diseñado y construido por AIMA. Estas son las principales características:",
+    "slideshow": {
+        "1": "AIMA-PN levantado por una grúa en dirección a su bunker",
+        "2": "Región central de AIMA-PN 'el núcleo' del acelerador",
+        "3": "AIMA-PN con su trayectoria de haz y objetivo externo",
+        "4": "AIMA-PN con su trayectoria de haz y objetivo externo"
+    }
+}

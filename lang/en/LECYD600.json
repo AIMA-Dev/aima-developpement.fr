@@ -1,0 +1,13 @@
+{
+    "title": "LECYD-600 | AIMA Developpement",
+    "header": {
+        "title": "LECYD-600",
+        "description": "A new type of nuclear power"
+    },
+    "text1": "This cyclotron is designed to drive a nuclear reactor. A collaboration was set-up in 1994 with the CERN group of Professor Carlo Rubbia (Nobel 1984 and former CERN General Director), for design studies of various high intensity cyclotron-based drivers for the « Energy Amplifier » project. The goal was to drive a subcritical nuclear reactor with a high-power proton accelerator to produce a large flux of spallation neutrons. The « Energy Amplifier » was the historical pioneer of the so-called now Accelerator Driven Systems (ADS).",
+    "text2": "In 2012 AIMA patented LECYD-600, an accelerator concept which can drive a nuclear reactor for a much lower cost that any solution that has ever been proposed. As it can be seen on the following figure, LECYD needs 14MWe from the grid to produce a proton beam of 3.6 MW. The beam hits a lead-cooled subcritical core filled with Thorium or nuclear wastes, which produce steam being converted into 270 MWe. 270MWe produced with only 14 MWe from the grid (and some Thorium also !)",
+    "slideshow": {
+        "1": "Working principle of an ADS (LECYD can be seen in the top left corner)",
+        "2": "CAD view of LECYD-600"
+    }
+}

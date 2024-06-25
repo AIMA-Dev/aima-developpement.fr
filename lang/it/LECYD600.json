@@ -1,0 +1,12 @@
+{
+    "title": "LECYD-600 | AIMA Developpement",
+    "header": {
+        "title": "LECYD-600",
+        "description": "Un nuovo tipo di energia nucleare"
+    },
+    "text1": "Questo ciclotrone è progettato per guidare un reattore nucleare. Nel 1994 è stata stabilita una collaborazione con il gruppo CERN del professor Carlo Rubbia (Nobel 1984 e ex direttore generale del CERN) per studi di progettazione di vari driver a ciclotrone ad alta intensità per il progetto « Energy Amplifier ». L'obiettivo era guidare un reattore nucleare subcritico con un acceleratore di protoni ad alta potenza per produrre un grande flusso di neutroni da spallazione. L'« Energy Amplifier » è stato il pioniere storico dei cosiddetti Accelerator Driven Systems (ADS).",
+    "text2": "Nel 2012 AIMA ha brevettato LECYD-600, un concetto di acceleratore che può guidare un reattore nucleare a un costo molto inferiore rispetto a qualsiasi soluzione mai proposta. Come si può vedere nella figura seguente, LECYD richiede 14 MWe dalla rete per produrre un fascio di protoni di 3,6 MW. Il fascio colpisce un nucleo subcritico raffreddato al piombo riempito di torio o scorie nucleari, che produce vapore convertito in 270 MWe. 270 MWe prodotti con solo 14 MWe dalla rete (e anche un po' di torio!)",
+    "slideshow": {
+        "1": "Un nuovo tipo di energia nucleare"
+    }
+}
