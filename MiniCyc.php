@@ -31,9 +31,11 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         ?>
     </header>
     <main>
-        <?php include ('components/projectHeader.php'); ?>
         <?php
             $thumbnail = "assets/img/projects/minicyc/thumbnail.webp";
+            include ('components/projectHeader.php');
+        ?>
+        <?php
             $model = "assets/3D/minicyc.glb";
             include ('components/3dModelViewer.php');
         ?>
@@ -41,7 +43,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <a><?php getValueFromJson('elements.text'); ?></a>
         <div id="elements">
             <div>
-                <img src="assets/img/tableofelements/Florine.svg" alt="Florin">
+                <img src="assets/img/tableofelements/Fluorine.svg" alt="Fluorine">
                 <a><?php getValueFromJson('elements.fluorine'); ?></a>
             </div>
             <div>

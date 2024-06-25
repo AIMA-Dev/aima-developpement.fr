@@ -1,5 +1,5 @@
 <model-viewer src="<?php echo $model ?>" ar ar-modes="webxr scene-viewer quick-look" camera-controls
-    tone-mapping="neutral" poster="<?php echo $thumbnail ?>" shadow-intensity="1">
+    tone-mapping="neutral" poster="assets/img/loading3D.svg" shadow-intensity="1">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>

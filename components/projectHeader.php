@@ -1,5 +1,5 @@
 <div class="projectHeader">
-    <img src="https://placehold.co/600x400/orange/white" alt="">
+    <img src="<?php echo $thumbnail ?>" alt="">
     <div class="separator"></div>
     <div class="content">
         <a><?php echo $title ?></a>
