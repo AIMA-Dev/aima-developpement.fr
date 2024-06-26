@@ -103,6 +103,7 @@ footer>* {
     color: var(--Black);
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 #themeSwitch {
