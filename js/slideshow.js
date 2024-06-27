@@ -1,29 +1,54 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+function Slideshow(slideshowContainer) {
+    this.slideIndex = 1;
+    this.slides = slideshowContainer.getElementsByClassName("mySlides");
+    this.dots = slideshowContainer.getElementsByClassName("demo");
+    this.captionText = slideshowContainer.getElementsByClassName("caption")[0];
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+    this.showSlides = (n) => {
+        let i;
+        if (n > this.slides.length) { this.slideIndex = 1 }
+        if (n < 1) { this.slideIndex = this.slides.length }
+        for (i = 0; i < this.slides.length; i++) {
+            this.slides[i].style.display = "none";
+        }
+        for (i = 0; i < this.dots.length; i++) {
+            this.dots[i].className = this.dots[i].className.replace(" active", "");
+        }
+        this.slides[this.slideIndex - 1].style.display = "block";
+        this.dots[this.slideIndex - 1].className += " active";
+        this.captionText.innerHTML = this.dots[this.slideIndex - 1].alt;
+    };
+
+    this.plusSlides = (n) => {
+        this.showSlides(this.slideIndex += n);
+    };
+
+    this.currentSlide = (n) => {
+        this.showSlides(this.slideIndex = n);
+    };
+
+    this.showSlides(this.slideIndex);
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+document.addEventListener("DOMContentLoaded", function () {
+    const slideshows = document.querySelectorAll('.slideshowContainer');
+    slideshows.forEach(slideshowContainer => {
+        const slideshow = new Slideshow(slideshowContainer);
 
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("demo");
-    let captionText = document.getElementById("caption");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-    captionText.innerHTML = dots[slideIndex - 1].alt;
-}
-// © AIMA DEVELOPPEMENT 2024
+        // Attaching event listeners for navigation buttons
+        slideshowContainer.querySelector('.prev').addEventListener('click', function () {
+            slideshow.plusSlides(-1);
+        });
+        slideshowContainer.querySelector('.next').addEventListener('click', function () {
+            slideshow.plusSlides(1);
+        });
+
+        // Attaching event listeners for thumbnail images
+        const thumbnails = slideshowContainer.querySelectorAll('.demo');
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener('click', function () {
+                slideshow.currentSlide(index + 1);
+            });
+        });
+    });
+});
