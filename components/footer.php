@@ -45,7 +45,7 @@
         <a>&nbsp;|&nbsp;</a>
         <a href="legalnotice.php"><?php getValueFromJson('legalnotice'); ?></a>
         <a>&nbsp;|&nbsp;</a>
-        <a href="sitemap.xml"><?php getValueFromJson('sitemap'); ?></a>
+        <a href="sitemap.php"><?php getValueFromJson('sitemap'); ?></a>
     </div>
     <div>
         <a id="themeSwitch"><img src="/assets/img/icons/settings_brightness.svg" alt="Toggle Dark/Light Theme"></a>
