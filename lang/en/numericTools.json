@@ -1,5 +1,6 @@
 {
     "title": "Numeric Tools | AIMA Development",
+    "description": "Numeric tools",
     "intro": "AIMA develops and uses a large proprietary library of dedicated cyclotron 6D-beam dynamics sofware tools to design innovative cyclotrons.",
     "tools": {
         "1": {

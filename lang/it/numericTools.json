@@ -1,42 +1,43 @@
 {
-    "title": "Strumenti numerici | AIMA Sviluppo",
-    "intro": "AIMA develops and uses a large proprietary library of dedicated cyclotron 6D-beam dynamics sofware tools to design innovative cyclotrons.",
+    "title": "Strumenti numerici | AIMA Developpement",
+    "description": "Outils numériques",
+    "intro": "AIMA sviluppa e utilizza una vasta libreria proprietaria di strumenti software dedicati alla dinamica del fascio 6D per progettare ciclotroni innovativi.",
     "tools": {
         "1": {
             "title": "Agora - 6D",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "slideshow": {
-                "1": "Space charge effects (static bunch)",
-                "2": "Central region of the MEDICYC cyclotron",
-                "3": "Vertical movement in the central region",
-                "4": "Transport in a beam line – Comparison AGORA/Transport"
+                "1": "Effetti di carica spaziale (gruppo statico)",
+                "2": "Regione centrale del ciclotrone MEDICYC",
+                "3": "Movimento verticale nella regione centrale",
+                "4": "Trasporto in una linea di fascio - Confronto AGORA/Trasporto"
             }
         },
         "2": {
-            "title": "CST – Dassault System",
+            "title": "CST - Dassault System",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "slideshow": {
-                "1": "Surface currents in a RF cavity",
-                "2": "Comparison of CST and IBSimu trajectories in the RADIS ion source",
-                "3": "H+ trajectories in a spiral inflector",
-                "4": "Potential in a buncher"
+                "1": "Correnti superficiali in una cavità RF",
+                "2": "Confronto delle traiettorie CST e IBSimu nella sorgente di ioni RADIS",
+                "3": "Traiettorie H+ in un inflettore a spirale",
+                "4": "Potenziale in un buncher"
             }
         },
         "3": {
-            "title": "Solidworks – Dassault system",
+            "title": "Solidworks - Dassault system",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "slideshow": {
-                "1": "CAD model of the test bench",
-                "2": "CAD model of MinicycTM and its shielding "
+                "1": "Modello CAD della piastra di prova",
+                "2": "Modello CAD di MinicycTM e il suo schermo"
             }
         },
         "4": {
-            "title": "Codes Aster / Salomé Méca – EDF",
+            "title": "Codes Aster / Salomé Méca - EDF",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "slideshow": {
-                "1": "Displacement field along the vertical axis of a typical cyclotron vacuum chamber under vacuum loads",
-                "2": "Temperature field along a cyclotron beam probe",
-                "3": "Temperature field along a cyclotron beam probe"
+                "1": "Campo di spostamento lungo l'asse verticale di una tipica camera di vuoto di un ciclotrone sotto carichi di vuoto",
+                "2": "Campo di temperatura lungo una sonda del fascio di un ciclotrone",
+                "3": "Campo di temperatura lungo una sonda del fascio di un ciclotrone"
             }
         }
     }

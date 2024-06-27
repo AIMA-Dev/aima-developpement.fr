@@ -1,5 +1,6 @@
 {
     "title": "Outils numériques | AIMA Developpement",
+    "description": "Outils numériques",
     "intro": "AIMA développe et utilise un large panel de logiciels propriétaires 6D dédiés à l’étude de la physique des particules et des cyclotrons.",
     "tools": {
         "1": {

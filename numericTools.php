@@ -22,8 +22,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include ('components/header.php'); ?>
     </header>
     <main>
-        <h1>Numeric tools</h1>
-        <a>AIMA develops and uses a large proprietary library of dedicated cyclotron 6D-beam dynamics sofware tools to design innovative cyclotrons.</a>
+        <h1><?php getValueFromJson('description'); ?></h1>
+        <a><?php getValueFromJson('intro'); ?></a>
         <?php
             echo '<section>';
             echo '<h2>' . getValueFromJson('tools.1.title', false) .'</h2>';
