@@ -12,9 +12,9 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 
 <head>
     <title><?php getValueFromJson('title'); ?></title>
-    <link rel="stylesheet" href="css/components/smallSlideshow.css">
-    <script src="js/components/smallSlideshow.js" defer></script>
     <?php include 'components/head.php'; ?>
+    <link rel="stylesheet" href="css/components/slideshow.css">
+    <script src="js/slideshow.js" defer></script>
 </head>
 
 <body>
@@ -22,24 +22,77 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include ('components/header.php'); ?>
     </header>
     <main>
+        <h1>Numeric tools</h1>
+        <a>AIMA develops and uses a large proprietary library of dedicated cyclotron 6D-beam dynamics sofware tools to design innovative cyclotrons.</a>
         <?php
-            for ($i = 0; $i < 4; $i++) {
-                echo '<section>';
-                echo '<a>' . getValueFromJson('tools.' . ($i + 1) . '.title', false) .'</a>';
-                echo '<a>' . getValueFromJson('tools.' . ($i + 1) . '.description', false) .'</a>';
-                $images = [
-                    "assets/img/projects/minicyc/slideshow1.webp",
-                    "assets/img/projects/minicyc/slideshow2.webp",
-                    "assets/img/projects/minicyc/slideshow2.webp"
-                ];
-                $titles = [
-                    "11111111",
-                    "11111111",
-                    "11111111"
-                ];
-                include 'components/smallSlideshow.php';
-                echo '</section>';
-            }
+            echo '<section>';
+            echo '<h2>' . getValueFromJson('tools.1.title', false) .'</h2>';
+            echo '<a>' . getValueFromJson('tools.1.description', false) .'</a>';
+            $images = [
+                "assets/img/numericTools/agora6D/slideshow1.gif",
+                "assets/img/numericTools/agora6D/slideshow2.webp",
+                "assets/img/numericTools/agora6D/slideshow3.webp",
+                "assets/img/numericTools/agora6D/slideshow4.webp"
+            ];
+            $titles = [
+                getValueFromJson('tools.1.slideshow.1', false),
+                getValueFromJson('tools.1.slideshow.2', false),
+                getValueFromJson('tools.1.slideshow.3', false),
+                getValueFromJson('tools.1.slideshow.4', false)
+            ];
+            include ('components/slideshow.php');
+            echo '</section>';
+        ?>
+        <?php
+            echo '<section>';
+            echo '<h2>' . getValueFromJson('tools.2.title', false) .'</h2>';
+            echo '<a>' . getValueFromJson('tools.2.description', false) .'</a>';
+            $images = [
+                "assets/img/numericTools/cst/slideshow1.webp",
+                "assets/img/numericTools/cst/slideshow2.webp",
+                "assets/img/numericTools/cst/slideshow3.webp",
+                "assets/img/numericTools/cst/slideshow4.webp"
+            ];
+            $titles = [
+                getValueFromJson('tools.2.slideshow.1', false),
+                getValueFromJson('tools.2.slideshow.2', false),
+                getValueFromJson('tools.2.slideshow.3', false),
+                getValueFromJson('tools.2.slideshow.4', false)
+            ];
+            include ('components/slideshow.php');
+            echo '</section>';
+        ?>
+        <?php
+            echo '<section>';
+            echo '<h2>' . getValueFromJson('tools.3.title', false) .'</h2>';
+            echo '<a>' . getValueFromJson('tools.3.description', false) .'</a>';
+            $images = [
+                "assets/img/numericTools/solidworks/slideshow1.webp",
+                "assets/img/numericTools/solidworks/slideshow2.webp"
+            ];
+            $titles = [
+                getValueFromJson('tools.3.slideshow.1', false),
+                getValueFromJson('tools.3.slideshow.2', false)
+            ];
+            include ('components/slideshow.php');
+            echo '</section>';
+        ?>
+        <?php
+            echo '<section>';
+            echo '<h2>' . getValueFromJson('tools.4.title', false) .'</h2>';
+            echo '<a>' . getValueFromJson('tools.4.description', false) .'</a>';
+            $images = [
+                "assets/img/numericTools/codeaster/slideshow1.webp",
+                "assets/img/numericTools/codeaster/slideshow2.webp",
+                "assets/img/numericTools/codeaster/slideshow3.webp"
+            ];
+            $titles = [
+                getValueFromJson('tools.4.slideshow.1', false),
+                getValueFromJson('tools.4.slideshow.2', false),
+                getValueFromJson('tools.4.slideshow.3', false)
+            ];
+            include ('components/slideshow.php');
+            echo '</section>';
         ?>
     </main>
     <footer>
