@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+    .projectHeader>*:not(.content) {
+        display: none;
+    }
+    .projectHeader>.content {
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+}

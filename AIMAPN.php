@@ -14,6 +14,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/components/projectHeader.css">
+    <link rel="stylesheet" href="css/responsive/components/projectHeader.css">
     <link rel="stylesheet" href="css/components/slideshow.css">
     <link rel="stylesheet" href="css/components/3dModelViewer.css">
     <script src="js/slideshow.js" defer></script>

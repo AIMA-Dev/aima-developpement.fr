@@ -15,6 +15,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/minicyc.css">
     <link rel="stylesheet" href="css/components/projectHeader.css">
+    <link rel="stylesheet" href="css/responsive/components/projectHeader.css">
     <link rel="stylesheet" href="css/components/slideshow.css">
     <link rel="stylesheet" href="css/components/3dModelViewer.css">
     <script src="js/slideshow.js" defer></script>
