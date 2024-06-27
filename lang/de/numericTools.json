@@ -5,39 +5,39 @@
     "tools": {
         "1": {
             "title": "Agora - 6D",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Agora 6D ist eine proprietäre Software, die von AIMA Development entwickelt wurde und speziell für die Untersuchung von Teilchenphysik und Zyklotronen konzipiert ist.",
             "slideshow": {
-                "1": "Raumladungseffekte (statischer Bündel)",
-                "2": "Zentralregion des MEDICYC-Zyklotrons",
-                "3": "Vertikale Bewegung in der Zentralregion",
-                "4": "Transport in einer Strahlführung - Vergleich AGORA/Transport"
+            "1": "Raumladungseffekte (statischer Bunch)",
+            "2": "Zentralregion des MEDICYC-Zyklotrons",
+            "3": "Vertikale Bewegung in der Zentralregion",
+            "4": "Transport in einer Strahlführung - Vergleich AGORA/Transport"
             }
         },
         "2": {
             "title": "CST - Dassault System",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "CST Studio Suite ist eine proprietäre Software, die von Dassault Systèmes entwickelt wurde und für die 3D-Elektromagnetiksimulation konzipiert ist.",
             "slideshow": {
-                "1": "Oberflächenströme in einer RF-Kavität",
-                "2": "Vergleich der CST- und IBSimu-Trajektorien in der RADIS-Ionenquelle",
-                "3": "H+-Trajektorien in einem Spiralinflektor",
-                "4": "Potential in einem Buncher"
+            "1": "Oberflächenströme in einer RF-Kavität",
+            "2": "Vergleich der CST- und IBSimu-Trajektorien in der RADIS-Ionenquelle",
+            "3": "H+-Trajektorien in einem Spiralinflektor",
+            "4": "Potential in einem Buncher"
             }
         },
         "3": {
             "title": "Solidworks - Dassault System",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "SolidWorks ist eine proprietäre Software, die von Dassault Systèmes entwickelt wurde und für das 3D-Computer-Aided Design (CAD) konzipiert ist.",
             "slideshow": {
-                "1": "CAD-Modell der Testbank",
-                "2": "CAD-Modell von MinicycTM und dessen Abschirmung"
+            "1": "CAD-Modell des Prüfstands",
+            "2": "CAD-Modell von MinicycTM und dessen Abschirmung"
             }
         },
         "4": {
             "title": "Codes Aster / Salomé Méca - EDF",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Code_Aster ist eine Open-Source-Software, die von EDF (Electricité de France) entwickelt wurde und sich auf die numerische Simulation in der Strukturmechanik und Thermomechanik spezialisiert hat.",
             "slideshow": {
-                "1": "Verschiebungsfeld entlang der vertikalen Achse einer typischen Vakuumkammer eines Zyklotrons unter Vakuumlasten",
-                "2": "Temperaturfeld entlang einer Zyklotronstrahlsonde",
-                "3": "Temperaturfeld entlang einer Zyklotronstrahlsonde"
+            "1": "Verschiebungsfeld entlang der vertikalen Achse einer typischen Vakuumkammer eines Zyklotrons unter Vakuumlasten",
+            "2": "Temperaturfeld entlang einer Zyklotronstrahlsonde",
+            "3": "Temperaturfeld entlang einer Zyklotronstrahlsonde"
             }
         }
     }

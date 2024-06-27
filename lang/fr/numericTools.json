@@ -5,7 +5,7 @@
     "tools": {
         "1": {
             "title": "Agora - 6D",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Agora 6D est un logiciel propriétaire développé par AIMA Développement, spécialement conçu pour l'étude de la physique des particules et des cyclotrons.",
             "slideshow": {
                 "1": "Effets de charge espace (bunch statique)",
                 "2": "Région centrale du cyclotron MEDICYC",
@@ -15,7 +15,7 @@
         },
         "2": {
             "title": "CST – Dassault System",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "CST Studio Suite est un logiciel propriétaire développé par Dassault Systèmes, conçu pour la simulation électromagnétique 3D.",
             "slideshow": {
                 "1": "Courants surfaciques dans une cavité Radiofréquence",
                 "2": "Comparaison entre les trajectoires obtenues avec CST et IBSimu pour une source d’ions RADIS",
@@ -25,7 +25,7 @@
         },
         "3": {
             "title": "Solidworks – Dassault system",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "SolidWorks est un logiciel propriétaire développé par Dassault Systèmes, conçu pour la conception assistée par ordinateur (CAO) en 3D.",
             "slideshow": {
                 "1": "Modèle CAO du banc de test pour sources d’ions",
                 "2": "Modèle CAO de MinicycTM et son auto-blindage"
@@ -33,7 +33,7 @@
         },
         "4": {
             "title": "Codes Aster / Salomé Méca – EDF",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Code_Aster est un logiciel libre développé par EDF (Électricité de France), dédié à la simulation numérique en mécanique des structures et en thermomécanique.",
             "slideshow": {
                 "1": "Champs de déplacement vertical d’une chambre à vide de cyclotron soumise aux efforts du vide",
                 "2": "Champ de température le long d’une sonde de faisceau radiale",
