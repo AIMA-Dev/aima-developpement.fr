@@ -21,3 +21,4 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+<!-- © AIMA DEVELOPPEMENT 2024 -->
