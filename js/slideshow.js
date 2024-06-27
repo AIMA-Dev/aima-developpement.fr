@@ -52,3 +52,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+// © AIMA DEVELOPPEMENT 2024
