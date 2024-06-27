@@ -17,7 +17,9 @@
 </div>
 
 <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+    <?php
+    foreach ($images as $key => $image) {
+        echo '<span class="dot" onclick="currentSlide(' . ($key + 1) . ')"></span>';
+    }
+    ?>
 </div>
