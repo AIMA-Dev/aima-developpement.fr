@@ -12,6 +12,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 
 <head>
     <title><?php getValueFromJson('title'); ?></title>
+    <link rel="stylesheet" href="css/components/smallSlideshow.css">
+    <script src="js/components/smallSlideshow.js" defer></script>
     <?php include 'components/head.php'; ?>
 </head>
 
@@ -21,11 +23,22 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     </header>
     <main>
         <?php
-            for ($i = 0; $i < 5; $i++) {
-                echo '<div>';
-                echo '<a>' . getValueFromJson('tools.' . ($i + 1) . '.title') .'</a>';
-                echo '<a>' . getValueFromJson('tools.' . ($i + 1) . '.description') .'</a>';
-                echo '</div>';
+            for ($i = 0; $i < 4; $i++) {
+                echo '<section>';
+                echo '<a>' . getValueFromJson('tools.' . ($i + 1) . '.title', false) .'</a>';
+                echo '<a>' . getValueFromJson('tools.' . ($i + 1) . '.description', false) .'</a>';
+                $images = [
+                    "assets/img/projects/minicyc/slideshow1.webp",
+                    "assets/img/projects/minicyc/slideshow2.webp",
+                    "assets/img/projects/minicyc/slideshow2.webp"
+                ];
+                $titles = [
+                    "11111111",
+                    "11111111",
+                    "11111111"
+                ];
+                include 'components/smallSlideshow.php';
+                echo '</section>';
             }
         ?>
     </main>
