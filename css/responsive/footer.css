@@ -46,6 +46,7 @@
     #footerBottom>*:last-child {
         width: 90%;
         text-align: center;
+        justify-content: space-between;
     }
 }
 /* © AIMA DEVELOPPEMENT 2024 */

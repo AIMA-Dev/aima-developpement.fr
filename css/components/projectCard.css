@@ -2,7 +2,7 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: var(--TransparentGray);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 20vw;
     border-radius: 5px;

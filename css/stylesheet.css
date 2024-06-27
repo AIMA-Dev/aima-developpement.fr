@@ -265,7 +265,7 @@ button {
 
 input[type="submit"],
 button {
-    color: var(--White);
+    color: White;
     background-color: var(--SpiroDiscoBall);
     cursor: pointer;
     transition: ease-in-out 0.25s;

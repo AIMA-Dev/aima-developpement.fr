@@ -17,7 +17,7 @@ ul {
     column-gap: var(--col-gap);
     list-style: none;
     width: min(60rem, 90%);
-    margin-inline: auto;
+    /* margin-inline: auto; */
 }
 
 /* line */

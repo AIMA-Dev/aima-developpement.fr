@@ -6,29 +6,25 @@
         "name": "Pierre Mandrillion",
         "job": "PDG et fondateur",
         "description": "",
-        "image": "assets/img/team/PierreMandrillon.webp",
-        "url": "https://www.linkedin.com/in/pierre-mandrillon-9676a8174/"
+        "image": "assets/img/team/PierreMandrillon.webp"
     },
     "matthieuconjat": {
         "name": "Matthieu Conjat",
         "job": "Ingénieur d’études",
         "description": "",
-        "image": "assets/img/team/MatthieuConjat.webp",
-        "url": "https://www.linkedin.com/in/matthieu-conjat-ba1431128/"
+        "image": "assets/img/team/MatthieuConjat.webp"
     },
     "raphaëldevianne": {
         "name": "Raphaël Devianne",
         "job": "Ingénieur mécanicien",
         "description": "",
-        "image": "assets/img/team/RaphaëlDevianne.webp",
-        "url": "https://www.linkedin.com/in/rapha%C3%ABl-devianne-3a3453170/"
+        "image": "assets/img/team/RaphaëlDevianne.webp"
     },
     "antoinezoude": {
         "name": "Antoine Zoude",
         "job": "Ingénieur mécanicien",
         "description": "",
-        "image": "assets/img/team/AntoineZoude.webp",
-        "url": "https://www.linkedin.com/in/antoine-zoude-8b5608176/"
+        "image": "assets/img/team/AntoineZoude.webp"
     },
     "ouradvisors": "Nuestros asesores científicos",
     "scientificadvisory": "Comité asesor científico: El comité Charpak",
@@ -36,78 +32,67 @@
         "name": "Georges Charpak",
         "job": "Prix Nobel de physique 1992",
         "description": "",
-        "image": "assets/img/team/GeorgesCharpak.webp",
-        "url": "https://fr.wikipedia.org/wiki/Georges_Charpak"
+        "image": "assets/img/team/GeorgesCharpak.webp"
     },
     "francoisdemard": {
         "name": "Pr. François Demard",
         "job": "Directeur honoraire",
         "description": "",
-        "image": "assets/img/team/FrançoisDemard.webp",
-        "url": ""
+        "image": "assets/img/team/FrançoisDemard.webp"
     },
     "renaudguignard": {
         "name": "Dr. Renaud Guignard",
         "job": "FMH Médecin Nucléaire expert",
         "description": "",
-        "image": "assets/img/team/RenaudGuignard.webp",
-        "url": ""
+        "image": "assets/img/team/RenaudGuignard.webp"
     },
     "gillesviot": {
         "name": "Gilles Viot",
         "job": "Expert radiochimiste",
         "description": "",
-        "image": "assets/img/team/GillesViot.webp",
-        "url": ""
+        "image": "assets/img/team/GillesViot.webp"
     },
     "joelherault": {
         "name": "Dr. Joel Herault",
         "job": "Expert physique médicale IMPT, CAL, Nice",
         "description": "",
-        "image": "assets/img/team/JoelHerault.webp",
-        "url": ""
+        "image": "assets/img/team/JoelHerault.webp"
     },
     "alessandralombardi": {
         "name": "Dr. Alessandra Lombardi",
         "job": "CERN Expert en physique Accélérateur",
         "description": "",
-        "image": "assets/img/team/AlessandraLombardi.webp",
-        "url": ""
+        "image": "assets/img/team/AlessandraLombardi.webp"
     },
     "jeromedoyen": {
         "name": "Pr. Jérôme Doyen",
         "job": "Radiothérapeute expert Centre Antoine Lacassagne, Nice",
         "description": "",
-        "image": "assets/img/team/JeromeDoyen.webp",
-        "url": ""
+        "image": "assets/img/team/JeromeDoyen.webp"
     },
     "technicalboard": "Junta técnica: Seguimiento del progreso del proyecto",
     "jeanclaudegrini": {
         "name": "Jean-Claude Grini",
         "job": "Expert électronicien",
         "description": "",
-        "image": "assets/img/team/JeanClaudeGrini.webp",
-        "url": ""
+        "image": "assets/img/team/JeanClaudeGrini.webp"
     },
     "guillaumemagrin": {
         "name": "Guillaume Magrin",
         "job": "Expert accel. médicaux",
         "description": "",
-        "image": "assets/img/team/GuillaumeMagrin.webp",
-        "url": ""
+        "image": "assets/img/team/GuillaumeMagrin.webp"
     },
     "henribraquet": {
         "name": "Henri Braquet",
         "job": "Expert comptabilité électromagnétique",
         "description": "",
-        "image": "assets/img/team/HenriBraquet.webp",
-        "url": ""
+        "image": "assets/img/team/HenriBraquet.webp"
     },
     "alexandregiusto": {
         "name": "Alexandre Giusto",
         "job": "Ex chef BE Medicyc",
         "description": "",
-        "image": "assets/img/team/AlexandreGiusto.webp",
-        "url": ""
+        "image": "assets/img/team/AlexandreGiusto.webp"
     }
 }
