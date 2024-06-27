@@ -55,6 +55,12 @@
             <priority>0.8</priority>
         </url>
         <url>
+            <loc>www.aima-developpement.fr/sitemap.php</loc>
+            <lastmod>2024-06-27</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
             <loc>www.aima-developpement.fr/team.php</loc>
             <lastmod>2024-06-27</lastmod>
             <changefreq>weekly</changefreq>
