@@ -23,10 +23,11 @@ form {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 #formRight>div>* {
-    width: 10vw;
+    width: 40%;
 }
 
 #formLeft>textarea {
