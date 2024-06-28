@@ -3,7 +3,7 @@ form {
     align-items: stretch;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin: 20vh 10vw;
+    margin: 15vh 0vw;
 }
 
 #formRight,

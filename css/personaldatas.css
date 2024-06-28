@@ -3,10 +3,6 @@ main {
     flex-direction: column;
 }
 
-h1 {
-    padding: 20px;
-}
-
 p {
     width: 50%;
     padding: 0 30px;
