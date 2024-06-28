@@ -25,7 +25,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include ('components/header.php'); ?>
     </header>
     <main>
-        <h1><?php getValueFromJson('description'); ?></h1>
+        <h1><?php getValueFromJson('story'); ?></h1>
         <a><?php getValueFromJson('text'); ?></a>
         <section id="timeline">
             <ul>
@@ -66,6 +66,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 </li>
             </ul>
         </section>
+        <h1><?php getValueFromJson('expertise.title'); ?></h1>
         <section id="expertise">
             <div>
                 <?php

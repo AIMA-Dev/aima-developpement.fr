@@ -1,3 +1,10 @@
+@media (max-width: 1000px) {
+    .expertiseCard {
+        width: 100vw;
+        margin: 0 -5vw;
+    }    
+}
+
 @media (max-width: 900px) {
     .expertiseCard {
         height: inherit;

@@ -1,8 +1,7 @@
 .expertiseCard {
     display: flex;
-    width: 100vw;
     height: 350px;
-    margin: 0 -5vw;
+    margin: 25px 0px;
 }
 
 .expertiseCard#reversed {
@@ -47,7 +46,7 @@
 }
 
 /* DOT */
-.expertiseCard .dotWrap  {
+.expertiseCard .dotWrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,4 +66,5 @@
 .expertiseCard .dotActive {
     background-color: white;
 }
+
 /* © AIMA DEVELOPPEMENT 2024 */

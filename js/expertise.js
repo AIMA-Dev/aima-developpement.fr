@@ -1,8 +1,8 @@
-const imgWraps = document.querySelectorAll('.imgWrap');
+const expertiseCards = document.querySelectorAll('.expertiseCard');
 
-imgWraps.forEach(imgWrap => {
-    const images = imgWrap.querySelectorAll('img');
-    const dots = imgWrap.querySelectorAll('.dot');
+expertiseCards.forEach(expertiseCard => {
+    const images = expertiseCard.querySelectorAll('img');
+    const dots = expertiseCard.querySelectorAll('.dot');
 
     dots.forEach((dot, index) => {
         dot.addEventListener('click', () => {
