@@ -1,0 +1,20 @@
+@media (max-width: 900px) {
+    .expertiseCard {
+        height: inherit;
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .expertiseCard#reversed {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .expertiseCard>div {
+        width: 100% !important;
+    }
+
+    .expertiseCard>div:last-child>* {
+        padding: 20px;
+    }
+}

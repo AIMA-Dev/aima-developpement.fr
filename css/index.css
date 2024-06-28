@@ -2,6 +2,11 @@ section {
     margin: 50px 0px;
 }
 
+section:last-child {
+    margin-bottom: 0px;
+    border-bottom: solid 5px var(--TransparentGray);
+}
+
 /*-----TIMELINE-----*/
 section#timeline {
     margin-top: 100px;
@@ -137,87 +142,3 @@ ul li .descr::before {
     z-index: -1;
     bottom: 0.25rem;
 }
-
-
-/*-----ExpertiseCard-----*/
-.expertiseCard {
-    margin: 0px -100px;
-    padding: 50px 100px;
-    width: 100%;
-    min-height: 200px;
-    display: flex;
-    flex-direction: row;
-}
-
-.expertiseCard .centerContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 100px;
-}
-
-.expertiseCard .centerContent>div {
-    display: flex;
-    flex-direction: row;
-}
-
-.expertiseCard .centerContent>div>a {
-    text-align: justify;
-}
-
-.expertiseCard .imgWrap {
-    margin-right: 20px;
-}
-
-.expertiseCard .imgWrap>img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.expertiseCard .imgActive {
-    display: block;
-}
-
-.expertiseCard .imgInactive {
-    display: none;
-}
-
-.expertiseCard .dotWrap  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-}
-
-.expertiseCard .dot {
-    height: 10px;
-    width: 10px;
-    background-color: var(--TransparentGray);
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.expertiseCard .dotActive {
-    background-color: var(--DarkScarlet);
-}
-
-.expertiseCard .colorBlock {
-    width: 20px;
-    height: auto;
-}
-
-.expertiseCard .colorBlock.right {
-    margin-left: 170px;
-    margin-right: -230px;
-    background-color: var(--SpiroDiscoBall);
-}
-
-.expertiseCard .colorBlock.left {
-    margin-right: 50px;
-    margin-left: -230px;
-    background-color: var(--DarkScarlet);
-}
-/* © AIMA DEVELOPPEMENT 2024 */

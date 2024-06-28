@@ -15,6 +15,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/responsive/index.css">
+    <link rel="stylesheet" href="css/components/expertiseCard.css">
+    <link rel="stylesheet" href="css/responsive/components/expertiseCard.css">
     <script src="js/expertise.js" defer></script>
 </head>
 
@@ -67,34 +69,34 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <section id="expertise">
             <div>
                 <?php
-                    $side = 'right';
-                    $title = getValueFromJson('expertise.1.title', false);
-                    $text = getValueFromJson('expertise.1.text', false);
-                    $images = [
-                        'assets/img/expertise/ionSource1.webp',
-                        'assets/img/expertise/ionSource2.webp'
-                    ];
-                    include ('components/expertiseCard.php');
+                $side = '';
+                $title = getValueFromJson('expertise.1.title', false);
+                $text = getValueFromJson('expertise.1.text', false);
+                $images = [
+                    'assets/img/expertise/ionSource1.webp',
+                    'assets/img/expertise/ionSource2.webp'
+                ];
+                include ('components/expertiseCard.php');
                 ?>
                 <?php
-                    $side = 'left';
-                    $title = getValueFromJson('expertise.2.title', false);
-                    $text = getValueFromJson('expertise.2.text', false);
-                    $images = [
-                        'assets/img/expertise/cyclotron1.webp',
-                        'assets/img/expertise/cyclotron2.webp'
-                    ];
-                    include ('components/expertiseCard.php');
+                $side = 'reversed';
+                $title = getValueFromJson('expertise.2.title', false);
+                $text = getValueFromJson('expertise.2.text', false);
+                $images = [
+                    'assets/img/expertise/cyclotron1.webp',
+                    'assets/img/expertise/cyclotron2.webp'
+                ];
+                include ('components/expertiseCard.php');
                 ?>
                 <?php
-                    $side = 'right';
-                    $title = getValueFromJson('expertise.3.title', false);
-                    $text = getValueFromJson('expertise.3.text', false);
-                    $images = [
-                        'assets/img/expertise/beamline1.webp',
-                        'assets/img/expertise/beamline2.webp'
-                    ];
-                    include ('components/expertiseCard.php');
+                $side = '';
+                $title = getValueFromJson('expertise.3.title', false);
+                $text = getValueFromJson('expertise.3.text', false);
+                $images = [
+                    'assets/img/expertise/beamline1.webp',
+                    'assets/img/expertise/beamline2.webp'
+                ];
+                include ('components/expertiseCard.php');
                 ?>
             </div>
         </section>
