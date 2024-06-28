@@ -1,3 +1,10 @@
+@media (max-width: 1200px) {
+    #headerRight>a {
+        margin: 0 25px;
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 1100px) {
     header {
         display: flex;
