@@ -1,6 +1,6 @@
 {
     "title": "AIMA Developpement",
-    "description": "Our story",
+    "story": "Our story",
     "text": "Depuis 2005, AIMA Développement conçoit, construit et teste des designs de cyclotrons innovants pour des applications médicales et industrielles. Son expertise provient du laboratoire du Centre Antoine Lacassagne (CAL), qui a conçu et construit MEDICYC, le premier accélérateur français utilisé pour la protonthérapie dans un hôpital. Pierre Mandrillon était le porteur du projet MEDICYC. Avant de prendre sa retraite du CAL, il fonda AIMA, dont il est toujours le PDG.",
     "timeline": {
         "1": {
@@ -33,6 +33,7 @@
         }
     },
     "expertise": {
+        "title": "Expertise",
         "1": {
             "title": "Test et conception de sources d’ions",
             "text": "Source d’ions multicusp compacte pour ions négatifs (H- et D-) et positifs (H+ et H2+), sources Penning Ion Gauge (PIG) à cathodes froides pour la production d’ion positifs"
