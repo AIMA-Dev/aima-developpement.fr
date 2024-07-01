@@ -1,26 +1,2 @@
-// Init on load
-$(document).ready(function() {
-    if ($(this).scrollTop() > 0) {
-        $('#scrollTopBtn').addClass("showScrollAnim1");
-    }
-    else {
-        $('#scrollTopBtn').removeClass("showScrollAnim1");
-    }
-});
-
-// On Scroll
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 0) {
-        $('#scrollTopBtn').addClass("showScrollAnim1");
-    }
-    else {
-        $('#scrollTopBtn').removeClass("showScrollAnim1");
-    }
-    if ($(this).scrollTop() > 50) {
-        $('#scrollTopBtn').addClass("showScrollAnim2");
-    }
-    else {
-        $('#scrollTopBtn').removeClass("showScrollAnim2");
-    }
-});
+function _0x5e4b(_0x56d328,_0x3db0db){var _0x59ecd9=_0x59ec();return _0x5e4b=function(_0x5e4b8b,_0x1d862b){_0x5e4b8b=_0x5e4b8b-0x188;var _0x3c37ef=_0x59ecd9[_0x5e4b8b];return _0x3c37ef;},_0x5e4b(_0x56d328,_0x3db0db);}function _0x59ec(){var _0x874f13=['1241936HqutPk','18yWGJQu','#scrollTopBtn','removeClass','showScrollAnim2','scrollTop','5759391nXQLnd','522663wchKjs','3243906DhvTOR','scroll','addClass','7Fhypqs','124GrPAcz','4EjCKnI','48134uGugGN','3809460kpVlyd','showScrollAnim1','43985eNyJFz'];_0x59ec=function(){return _0x874f13;};return _0x59ec();}var _0x5ce9de=_0x5e4b;(function(_0x44b4a6,_0x36b940){var _0x5cf519=_0x5e4b,_0xc1ae87=_0x44b4a6();while(!![]){try{var _0x4bbdda=-parseInt(_0x5cf519(0x18c))/0x1*(parseInt(_0x5cf519(0x18d))/0x2)+parseInt(_0x5cf519(0x198))/0x3+-parseInt(_0x5cf519(0x18b))/0x4*(-parseInt(_0x5cf519(0x190))/0x5)+-parseInt(_0x5cf519(0x199))/0x6*(parseInt(_0x5cf519(0x18a))/0x7)+-parseInt(_0x5cf519(0x191))/0x8*(parseInt(_0x5cf519(0x192))/0x9)+parseInt(_0x5cf519(0x18e))/0xa+parseInt(_0x5cf519(0x197))/0xb;if(_0x4bbdda===_0x36b940)break;else _0xc1ae87['push'](_0xc1ae87['shift']());}catch(_0x43b46e){_0xc1ae87['push'](_0xc1ae87['shift']());}}}(_0x59ec,0x62a54),$(document)['ready'](function(){var _0x1e8e99=_0x5e4b;$(this)[_0x1e8e99(0x196)]()>0x0?$('#scrollTopBtn')['addClass'](_0x1e8e99(0x18f)):$(_0x1e8e99(0x193))['removeClass']('showScrollAnim1');}),$(window)[_0x5ce9de(0x188)](function(){var _0x2da647=_0x5ce9de;$(this)['scrollTop']()>0x0?$(_0x2da647(0x193))[_0x2da647(0x189)](_0x2da647(0x18f)):$('#scrollTopBtn')[_0x2da647(0x194)](_0x2da647(0x18f)),$(this)[_0x2da647(0x196)]()>0x32?$('#scrollTopBtn')[_0x2da647(0x189)](_0x2da647(0x195)):$(_0x2da647(0x193))[_0x2da647(0x194)](_0x2da647(0x195));}));
 // © AIMA DEVELOPPEMENT 2024

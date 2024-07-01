@@ -1,12 +1,1 @@
-const onProgress = (event) => {
-    const progressBar = event.target.querySelector('.progress-bar');
-    const updatingBar = event.target.querySelector('.update-bar');
-    updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
-    if (event.detail.totalProgress === 1) {
-      progressBar.classList.add('hide');
-      event.target.removeEventListener('progress', onProgress);
-    } else {
-      progressBar.classList.remove('hide');
-    }
-  };
-  document.querySelector('model-viewer').addEventListener('progress', onProgress);
+const _0x33ab00=_0x1200;function _0x598d(){const _0x295192=['removeEventListener','4kOZjVu','1092400iUSVBc','target','1679304WSPflg','4326opOdfc','1134Sfvvkh','progress','classList','model-viewer','totalProgress','9jTUiHC','10384taWnEk','2GcWPEY','.progress-bar','196921VIGXAB','style','width','777117ulZTiw','querySelector','2830GTlItw','hide','detail','22216gBBTuz'];_0x598d=function(){return _0x295192;};return _0x598d();}(function(_0x37c8ef,_0x421f49){const _0x2ad840=_0x1200,_0x5ce926=_0x37c8ef();while(!![]){try{const _0x25f47a=-parseInt(_0x2ad840(0xfa))/0x1*(-parseInt(_0x2ad840(0xf8))/0x2)+-parseInt(_0x2ad840(0xe5))/0x3*(-parseInt(_0x2ad840(0xec))/0x4)+parseInt(_0x2ad840(0xed))/0x5+-parseInt(_0x2ad840(0xf0))/0x6*(parseInt(_0x2ad840(0xf1))/0x7)+parseInt(_0x2ad840(0xea))/0x8*(-parseInt(_0x2ad840(0xf6))/0x9)+parseInt(_0x2ad840(0xe7))/0xa*(-parseInt(_0x2ad840(0xf7))/0xb)+-parseInt(_0x2ad840(0xef))/0xc;if(_0x25f47a===_0x421f49)break;else _0x5ce926['push'](_0x5ce926['shift']());}catch(_0x14dae1){_0x5ce926['push'](_0x5ce926['shift']());}}}(_0x598d,0x24137));const onProgress=_0x4eb6af=>{const _0x31fdb5=_0x1200,_0x17e545=_0x4eb6af[_0x31fdb5(0xee)]['querySelector'](_0x31fdb5(0xf9)),_0x27e6b0=_0x4eb6af['target'][_0x31fdb5(0xe6)]('.update-bar');_0x27e6b0[_0x31fdb5(0xfb)][_0x31fdb5(0xfc)]=_0x4eb6af[_0x31fdb5(0xe9)][_0x31fdb5(0xf5)]*0x64+'%',_0x4eb6af[_0x31fdb5(0xe9)]['totalProgress']===0x1?(_0x17e545[_0x31fdb5(0xf3)]['add']('hide'),_0x4eb6af[_0x31fdb5(0xee)][_0x31fdb5(0xeb)]('progress',onProgress)):_0x17e545[_0x31fdb5(0xf3)]['remove'](_0x31fdb5(0xe8));};function _0x1200(_0x228e62,_0x4b5688){const _0x598d89=_0x598d();return _0x1200=function(_0x1200ef,_0x387a26){_0x1200ef=_0x1200ef-0xe5;let _0x597329=_0x598d89[_0x1200ef];return _0x597329;},_0x1200(_0x228e62,_0x4b5688);}document['querySelector'](_0x33ab00(0xf4))['addEventListener'](_0x33ab00(0xf2),onProgress);

@@ -1,19 +1,2 @@
-const langSelector = document.querySelector('#lang');
-
-langSelector.addEventListener('change', function () {
-    const lang = langSelector.value;
-    fetch('scripts/lang.php', {
-        method: 'POST',
-        body: JSON.stringify({ action: 'changeLang', lang: lang })
-    })
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            location.reload();
-        })
-        .catch(error => {
-            console.error(error);
-            location.reload();
-        });
-});
+function _0x3b97(_0x44e956,_0x3fa8b9){const _0x51445f=_0x5144();return _0x3b97=function(_0x3b97c9,_0x43cd46){_0x3b97c9=_0x3b97c9-0x72;let _0x5b809f=_0x51445f[_0x3b97c9];return _0x5b809f;},_0x3b97(_0x44e956,_0x3fa8b9);}const _0x36d018=_0x3b97;function _0x5144(){const _0x1526dd=['value','POST','scripts/lang.php','2185686GRxeJD','1118976uOLHZZ','error','386392jLvOZP','log','stringify','addEventListener','2967690XWPPec','then','42YHuUIY','1173820wUrYAg','change','changeLang','29837997IMzDLu','json','3358404kYQgeo','12dqcosW','reload'];_0x5144=function(){return _0x1526dd;};return _0x5144();}(function(_0xd16b40,_0x208493){const _0x242e51=_0x3b97,_0x3baddb=_0xd16b40();while(!![]){try{const _0x43ddc0=parseInt(_0x242e51(0x85))/0x1+parseInt(_0x242e51(0x84))/0x2+parseInt(_0x242e51(0x7e))/0x3+-parseInt(_0x242e51(0x79))/0x4+-parseInt(_0x242e51(0x76))/0x5*(-parseInt(_0x242e51(0x7f))/0x6)+-parseInt(_0x242e51(0x78))/0x7*(parseInt(_0x242e51(0x72))/0x8)+-parseInt(_0x242e51(0x7c))/0x9;if(_0x43ddc0===_0x208493)break;else _0x3baddb['push'](_0x3baddb['shift']());}catch(_0x1d2db2){_0x3baddb['push'](_0x3baddb['shift']());}}}(_0x5144,0x97505));const langSelector=document['querySelector']('#lang');langSelector[_0x36d018(0x75)](_0x36d018(0x7a),function(){const _0x49e2d5=_0x36d018,_0x33b6ec=langSelector[_0x49e2d5(0x81)];fetch(_0x49e2d5(0x83),{'method':_0x49e2d5(0x82),'body':JSON[_0x49e2d5(0x74)]({'action':_0x49e2d5(0x7b),'lang':_0x33b6ec})})[_0x49e2d5(0x77)](_0x46e73a=>_0x46e73a[_0x49e2d5(0x7d)]())[_0x49e2d5(0x77)](_0x2f4f1d=>{const _0x302a44=_0x49e2d5;console[_0x302a44(0x73)](_0x2f4f1d),location[_0x302a44(0x80)]();})['catch'](_0xd6bb88=>{const _0x1d055b=_0x49e2d5;console[_0x1d055b(0x86)](_0xd6bb88),location[_0x1d055b(0x80)]();});});
 // © AIMA DEVELOPPEMENT 2024
