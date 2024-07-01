@@ -22,11 +22,12 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 
 <!-- Global Meta Tags -->
 <meta charset="UTF-8">
+<meta name="robots" content="follow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#5E031F" />
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#5E031F" />
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#5E031F" />
-<meta name="description" content="Accelerator for Industrial and Medical Applications" />
+<meta name="description" content="Accélérateurs de particules pour les applications industrielles et médicales" />
 <!-- OpenGraph / Facebook -->
 <meta property="og:title" content="AIMA Developpement" />
 <meta property="og:description" content="Accelerator for Industrial and Medical Applications" />
@@ -49,12 +50,14 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <link rel="stylesheet" href="css/responsive/stylesheet.css">
 <link rel="stylesheet" href="css/responsive/header.css">
 <link rel="stylesheet" href="css/responsive/footer.css">
+<link rel="stylesheet" href="css/components/scrollToTop.css">
 <!-- JavaScript -->
 <script src="js/rightClick.js" defer></script>
 <script src="js/lang.js" defer></script>
 <script src="js/dynamicTitle.js" defer></script>
 <script src="js/header.js" defer></script>
 <script src="js/footer.js" defer></script>
+<script src="js/components/scrollToTop.js" defer></script>
 <!-- Ajax -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Fonts -->

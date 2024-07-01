@@ -17,6 +17,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 </head>
 
 <body>
+    <?php include ('components/scrollToTop.php'); ?>
     <header>
         <?php include ('components/header.php'); ?>
     </header>
