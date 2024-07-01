@@ -7,6 +7,6 @@
         View in your space
     </button>
     <div id="ar-prompt">
-        <img src="assets/img/icons/ar_hand_prompt.png">
+        <img src="assets/img/icons/ar_hand_prompt.webp">
     </div>
 </model-viewer>

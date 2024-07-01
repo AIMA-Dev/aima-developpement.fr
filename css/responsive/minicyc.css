@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+    #elements {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #elements>div {
+        margin: 25px;
+    }
+
+    #elements>div>img {
+        width: 75px;
+    }
+}
