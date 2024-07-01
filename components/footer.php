@@ -35,11 +35,13 @@
         </p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d767.9851542637776!2d7.211413170460676!3d43.68714503905906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd1afe47c98a5%3A0x1d84bef1768de680!2sAima%20Developpement!5e0!3m2!1sfr!2sfr!4v1715074041810!5m2!1sfr!2sfr"
-            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            title="AIMA Developpement Location" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 <div id="footerBottom">
-    <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/aima-developpement-480635630">© AIMA DEVELOPPEMENT 2024</a>
+    <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/aima-developpement-480635630">© AIMA DEVELOPPEMENT
+        2024</a>
     <div>
         <a href="personaldatas.php"><?php getValueFromJson('personaldatas'); ?></a>
         <a>&nbsp;|&nbsp;</a>
@@ -49,12 +51,17 @@
     </div>
     <div>
         <a id="themeSwitch"><img src="/assets/img/icons/settings_brightness.svg" alt="Toggle Dark/Light Theme"></a>
-        <select name="lang" id="lang">
-            <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>en 🇬🇧</option>
-            <option value="fr" <?php if ($_SESSION['lang'] == 'fr') echo 'selected'; ?>>fr 🇫🇷</option>
-            <option value="de" <?php if ($_SESSION['lang'] == 'de') echo 'selected'; ?>>de 🇩🇪</option>
-            <option value="es" <?php if ($_SESSION['lang'] == 'es') echo 'selected'; ?>>es 🇪🇸</option>
-            <option value="it" <?php if ($_SESSION['lang'] == 'it') echo 'selected'; ?>>it 🇮🇹</option>
+        <select name="lang" id="lang" title="Language">
+            <option value="en" <?php if ($_SESSION['lang'] == 'en')
+                echo 'selected'; ?>>en 🇬🇧</option>
+            <option value="fr" <?php if ($_SESSION['lang'] == 'fr')
+                echo 'selected'; ?>>fr 🇫🇷</option>
+            <option value="de" <?php if ($_SESSION['lang'] == 'de')
+                echo 'selected'; ?>>de 🇩🇪</option>
+            <option value="es" <?php if ($_SESSION['lang'] == 'es')
+                echo 'selected'; ?>>es 🇪🇸</option>
+            <option value="it" <?php if ($_SESSION['lang'] == 'it')
+                echo 'selected'; ?>>it 🇮🇹</option>
         </select>
     </div>
 </div>

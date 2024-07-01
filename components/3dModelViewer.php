@@ -7,6 +7,6 @@
         <?php getValueFromJson("arView") ?>
     </button>
     <div id="ar-prompt">
-        <img src="assets/img/icons/ar_hand_prompt.webp">
+        <img src="assets/img/icons/ar_hand_prompt.webp" alt="AR">
     </div>
 </model-viewer>

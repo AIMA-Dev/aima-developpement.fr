@@ -20,6 +20,7 @@
     #headerLeft>#phoneMenu {
         display: block;
         width: fit-content;
+        width: -moz-fit-content;
         cursor: pointer;
     }
 
