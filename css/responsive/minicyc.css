@@ -1,4 +1,13 @@
-@media (max-width: 900px) {
+@media (max-width: 700px) {
+    #details>img#desktop {
+        display: none;
+    }
+
+    #details>img#mobile {
+        display: block;
+        width: 60%;
+    }
+
     #elements {
         justify-content: center;
         flex-wrap: wrap;

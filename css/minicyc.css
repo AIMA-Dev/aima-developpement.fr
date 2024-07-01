@@ -1,3 +1,19 @@
+#details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#details>img#desktop {
+    width: 80%;
+}
+
+#details>img#mobile {
+    display: none;
+}
+
 #elements {
     display: flex;
     justify-content: space-between;

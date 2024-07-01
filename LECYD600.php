@@ -40,6 +40,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('text1'); ?></a>
+        <br><br>
         <a><?php getValueFromJson('text2'); ?></a>
         <?php
         $images = [

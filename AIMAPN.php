@@ -13,6 +13,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 <head>
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
+    <link rel="stylesheet" href="css/aimapn.css">
+    <link rel="stylesheet" href="css/responsive/aimapn.css">
     <link rel="stylesheet" href="css/components/projectHeader.css">
     <link rel="stylesheet" href="css/responsive/components/projectHeader.css">
     <link rel="stylesheet" href="css/components/slideshow.css">
@@ -40,6 +42,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('intro'); ?></a>
+        <div id="details">
+            <img id="desktop" src="assets/img/projects/aima-pn/details.svg" alt="Details">
+            <img id="mobile" src="assets/img/projects/aima-pn/details_mobile.svg" alt="Details">
+        </div>
         <?php
         $images = [
             "assets/img/projects/aima-pn/slideshow1.webp",
