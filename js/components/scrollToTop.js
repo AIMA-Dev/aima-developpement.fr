@@ -23,3 +23,4 @@ $(window).scroll(function () {
         $('#scrollTopBtn').removeClass("showScrollAnim2");
     }
 });
+// © AIMA DEVELOPPEMENT 2024
