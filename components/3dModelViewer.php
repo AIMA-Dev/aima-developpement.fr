@@ -4,7 +4,7 @@
         <div class="update-bar"></div>
     </div>
     <button slot="ar-button" id="ar-button">
-        View in your space
+        <?php getValueFromJson("arView") ?>
     </button>
     <div id="ar-prompt">
         <img src="assets/img/icons/ar_hand_prompt.webp">
