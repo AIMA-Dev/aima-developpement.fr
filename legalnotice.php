@@ -41,10 +41,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         </section>
         <section>
             <h2><?php getValueFromJson('websitehosting.title') ?></h2>
-            <a><b><?php getValueFromJson('websitehosting.name') ?></b></a>
-            <a><b><?php getValueFromJson('websitehosting.socialReason') ?></b></a>
-            <a><b><?php getValueFromJson('websitehosting.address') ?></b></a>
-            <a><b><?php getValueFromJson('websitehosting.phone') ?></b></a>
+            <a><b><?php getValueFromJson('websitehosting.name') ?></b>GROUPE LWS</a>
+            <a><b><?php getValueFromJson('websitehosting.socialReason') ?></b>Traitement de données, hébergement et activités connexes (6311Z)</a>
+            <a><b><?php getValueFromJson('websitehosting.address') ?></b>2 RUE JULES FERRY 88190 GOLBEY</a>
+            <a href="tel:+33177623003"><b><?php getValueFromJson('websitehosting.phone') ?></b>+33 177 62 30 03 Du Lundi au Vendredi de 09H00 à 19H00</a>
         </section>
         <section>
             <h2><?php getValueFromJson('commercialActivity.title') ?></h2>
