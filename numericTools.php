@@ -30,14 +30,14 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             echo '<h2>' . getValueFromJson('tools.1.title', false) .'</h2>';
             echo '<a>' . getValueFromJson('tools.1.description', false) .'</a>';
             $images = [
-                "assets/img/numericTools/agora6D/slideshow1.gif",
                 "assets/img/numericTools/agora6D/slideshow2.webp",
+                "assets/img/numericTools/agora6D/slideshow1.gif",
                 "assets/img/numericTools/agora6D/slideshow3.webp",
                 "assets/img/numericTools/agora6D/slideshow4.webp"
             ];
             $titles = [
-                getValueFromJson('tools.1.slideshow.1', false),
                 getValueFromJson('tools.1.slideshow.2', false),
+                getValueFromJson('tools.1.slideshow.1', false),
                 getValueFromJson('tools.1.slideshow.3', false),
                 getValueFromJson('tools.1.slideshow.4', false)
             ];
