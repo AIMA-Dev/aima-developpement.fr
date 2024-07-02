@@ -15,11 +15,11 @@
         },
         "2": {
             "title": "CST – Dassault System",
-            "description": "CST Studio Suite est un logiciel propriétaire développé par Dassault Systèmes, conçu pour la simulation électromagnétique 3D.",
+            "description": "CST Studio Suite est un logiciel propriétaire développé par Dassault Systèmes, conçu pour la simulation 3D.",
             "slideshow": {
                 "1": "Courants surfaciques dans une cavité Radiofréquence",
                 "2": "Comparaison entre les trajectoires obtenues avec CST et IBSimu pour une source d’ions RADIS",
-                "3": "Trajectoire d’un faisceau H+ le long d’un inflecteur spiralé",
+                "3": "Trajectoire d’un faisceau H+ le long d’un inflecteur spiral",
                 "4": "Champ électrique dans un buncher"
             }
         },
@@ -32,7 +32,7 @@
             }
         },
         "4": {
-            "title": "Codes Aster / Salomé Méca – EDF",
+            "title": "Code_Aster / Salomé Méca – EDF",
             "description": "Code_Aster est un logiciel libre développé par EDF (Électricité de France), dédié à la simulation numérique en mécanique des structures et en thermomécanique.",
             "slideshow": {
                 "1": "Champs de déplacement vertical d’une chambre à vide de cyclotron soumise aux efforts du vide",

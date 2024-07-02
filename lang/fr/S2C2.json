@@ -4,7 +4,7 @@
         "title": "S2C2™",
         "description": "Collaboration fructueuse entre AIMA et IBA"
     },
-    "intro": "Entre 2009 et 2011, AIMA propose le concept du synchrocyclotron supraconducteur S2C2™ (qui est toujours un de nos trademark !). L ’équipe a aussi été impliquée dans la plupart des études détaillées des composants clés :",
+    "intro": "Entre 2009 et 2011, AIMA propose le concept du synchrocyclotron supraconducteur S2C2™. L ’équipe a aussi été impliquée dans la plupart des études détaillées des composants clés :",
     "list": {
         "1": "Conception de l'aimant",
         "2": "Études du système d'extraction",
@@ -14,8 +14,8 @@
     },
     "text": "Cet accélérateur utilisé en protonthérapie est vendu par la société belge IBA sous le nom « Proteus One »",
     "slideshow": {
-        "1": "1ère phase d'oscillation dans la région centrale du S2C2™",
-        "2": "1ère phase d'oscillation dans la région centrale du S2C2™",
+        "1": "1ère oscillation de phase dans la région centrale du S2C2™",
+        "2": "1ère oscillation de phase dans la région centrale du S2C2™",
         "3": "Modèle 3D de l'aimant S2C2™"
     }
 }

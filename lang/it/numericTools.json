@@ -7,37 +7,37 @@
             "title": "Agora - 6D",
             "description": "Agora 6D è un software proprietario sviluppato da AIMA Development, appositamente progettato per lo studio della fisica delle particelle e dei ciclotroni.",
             "slideshow": {
-            "1": "Effetti di carica spaziale (gruppo statico)",
-            "2": "Regione centrale del ciclotrone MEDICYC",
-            "3": "Movimento verticale nella regione centrale",
-            "4": "Trasporto in una linea di fascio - Confronto AGORA/Transport"
+                "1": "Effetti di carica spaziale (gruppo statico)",
+                "2": "Regione centrale del ciclotrone MEDICYC",
+                "3": "Movimento verticale nella regione centrale",
+                "4": "Trasporto in una linea di fascio - Confronto AGORA/Transport"
             }
         },
         "2": {
             "title": "CST – Dassault System",
-            "description": "CST Studio Suite is a proprietary software developed by Dassault Systèmes, designed for 3D electromagnetic simulation.",
+            "description": "CST Studio Suite è un software proprietario sviluppato da Dassault Systèmes, progettato per la simulazione 3D.",
             "slideshow": {
-                "1": "Surface currents in a RF cavity",
-                "2": "Comparison of CST and IBSimu trajectories in the RADIS ion source",
-                "3": "H+ trajectories in a spiral inflector",
-                "4": "Potential in a buncher"
+                "1": "Correnti superficiali in una cavità RF",
+                "2": "Confronto delle traiettorie CST e IBSimu nella sorgente di ioni RADIS",
+                "3": "Traiettorie H+ in un spirale inflettore",
+                "4": "Potenziale in un buncher"
             }
         },
         "3": {
-            "title": "Solidworks – Dassault system",
-            "description": "SolidWorks is a proprietary software developed by Dassault Systèmes, designed for 3D computer-aided design (CAD).",
+            "title": "Solidworks - Dassault system",
+            "description": "SolidWorks è un software proprietario sviluppato da Dassault Systèmes, progettato per il design assistito al computer (CAD) in 3D.",
             "slideshow": {
-                "1": "CAD model of the test bench",
-                "2": "CAD model of Minicyc™ and its shielding "
+                "1": "Modello CAD della piastra di prova",
+                "2": "Modello CAD di Minicyc™ e il suo schermaggio"
             }
         },
         "4": {
-            "title": "Codes Aster / Salomé Méca – EDF",
-            "description": "Code_Aster is an open-source software developed by EDF (Electricité de France), dedicated to numerical simulation in structural mechanics and thermomechanics.",
+            "title": "Code_Aster / Salomé Méca – EDF",
+            "description": "Code_Aster è un software open-source sviluppato da EDF (Electricité de France), dedicato alla simulazione numerica in meccanica strutturale e termomeccanica.",
             "slideshow": {
-                "1": "Displacement field along the vertical axis of a typical cyclotron vacuum chamber under vacuum loads",
-                "2": "Temperature field along a cyclotron beam probe",
-                "3": "Temperature field along a cyclotron beam probe"
+                "1": "Campo di spostamento lungo l'asse verticale di una tipica camera di vuoto di un ciclotrone sotto carichi di vuoto",
+                "2": "Campo di temperatura lungo una sonda del fascio di un ciclotrone",
+                "3": "Campo di temperatura lungo una sonda del fascio di un ciclotrone"
             }
         }
     }
