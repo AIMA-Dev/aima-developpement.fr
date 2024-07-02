@@ -43,10 +43,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('intro'); ?></a>
-        <div id="details">
+        <!-- <div id="details">
             <img id="desktop" src="assets/img/projects/minicyc/details.svg" alt="Details">
             <img id="mobile" src="assets/img/projects/minicyc/details_mobile.svg" alt="Details">
-        </div>
+        </div> -->
         <a><?php getValueFromJson('elements.text'); ?></a>
         <div id="elements">
             <div>
@@ -58,6 +58,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 <a><?php getValueFromJson('elements.gallium'); ?></a>
             </div>
             <div>
+                <img src="assets/img/tableofelements/Carbon.svg" alt="Carbon">
+                <a><?php getValueFromJson('elements.carbon'); ?></a>
+            </div>
+            <div>
                 <img src="assets/img/tableofelements/Nitrogen.svg" alt="Nitrogen">
                 <a><?php getValueFromJson('elements.nitrogen'); ?></a>
             </div>
@@ -65,10 +69,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 <img src="assets/img/tableofelements/Oxygen.svg" alt="Oxygen">
                 <a><?php getValueFromJson('elements.oxygen'); ?></a>
             </div>
-            <div>
+            <!-- <div>
                 <img src="assets/img/tableofelements/Copper.svg" alt="Copper">
                 <a><?php getValueFromJson('elements.copper'); ?></a>
-            </div>
+            </div> -->
         </div>
         <?php
         $images = [
