@@ -15,6 +15,7 @@ PHPMailer-6.9.1/* linguist-vendored
 
 # Help Linguist ignore assets files
 *.png linguist-vendored
+*.webp linguist-vendored
 *.jpg linguist-vendored
 *.gif linguist-vendored
 *.svg linguist-vendored

@@ -3,7 +3,7 @@
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
-    <button slot="ar-button" id="ar-button">
+    <button type="button" slot="ar-button" id="ar-button">
         <?php getValueFromJson("arView") ?>
     </button>
     <div id="ar-prompt">

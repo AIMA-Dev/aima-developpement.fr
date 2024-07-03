@@ -27,15 +27,15 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <form action="components/mail.php" method="post">
             <div id="formRight">
                 <div>
-                    <input type="text" id="firstname" name="firstname" placeholder="<?php getValueFromJson('form.firstname'); ?>" required>
-                    <input type="text" id="lastname" name="lastname" placeholder="<?php getValueFromJson('form.lastname'); ?>" required>
+                    <input autocomplete="on" type="text" id="firstname" name="firstname" placeholder="<?php getValueFromJson('form.firstname'); ?>" required>
+                    <input autocomplete="on" type="text" id="lastname" name="lastname" placeholder="<?php getValueFromJson('form.lastname'); ?>" required>
                 </div>
-                <input type="email" id="email" name="email" placeholder="<?php getValueFromJson('form.email'); ?>" required>
-                <input type="submit" value="<?php getValueFromJson('form.submit'); ?>">
+                <input autocomplete="on" type="email" id="email" name="email" placeholder="<?php getValueFromJson('form.email'); ?>" required>
+                <input autocomplete="on" type="submit" value="<?php getValueFromJson('form.submit'); ?>">
             </div>
             <div id="formLeft">
-                <input type="text" id="subject" name="subject" placeholder="<?php getValueFromJson('form.subject'); ?>" required>
-                <textarea id="message" name="message" placeholder="<?php getValueFromJson('form.message'); ?>" required></textarea>
+                <input autocomplete="on" type="text" id="subject" name="subject" placeholder="<?php getValueFromJson('form.subject'); ?>" required>
+                <textarea autocomplete="on" id="message" name="message" placeholder="<?php getValueFromJson('form.message'); ?>" required></textarea>
             </div>
     </main>
     <footer>

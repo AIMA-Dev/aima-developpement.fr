@@ -45,7 +45,7 @@ body {
 }
 
 main {
-    min-height: auto;
+    /* min-height: auto; */
     /* width: 100vw; */
     padding: 0px 15vw;
 }

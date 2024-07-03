@@ -44,7 +44,7 @@ include ('scripts/getSetting.php');
             <div>
                 <a><?php getValueFromJson('maintenance.toggle'); ?></a>
                 <label class="switch">
-                    <input id="toggleMaintenance" type="checkbox" <?php echo (getSettingInDB('maintenance') == 'true' ? 'checked' : ''); ?>>
+                    <input id="toggleMaintenance" type="checkbox" placeholder="#" <?php echo (getSettingInDB('maintenance') == 'true' ? 'checked' : ''); ?>>
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -68,7 +68,8 @@ include ('scripts/getSetting.php');
             <div>
                 <a><?php getValueFromJson('phpmailer.changePassword'); ?></a>
                 <form action="scripts/setSetting.php" method="POST">
-                    <input type="password" name="value"
+                    <input type="text" name="username" autocomplete="username" placeholder="Username" hidden><!-- For Chromium guidelines -->
+                    <input type="password" name="value" autocomplete="new-password"
                         placeholder="<?php getValueFromJson('phpmailer.changePasswordPlaceholder'); ?>">
                     <input type="submit" value="<?php getValueFromJson('phpmailer.submit'); ?>">
                     <input type="hidden" name="setting" value="phpmailerPassword">
@@ -139,7 +140,7 @@ include ('scripts/getSetting.php');
             <div>
                 <a><?php getValueFromJson('jobs.addJob') ?></a>
                 <form action="scripts/adminJobs.php" method="POST">
-                    <input type="text" name="name" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
+                    <input type="text" name="name" autocomplete="organization-title" placeholder="<?php getValueFromJson('jobs.form.title') ?>">
                     <textarea name="description"
                         placeholder="<?php getValueFromJson('jobs.form.description') ?>"></textarea>
                     <input name="linkedinUrl" type="text"

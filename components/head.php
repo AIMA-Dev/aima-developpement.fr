@@ -1,4 +1,9 @@
 <?php
+header("Cache-Control: no-cache, must-revalidate"); //HTTP 1.1
+header("Pragma: no-cache"); //HTTP 1.0
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+header("Cache-Control: max-age=180");
+
 include_once ('./scripts/getSetting.php');
 session_start();
 
@@ -12,8 +17,8 @@ $lang = $_SESSION['lang'];
 
 //Maintenance
 $pagesAffectedByMaintenance = array('/index.php', '/projects.php', '/team.php', '/career.php', '/contact.php');
-if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
-    if(getSettingInDB('maintenance') == 'true') {
+if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
+    if (getSettingInDB('maintenance') == 'true') {
         header('Location: maintenance.php');
         exit;
     }
@@ -22,6 +27,7 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 
 <!-- Global Meta Tags -->
 <meta charset="UTF-8">
+<meta http-equiv="Cache-control" content="public">
 <meta name="robots" content="follow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#5E031F" />
@@ -37,7 +43,8 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <meta name="twitter:title" content="AIMA Developpement" />
 <meta name="twitter:description" content="Accelerator for Industrial and Medical Applications" />
 <meta name="twitter:url" content="https://www.aima-developpement.fr/" />
-<meta name="twitter:image:src" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.webp" />
+<meta name="twitter:image:src"
+    content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.webp" />
 <meta name="twitter:image:alt" content="AIMA Developpement Logo" />
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.webp">
@@ -63,6 +70,7 @@ if(in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 <!-- © AIMA DEVELOPPEMENT 2024 -->
