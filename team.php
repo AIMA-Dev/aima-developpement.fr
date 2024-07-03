@@ -56,6 +56,44 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             ?>
         </div>
         <h2><?php getValueFromJson('ouradvisors'); ?></h2>
+        <h3><?php getValueFromJson('steeringcommittee'); ?></h3>
+        <div class="classWrap">
+            <?php
+            $title = getValueFromJson('francoisdemard.name', false);
+            $job = getValueFromJson('francoisdemard.job', false);
+            $imgUrl = getValueFromJson('francoisdemard.image', false);
+            $link = "https://www.linkedin.com/in/fran%C3%A7ois-demard";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = getValueFromJson('mauriceguerrin.name', false);
+            $job = getValueFromJson('mauriceguerrin.job', false);
+            $imgUrl = getValueFromJson('mauriceguerrin.image', false);
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = getValueFromJson('fabienmandrillon.name', false);
+            $job = getValueFromJson('fabienmandrillon.job', false);
+            $imgUrl = getValueFromJson('fabienmandrillon.image', false);
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = getValueFromJson('olivierlizontati.name', false);
+            $job = getValueFromJson('olivierlizontati.job', false);
+            $imgUrl = getValueFromJson('olivierlizontati.image', false);
+            $link = "";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = getValueFromJson('renaudguignard.name', false);
+            $job = getValueFromJson('renaudguignard.job', false);
+            $imgUrl = getValueFromJson('renaudguignard.image', false);
+            $link = "https://www.linkedin.com/in/renaud-guignard-56389311";
+            include 'components/card.php';
+            ?>
+        </div>
         <h3><?php getValueFromJson('scientificadvisory'); ?></h3>
         <div class="classWrap">
             <?php
@@ -63,13 +101,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             $job = getValueFromJson('georgescharpak.job', false);
             $imgUrl = getValueFromJson('georgescharpak.image', false);
             $link = "https://fr.wikipedia.org/wiki/Georges_Charpak";
-            include 'components/card.php';
-            ?>
-            <?php
-            $title = getValueFromJson('francoisdemard.name', false);
-            $job = getValueFromJson('francoisdemard.job', false);
-            $imgUrl = getValueFromJson('francoisdemard.image', false);
-            $link = "https://www.linkedin.com/in/fran%C3%A7ois-demard";
             include 'components/card.php';
             ?>
             <?php
@@ -105,6 +136,13 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             $job = getValueFromJson('jeromedoyen.job', false);
             $imgUrl = getValueFromJson('jeromedoyen.image', false);
             $link = "https://www.linkedin.com/in/j%C3%A9r%C3%B4me-doyen-40a91536";
+            include 'components/card.php';
+            ?>
+            <?php
+            $title = getValueFromJson('jmhanounlevi.name', false);
+            $job = getValueFromJson('jmhanounlevi.job', false);
+            $imgUrl = getValueFromJson('jmhanounlevi.image', false);
+            $link = "";
             include 'components/card.php';
             ?>
         </div>
