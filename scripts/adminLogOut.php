@@ -1,7 +1,2 @@
-<?php
-session_start();
-$_SESSION['admin'] = false;
-header('Location: ../adminLogin.php');
-exit;
-?>
+<?php goto wbD98; TdKjT: die; goto tZZbb; wbD98: session_start(); goto omTSe; omTSe: $_SESSION["\141\x64\155\151\156"] = false; goto rx1a3; rx1a3: header("\114\x6f\143\141\164\x69\157\156\x3a\40\x2e\56\57\141\144\x6d\x69\156\x4c\x6f\147\x69\156\x2e\x70\x68\x70"); goto TdKjT; tZZbb: ?>
 <!-- © AIMA DEVELOPPEMENT 2024 -->
