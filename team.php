@@ -41,9 +41,9 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             include 'components/card.php';
             ?>
             <?php
-            $title = getValueFromJson('raphaëldevianne.name', false);
-            $job = getValueFromJson('raphaëldevianne.job', false);
-            $imgUrl = getValueFromJson('raphaëldevianne.image', false);
+            $title = getValueFromJson('raphaeldevianne.name', false);
+            $job = getValueFromJson('raphaeldevianne.job', false);
+            $imgUrl = getValueFromJson('raphaeldevianne.image', false);
             $link = "https://www.linkedin.com/in/rapha%C3%ABl-devianne-3a3453170";
             include 'components/card.php';
             ?>
