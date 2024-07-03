@@ -2,6 +2,10 @@
     "title": "Equipe | AIMA Developpement",
     "description": "A propos de nous",
     "ourteam": "Notre équipe",
+    "technicalboard": "Le conseil technique : Suivi de l'avancement du projet",
+    "ouradvisors": "Nos conseillers scientifiques",
+    "scientificadvisory": "Le comité Charpak",
+    "steeringcommittee": "Le comité de pilotage",
     "pierremandrillion": {
         "name": "Pierre Mandrillion",
         "job": "PDG et fondateur",
@@ -26,8 +30,6 @@
         "description": "",
         "image": "assets/img/team/AntoineZoude.webp"
     },
-    "ouradvisors": "Nos conseillers scientifiques",
-    "scientificadvisory": "Le conseil scientifique : Le comité Charpak",
     "georgescharpak": {
         "name": "Georges Charpak",
         "job": "Prix Nobel de physique 1992",
@@ -70,7 +72,6 @@
         "description": "",
         "image": "assets/img/team/JeromeDoyen.webp"
     },
-    "technicalboard": "Le conseil technique : Suivi de l'avancement du projet",
     "jeanclaudegrini": {
         "name": "Jean-Claude Grini",
         "job": "Expert électronicien",
@@ -94,5 +95,29 @@
         "job": "Ex chef BE Medicyc",
         "description": "",
         "image": "assets/img/team/AlexandreGiusto.webp"
+    },
+    "mauriceguerrin": {
+        "name": "Maurice Guerrin",
+        "job": "Directeur honoraire Commission Européenne",
+        "description": "",
+        "image": "assets/img/team/MauriceGuerrin.webp"
+    },
+    "olivierlizontati": {
+        "name": "Olivier Lizon-Tati",
+        "job": "Conseil Stratégique Management de l’énergie",
+        "description": "",
+        "image": "assets/img/team/OlivierLizonTati.webp"
+    },
+    "fabienmandrillon": {
+        "name": "Fabien Mandrillon",
+        "job": "Ingénieur Mécanicien Expert Management",
+        "description": "",
+        "image": "assets/img/team/FabienMandrillon.webp"
+    },
+    "jmhanounlevi": {
+        "name": "Pr. J.M. Hanoun-Lévi",
+        "job": "Radiothérapeute expert Centre Antoine Lacassagne",
+        "description": "",
+        "image": "assets/img/team/JeanMichelHanounLevi.webp"
     }
 }

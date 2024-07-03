@@ -1,98 +1,123 @@
 {
-    "title": "Team | AIMA Entwicklung",
+    "title": "Team | AIMA Developpement",
     "description": "Über uns",
     "ourteam": "Unser Team",
+    "technicalboard": "Technischer Beirat: Projektfortschritt",
+    "ouradvisors": "Unsere wissenschaftlichen Berater",
+    "scientificadvisory": "Charpak-Komitee",
+    "steeringcommittee": "Lenkungsausschuss",
     "pierremandrillion": {
         "name": "Pierre Mandrillion",
-        "job": "PDG et fondateur",
+        "job": "PDG und Gründer",
         "description": "",
         "image": "assets/img/team/PierreMandrillon.webp"
     },
     "matthieuconjat": {
         "name": "Matthieu Conjat",
-        "job": "Ingénieur d’études",
+        "job": "Studieningenieur",
         "description": "",
         "image": "assets/img/team/MatthieuConjat.webp"
     },
     "raphaëldevianne": {
         "name": "Raphaël Devianne",
-        "job": "Ingénieur mécanicien",
+        "job": "Mechanischer Ingenieur",
         "description": "",
         "image": "assets/img/team/RaphaëlDevianne.webp"
     },
     "antoinezoude": {
         "name": "Antoine Zoude",
-        "job": "Ingénieur mécanicien",
+        "job": "Mechanischer Ingenieur",
         "description": "",
         "image": "assets/img/team/AntoineZoude.webp"
     },
-    "ouradvisors": "Unsere wissenschaftlichen Berater",
-    "scientificadvisory": "Wissenschaftlicher Beirat: Das Charpak-Komitee",
     "georgescharpak": {
         "name": "Georges Charpak",
-        "job": "Prix Nobel de physique 1992",
+        "job": "Nobelpreisträger für Physik 1992",
         "description": "",
         "image": "assets/img/team/GeorgesCharpak.webp"
     },
     "francoisdemard": {
         "name": "Pr. François Demard",
-        "job": "Directeur honoraire",
+        "job": "Ehrenamtlicher Direktor",
         "description": "",
         "image": "assets/img/team/FrançoisDemard.webp"
     },
     "renaudguignard": {
         "name": "Dr. Renaud Guignard",
-        "job": "FMH Médecin Nucléaire expert",
+        "job": "Experte für nuklearmedizinische FMH-Ärzte",
         "description": "",
         "image": "assets/img/team/RenaudGuignard.webp"
     },
     "gillesviot": {
         "name": "Gilles Viot",
-        "job": "Expert radiochimiste",
+        "job": "Experte für Radiochemie",
         "description": "",
         "image": "assets/img/team/GillesViot.webp"
     },
     "joelherault": {
         "name": "Dr. Joel Herault",
-        "job": "Expert physique médicale IMPT, CAL, Nice",
+        "job": "Experte für medizinische Physik IMPT, CAL, Nizza",
         "description": "",
         "image": "assets/img/team/JoelHerault.webp"
     },
     "alessandralombardi": {
         "name": "Dr. Alessandra Lombardi",
-        "job": "CERN Expert en physique Accélérateur",
+        "job": "CERN-Experte für Beschleunigerphysik",
         "description": "",
         "image": "assets/img/team/AlessandraLombardi.webp"
     },
     "jeromedoyen": {
         "name": "Pr. Jérôme Doyen",
-        "job": "Radiothérapeute expert Centre Antoine Lacassagne, Nice",
+        "job": "Experte für Strahlentherapie am Centre Antoine Lacassagne, Nizza",
         "description": "",
         "image": "assets/img/team/JeromeDoyen.webp"
     },
-    "technicalboard": "Technischer Beirat: Überwachung des Projektfortschritts",
     "jeanclaudegrini": {
         "name": "Jean-Claude Grini",
-        "job": "Expert électronicien",
+        "job": "Experte für Elektronik",
         "description": "",
         "image": "assets/img/team/JeanClaudeGrini.webp"
     },
     "guillaumemagrin": {
         "name": "Guillaume Magrin",
-        "job": "Expert accel. médicaux",
+        "job": "Experte für medizinische Beschleuniger",
         "description": "",
         "image": "assets/img/team/GuillaumeMagrin.webp"
     },
     "henribraquet": {
         "name": "Henri Braquet",
-        "job": "Expert comptabilité électromagnétique",
+        "job": "Experte für elektromagnetische Buchhaltung",
         "description": "",
         "image": "assets/img/team/HenriBraquet.webp"
     },
     "alexandregiusto": {
         "name": "Alexandre Giusto",
-        "job": "Ex chef BE Medicyc",
+        "job": "Ehemaliger Leiter BE Medicyc",
         "description": "",
         "image": "assets/img/team/AlexandreGiusto.webp"
+    },
+    "mauriceguerrin": {
+        "name": "Maurice Guerrin",
+        "job": "Ehrenamtlicher Direktor der Europäischen Kommission",
+        "description": "",
+        "image": "assets/img/team/MauriceGuerrin.webp"
+    },
+    "olivierlizontati": {
+        "name": "Olivier Lizon-Tati",
+        "job": "Strategische Beratung für Energiemanagement",
+        "description": "",
+        "image": "assets/img/team/OlivierLizonTati.webp"
+    },
+    "fabienmandrillon": {
+        "name": "Fabien Mandrillon",
+        "job": "Experte für mechanisches Ingenieurwesen und Management",
+        "description": "",
+        "image": "assets/img/team/FabienMandrillon.webp"
+    },
+    "jmhanounlevi": {
+        "name": "Pr. J.M. Hanoun-Lévi",
+        "job": "Experte für Strahlentherapie am Centre Antoine Lacassagne",
+        "description": "",
+        "image": "assets/img/team/JeanMichelHanounLevi.webp"
     }
 }
