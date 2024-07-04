@@ -27,6 +27,7 @@ if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 
 <!-- Global Meta Tags -->
 <meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Cache-control" content="public">
 <meta name="robots" content="index, follow">
 <meta name="GOOGLEBOT" content="INDEX, FOLLOW">
@@ -36,7 +37,6 @@ if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#5E031F" />
 <meta name="description" content="Accélérateurs de particules pour les applications industrielles et médicales" />
 <meta name="keywords" content="AIMA, Developpement, AIMA Developpement, Cyclotrons, medical, industrial, industriel, Accélérateurs, Accelerator, particules, applications, industrielles, médicales, banc de test, projets, réalisations, expertise, career, emplois">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="revisit-after" content="1 days">
 <meta name="author" content="Noa Second">
 <!-- OpenGraph -->
@@ -44,6 +44,7 @@ if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <meta property="og:description" content="Accelerator for Industrial and Medical Applications" />
 <meta property="og:image" content="http://www.aima-developpement.fr/assets/img/logo_3200x2400 - White - Glyphe.webp" />
 <meta property="og:image:alt" content="AIMA Developpement Logo" />
+<meta property="og:url" content="https://www.aima-developpement.fr/" />
 <!-- Google -->
 <meta itemprop="name" content="AIMA Developpement">
 <meta itemprop="description" content="Accelerator for Industrial and Medical Applications">
