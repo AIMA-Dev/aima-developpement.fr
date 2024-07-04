@@ -29,12 +29,13 @@ if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <meta charset="UTF-8">
 <meta http-equiv="Cache-control" content="public">
 <meta name="robots" content="index, follow">
+<meta name="GOOGLEBOT" content="INDEX, FOLLOW">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#5E031F" />
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#5E031F" />
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#5E031F" />
 <meta name="description" content="Accélérateurs de particules pour les applications industrielles et médicales" />
-<meta name="keywords" content="AIMA, Developpement, AIMA Developpement, Cyclotrons, medical, industrial">
+<meta name="keywords" content="AIMA, Developpement, AIMA Developpement, Cyclotrons, medical, industrial, industriel, Accélérateurs, Accelerator, particules, applications, industrielles, médicales, banc de test, projets, réalisations, expertise, career, emplois">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="revisit-after" content="1 days">
 <meta name="author" content="Noa Second">
