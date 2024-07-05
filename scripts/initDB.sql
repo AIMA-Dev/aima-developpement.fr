@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS accounts (
     `password` VARCHAR(255) NOT NULL,
     PRIMARY KEY (`username`)
 );
-INSERT INTO accounts (`username`, `password`) VALUES ('admin', 'gUbykF1/7nFuI8JTXWpSMYRwTNHESyDDbX/wJgopnAQ=');
+INSERT INTO accounts (`username`, `password`) VALUES ('IQ3nuSwoc1zEVjmGFv6ABV3Vrd2uN8dg/FbIY2Z6qyE=', 'T6w5O6NRNr4DKcA8n3xZadM/9pGemii3zREopekTxIQ=');
 
 # Settings
 CREATE TABLE IF NOT EXISTS settings (
