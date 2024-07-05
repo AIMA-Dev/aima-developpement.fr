@@ -1,9 +1,14 @@
 {
     "title": "Carriera | AIMA Developpement",
     "search": "Cerca",
+    "text": {
+        "1": "AD (AIMA Developpement) porta i progetti concettuali del ciclotrone in nuovi territori, offrendo una ricerca innovativa all'avanguardia nel campo dei ciclotroni. L'AD Injection Systems Test (IST) è anche un importante impianto di ricerca sperimentale per testare varie sorgenti di ioni e sistemi di iniezione per ciclotroni.",
+        "2": "I nostri gruppi di ricerca si stanno espandendo e stanno assumendo fisici e ingegneri. Nel nostro team abbiamo quindi le seguenti posizioni disponibili:"
+    },
     "jobs": {
         "noJobs": "Al momento non sono disponibili offerte di lavoro.",
         "linkedin": "Candidati su Linkedin",
         "email": "Invia una email"
-    }
+    },
+    "visit": "Per ulteriori informazioni visita il nostro sito web e invia la tua candidatura, per favore"
 }

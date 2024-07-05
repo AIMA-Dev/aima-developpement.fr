@@ -1,9 +1,14 @@
 {
     "title": "Karriere | AIMA Developpement",
     "search": "Suche",
+    "text": {
+        "1": "AD (AIMA Developpement) bringt zyklotronische Konzeptentwürfe in neue Gebiete und bietet führende innovative zyklotronische Forschung. Das AD Injection Systems Test (IST) ist auch eine führende experimentelle Forschungseinrichtung zur Prüfung verschiedener Ionenquellen und Injektionssysteme für Zyklotrone.",
+        "2": "Unsere Forschungsgruppen wachsen und stellen Physiker und Ingenieure ein. In unserem Team haben wir daher folgende Positionen zur Verfügung:"
+    },
     "jobs": {
         "noJobs": "Es sind derzeit keine Stellenangebote verfügbar.",
         "linkedin": "Bewerben Sie sich auf Linkedin",
         "email": "Senden Sie eine E-Mail"
-    }
+    },
+    "visit": "Für weitere Informationen besuchen Sie unsere Website und senden Sie bitte Ihre Bewerbung"
 }

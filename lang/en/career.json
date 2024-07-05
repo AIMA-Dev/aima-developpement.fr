@@ -1,9 +1,14 @@
 {
     "title": "Career | AIMA Developpement",
     "search": "Search",
+    "text": {
+        "1": "AD (AIMA Developpement) brings cyclotron conceptual designs into new territories providing leading-edge innovative cyclotron research. The AD Injection Systems Test (IST) is also a leading experimental research facility for testing various Ion sources and injection systems for cyclotrons.",
+        "2": "Our research groups is expanding and recruiting physicists and engineers. In our team we therefore have the following positions available :"
+    },
     "jobs": {
         "noJobs": "No job offers are currently available.",
         "linkedin": "Apply on Linkedin",
         "email": "Send an email"
-    }
+    },
+    "visit": "For more information see our website and send your application, please"
 }

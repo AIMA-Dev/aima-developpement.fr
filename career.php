@@ -25,6 +25,17 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include ('components/header.php'); ?>
     </header>
     <main>
+        <div id="stripeWrap">
+            <h1>Join us !</h1>
+            <h2>The future in cyclotron designs and technologies for Industrial and Medical Applications</h2>
+            <img src="https://placehold.co/600x400?text=Placeholder" alt="Join us image 1">
+            <img src="https://placehold.co/600x400?text=Placeholder" alt="Join us image 2">
+        </div>
+        <div id="textWrap">
+            <a><?php getValueFromJson('text.1') ?></a>
+            <br><br>
+            <a><?php getValueFromJson('text.2') ?></a>
+        </div>
         <div id="searchWrap">
             <input type="text" placeholder="<?php getValueFromJson('search') ?>" id="search">
             <img src="assets/img/icons/search.svg" alt="Search">
@@ -56,6 +67,9 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 echo "An error occurred: " . $e->getMessage();
             }
             ?>
+        </div>
+        <div>
+            <a><?php getValueFromJson("visit") ?></a>
         </div>
     </main>
     <footer>
