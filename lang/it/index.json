@@ -31,20 +31,5 @@
             "date": "2023",
             "text": "Miglioramento della piastra di prova. AIMA ha testato e migliorato la sorgente di ioni utilizzata da uno dei leader di mercato nella protonterapia."
         }
-    },
-    "expertise": {
-        "title": "Esperienza",
-        "1": {
-            "title": "Progettazione e test di sorgenti di ioni",
-            "text": "Sorgenti di ioni multicuspide compatte ad alta luminosità per la produzione di ioni negativi (H- e D-) e positivi (H+ e H2+). Sorgenti interne di ioni a catodo freddo del tipo Penning Ion Gauge (PIG) per la produzione di ioni positivi."
-        },
-        "2": {
-            "title": "Progettazione di ciclotroni",
-            "text": "AIMA ha sviluppato la sua esperienza progettando numerosi ciclotroni di varie prestazioni, spaziando da pochi MeV per la produzione di radioisotopi, macchine per la protonterapia ad alta energia da 230 MeV e ciclotroni ad altissima potenza (1 GeV-12 mA) per applicazioni industriali come la trasmutazione dei rifiuti nucleari. Come azienda orientata alla ricerca e sviluppo, AIMA ha effettuato studi di ingegneria preliminari di vari sottosistemi di ciclotroni, come magneti e tipiche cavità RF."
-        },
-        "3": {
-            "title": "Linee di fascio",
-            "text": "AIMA ha progettato e ottimizzato la linea di fascio fissa del protonterapia S2C2™ da 230 MeV del Centre Antoine Lacassagne di Nizza, capace di scansione a punti."
-        }
     }
 }

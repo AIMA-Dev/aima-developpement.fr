@@ -31,20 +31,5 @@
             "date": "2023",
             "text": "Verbesserung der Testbank. AIMA hat die Ionenquelle, die von einem der Marktführer im Bereich Protonentherapie verwendet wird, getestet und verbessert."
         }
-    },
-    "expertise": {
-        "title": "Expertise",
-        "1": {
-            "title": "Design und Tests von Ionenquellen",
-            "text": "Kompakte Hochhelligkeits-Multikusp-Ionenquellen für die Erzeugung negativer (H- und D-) und positiver (H+ und H2+) Ionen. Interne Ionenquellen mit Penning-Ionen-Messgerät (PIG) für die Erzeugung positiver Ionen."
-        },
-        "2": {
-            "title": "Zyklotrondesigns",
-            "text": "AIMA hat seine Expertise durch das Design zahlreicher Zyklotrone mit unterschiedlichen Leistungen entwickelt, die von wenigen MeV für die Produktion von Radioisotopen, Hochenergie-Protonentherapiemaschinen mit 230 MeV bis zu sehr leistungsstarken Megawatt-Zyklotronen (1 GeV-12 mA) reichen, die industrielle Anwendungen wie die Transmutation von Atommüll antreiben. Als forschungs- und entwicklungsorientiertes Unternehmen hat AIMA vorläufige Ingenieurstudien zu verschiedenen Zyklotron-Subsystemen wie Magneten und typischen HF-Kavitäten durchgeführt."
-        },
-        "3": {
-            "title": "Strahlführungen",
-            "text": "AIMA hat die feste Strahlführung des 230 MeV Protonentherapie S2C2™ des Centre Antoine Lacassagne in Nizza entworfen und optimiert, die punktweises Scannen ermöglicht."
-        }
     }
 }

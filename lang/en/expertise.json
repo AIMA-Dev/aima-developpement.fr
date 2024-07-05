@@ -1,0 +1,18 @@
+{
+    "title": "Expertise | AIMA Developpement",
+    "expertise": {
+        "title": "Expertise",
+        "1": {
+            "title": "Ion source designs and tests",
+            "text": "Compact high brightness multicusp ion sources for negative (H- and D-) and positive (H+ and H2+) ions production Penning Ion Gauge (PIG) cold cathodes internal ion sources for positive ions production"
+        },
+        "2": {
+            "title": "Cyclotron designs",
+            "text": "AIMA has developped its expertise by designing many cyclotrons of various performances spanning few MeV for radioisotopes production, high energy 230 MeV protontherapy machines, very high power Megawatt cyclotrons (1 GeV-12 mA) driving industrial applications such as nuclear waste transmutation. As a R&D oriented company AIMA has made preliminary engineering studies of various cyclotron subsystems, such as magnets and typical RF-cavities."
+        },
+        "3": {
+            "title": "Beam lines",
+            "text": "AIMA has designed and optimized the fixed beam line of the 230 MeV protontherapy S2C2™ of the Centre Antoine Lacassagne in Nice capable of spot scanning."
+        }
+    }
+}

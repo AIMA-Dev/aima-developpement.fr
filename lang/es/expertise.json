@@ -1,0 +1,18 @@
+{
+    "title": "Experiencia | AIMA Developpement",
+    "expertise": {
+        "title": "Experiencia",
+        "1": {
+            "title": "Diseño y pruebas de fuentes de iones",
+            "text": "Fuentes de iones multicúspides compactas de alta luminosidad para la producción de iones negativos (H- y D-) y positivos (H+ y H2+). Fuentes internas de iones de cátodos fríos del tipo Penning Ion Gauge (PIG) para la producción de iones positivos."
+        },
+        "2": {
+            "title": "Diseño de ciclotrones",
+            "text": "AIMA ha desarrollado su experiencia diseñando numerosos ciclotrones de diversas prestaciones, abarcando unos pocos MeV para la producción de radioisótopos, máquinas de protonterapia de alta energía de 230 MeV, y ciclotrones de muy alta potencia (1 GeV-12 mA) para aplicaciones industriales como la transmutación de residuos nucleares. Como empresa orientada a la I+D, AIMA ha realizado estudios de ingeniería preliminares de varios subsistemas de ciclotrones, como imanes y cavidades RF típicas."
+        },
+        "3": {
+            "title": "Líneas de haz",
+            "text": "AIMA ha diseñado y optimizado la línea de haz fija del protonterapia S2C2™ de 230 MeV del Centre Antoine Lacassagne en Niza, capaz de escaneo puntual."
+        }
+    }
+}

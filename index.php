@@ -67,41 +67,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 </li>
             </ul>
         </section>
-        <h1><?php getValueFromJson('expertise.title'); ?></h1>
-        <section id="expertise">
-            <div>
-                <?php
-                $side = '';
-                $title = getValueFromJson('expertise.1.title', false);
-                $text = getValueFromJson('expertise.1.text', false);
-                $images = [
-                    'assets/img/expertise/ionSource1.webp',
-                    'assets/img/expertise/ionSource2.webp'
-                ];
-                include ('components/expertiseCard.php');
-                ?>
-                <?php
-                $side = 'reversed';
-                $title = getValueFromJson('expertise.2.title', false);
-                $text = getValueFromJson('expertise.2.text', false);
-                $images = [
-                    'assets/img/expertise/cyclotron1.webp',
-                    'assets/img/expertise/cyclotron2.webp'
-                ];
-                include ('components/expertiseCard.php');
-                ?>
-                <?php
-                $side = '';
-                $title = getValueFromJson('expertise.3.title', false);
-                $text = getValueFromJson('expertise.3.text', false);
-                $images = [
-                    'assets/img/expertise/beamline1.webp',
-                    'assets/img/expertise/beamline2.webp'
-                ];
-                include ('components/expertiseCard.php');
-                ?>
-            </div>
-        </section>
     </main>
     <footer>
         <?php include ('components/footer.php'); ?>

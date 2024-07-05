@@ -8,9 +8,10 @@
 </div>
 <div id="headerRight">
     <a href="/index.php"><?php getValueFromJson('home') ?></a>
-    <a href="/numericTools.php"><?php getValueFromJson('numericTools') ?></a>
-    <a href="/testBench.php"><?php getValueFromJson('testBench') ?></a>
+    <a href="/expertise.php"><?php getValueFromJson('expertise') ?></a>
     <a href="/projects.php"><?php getValueFromJson('projects') ?></a>
+    <a href="/testBench.php"><?php getValueFromJson('testBench') ?></a>
+    <a href="/numericTools.php"><?php getValueFromJson('numericTools') ?></a>
     <a href="/team.php"><?php getValueFromJson('team') ?></a>
     <a href="/career.php"><?php getValueFromJson('career') ?></a>
     <a href="/contact.php"><?php getValueFromJson('contact') ?></a>

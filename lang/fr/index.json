@@ -31,20 +31,5 @@
             "date": "2023",
             "text": "Améliorations du banc de test. AIMA teste et améliore avec succès la source d’ions utilisée pour le cyclotron de protonthérapie d’un des leaders du marché"
         }
-    },
-    "expertise": {
-        "title": "Expertise",
-        "1": {
-            "title": "Test et conception de sources d’ions",
-            "text": "Source d’ions multicusp compacte pour ions négatifs (H- et D-) et positifs (H+ et H2+), sources Penning Ion Gauge (PIG) à cathodes froides pour la production d’ion positifs"
-        },
-        "2": {
-            "title": "Conception de cyclotrons",
-            "text": "AIMA a développé son expertise en concevant des cyclotrons variés. De quelques MeV pour la production de radioisotopes, à plusieurs centaines de MeV pour la protonthérapie, voire plusieurs GeV pour le pilotage d’applications industrielles comme le retraitement des déchets nucléaires. Etant orientée R&D, AIMA a produit plusieurs études préliminaires de sous-ensembles de cyclotrons, comme les aimants et les cavités Radiofréquence"
-        },
-        "3": {
-            "title": "Voies de faisceau",
-            "text": "AIMA a conçu et optimisé une voie de faisceau fixe pour la protonthérapie avec le S2C2™ du Centre Antoine Lacassagne à Nice. Cette voie de faisceau  peut traiter en « spot scanning »."
-        }
     }
 }

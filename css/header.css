@@ -30,10 +30,10 @@ header>* {
 }
 
 #headerRight>a {
-    margin: 0 30px;
+    margin: 0 20px;
     text-decoration: none;
     color: var(--Black);
-    font-size: 1.1rem;
+    font-size: 1rem;
     border-bottom: transparent 2px solid;
     transition: ease-in-out 0.25s;
 }
