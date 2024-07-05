@@ -1,7 +1,7 @@
 {
     "title": "Banco de pruebas | AIMA Developpement",
-    "description": "Nuestro banco de pruebas",
-    "text": "Con el fin de caracterizar y optimizar diseños de inyección innovadores, AIMA ha construido un banco de pruebas de inyección. Este banco se basa en un imán de gran brecha (diámetro del polo 750 mm) con un orificio axial que permite probar dispositivos tanto horizontales como axiales. Permite probar tanto fuentes internas de tipo PIG como fuentes externas más grandes (ECR o multicusp).",
+    "description": "Plataforma de pruebas de Sistemas de Inyección (PSI)",
+    "text": "Para caracterizar y optimizar esquemas de inyección innovadores, AIMA ha desarrollado la plataforma de pruebas PSI. Basada en un imán de gran brecha (diámetro del polo de 750 mm) con un orificio axial que permite probar dispositivos horizontales y axiales, permite probar tanto fuentes internas tipo PIG como fuentes externas más grandes (ECR o multicusp).",
     "slideshow": {
         "1": "La fuente de iones interna S2C2™ se ha desarrollado y probado con éxito en el banco de pruebas de AIMA",
         "2": "La fuente de iones interna S2C2™ se ha desarrollado y probado con éxito en el banco de pruebas de AIMA",

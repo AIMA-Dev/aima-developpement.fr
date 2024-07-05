@@ -1,7 +1,7 @@
 {
     "title": "Testbank | AIMA Developpement",
-    "description": "Unsere Testbank",
-    "text": "Um innovative Injektionslayouts zu charakterisieren und zu optimieren, hat AIMA eine Injektions-Testbank aufgebaut. Diese Bank basiert auf einem großen Spaltmagneten (Pol-Durchmesser 750 mm) mit einer axialen Bohrung, die sowohl horizontale als auch axiale Geräte testen kann. Sie ermöglicht Tests sowohl von internen PIG-Typ-Quellen als auch von größeren (ECR oder Multicusp) externen Quellen.",
+    "description": "Testplattform für Einspritzsysteme (PSI)",
+    "text": "Zur Charakterisierung und Optimierung innovativer Einspritzschemata hat AIMA die PSI-Testplattform entwickelt. Basierend auf einem großen Spaltmagneten (Polardurchmesser 750 mm) mit einer axialen Bohrung zur Prüfung von horizontalen und axialen Vorrichtungen ermöglicht sie sowohl die Prüfung interner PIG-Typ-Quellen als auch größerer externer Quellen (ECR oder Multicusp).",
     "slideshow": {
         "1": "Die interne Ionenquelle S2C2™ wurde erfolgreich in der AIMA-Testbank entwickelt und getestet.",
         "2": "Die interne Ionenquelle S2C2™ wurde erfolgreich in der AIMA-Testbank entwickelt und getestet.",

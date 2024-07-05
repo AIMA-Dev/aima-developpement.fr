@@ -1,7 +1,7 @@
 {
     "title": "TestBench | AIMA Developpement",
-    "description": "Our test bench",
-    "text": "In order to characterize and optimize innovative injection layouts, AIMA has built up an injection test bench. This bench is based on a large gap magnet (pole diameter 750 mm) with an axial bore allowing testing of both horizontal and axial devices. It allows testing of both internal PIG types sources and bigger (ECR or multicusp) external sources.",
+    "description": "Injection Systems Testing Platform (PSI)",
+    "text": "In order to characterize and optimize innovative injection schemes, AIMA has developed the PSI testing platform. Based on a large-gap magnet (pole diameter 750 mm) with an axial bore for testing horizontal and axial devices, it allows testing of both internal PIG-type sources and larger external sources (ECR or multicusp).",
     "slideshow": {
         "1": "The S2C2™ internal ion source has been successfully developed and tested in the AIMA test bench",
         "2": "The S2C2™ internal ion source has been successfully developed and tested in the AIMA test bench",

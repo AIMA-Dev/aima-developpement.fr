@@ -1,7 +1,7 @@
 {
     "title": "Banco di prova | AIMA Developpement",
-    "description": "Il nostro banco di prova",
-    "text": "Per caratterizzare e ottimizzare le disposizioni innovative di iniezione, AIMA ha costruito un banco di prova per l'iniezione. Questo banco di prova si basa su un magnete con un'ampia apertura (diametro del polo 750 mm) con un foro assiale che consente di testare dispositivi sia orizzontali che assiali. Consente di testare sia fonti interne di tipo PIG che fonti esterne più grandi (ECR o multicusp).",
+    "description": "Piattaforma di test per i Sistemi di Iniezione (PSI)",
+    "text": "Per caratterizzare e ottimizzare schemi di iniezione innovativi, AIMA ha sviluppato la piattaforma di test PSI. Basata su un magnete ad ampia apertura (diametro del polo 750 mm) con un foro assiale per testare dispositivi orizzontali e assiali, consente di testare sia sorgenti interne di tipo PIG che sorgenti esterne più grandi (ECR o multicusp).",
     "slideshow": {
         "1": "La sorgente interna di ioni S2C2™ è stata sviluppata e testata con successo nel banco di prova di AIMA",
         "2": "La sorgente interna di ioni S2C2™ è stata sviluppata e testata con successo nel banco di prova di AIMA",

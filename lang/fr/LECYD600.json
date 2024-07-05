@@ -2,12 +2,12 @@
     "title": "LECYD-600 | AIMA Developpement",
     "header": {
         "title": "LECYD-600",
-        "description": "Un nouveau type de nucléaire"
+        "description": "Forte puissance pour un nouveau type de nucléaire"
     },
     "text1": "Ce cyclotron est conçu pour piloter un réacteur nucléaire. Une collaboration débutée en 1994 avec le groupe du professeur Carlo Rubbia au CERN (prix nobel 1984 et ex-directeur général du CERN), avait pour but l’étude de plusieurs cyclotrons de haute intensité capables de piloter un réacteur. C’était le projet « Energy Amplifier ». L’objectif était de piloter un réacteur nucléaire sous-critique avec un faisceau de protons de haute intensité pour produire un large flux de neutrons de spallation. Le projet « Energy Amplifier » fut le pionnier de ce qui est maintenant bien connu sous le nom « Accelerator Driven Systems (ADS) ».",
-    "text2": "En 2012, AIMA a breveté LECYD-600, un concept d’accélérateur plus économique que tous ceux qui avaient déjà été proposés. Comme on peut le voir sur la figure suivante, LECYD a besoin de 14 MWe soutirés au réseau électrique pour fonctionner. Il produit ainsi un faisceau de protons de 3.6MW, qui frappe un cœur sous-critique rempli avec du Thorium ou des déchets nucléaires et refroidi par du plomb. On produit ainsi de la vapeur qui est transformée en 270MWe. 270MWe produits avec seulement 14 MWe du réseau (et aussi un peu de Thorium !)",
+    "text2": "En 2012, AIMA a breveté LECYD-600, un concept d’accélérateur plus économique que tous ceux qui avaient déjà été proposés. LECYD a besoin de 14 MWe soutirés au réseau électrique pour fonctionner. Il produit ainsi un faisceau de protons de 3.6MW, qui frappe un cœur sous-critique rempli avec du Thorium ou des déchets nucléaires et refroidi par du plomb. On produit ainsi de la vapeur qui est transformée en 270MWe. 270MWe produits avec seulement 14 MWe du réseau (et aussi un peu de Thorium !)",
     "slideshow": {
         "1": "Principe de fonctionnement d’un ADS (LECYD est visible dans le coin haut gauche de l’image)",
-        "2": "Working principle of an ADS (LECYD can be seen in the top left corner)"
+        "2": "Vue CAO de LECYD-600"
     }
 }

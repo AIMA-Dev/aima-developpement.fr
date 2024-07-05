@@ -5,7 +5,7 @@
     "tools": {
         "1": {
             "title": "Agora - 6D",
-            "description": "Agora 6D ist eine proprietäre Software, die von AIMA Development entwickelt wurde und speziell für die Untersuchung von Teilchenphysik und Zyklotronen konzipiert ist.",
+            "description": "Agora 6D ist eine proprietäre Software, entwickelt von AIMA Developpement, speziell für die Untersuchung von Teilchenphysik und Zyklotronen. 3D-Transport von Teilchen in Injektionsleitungen, Strahlführung, Simulation von Raumladungseffekten usw.",
             "slideshow": {
             "1": "Raumladungseffekte (statischer Bunch)",
             "2": "Zentralregion des MEDICYC-Zyklotrons",
@@ -15,7 +15,7 @@
         },
         "2": {
             "title": "CST - Dassault System",
-            "description": "CST Studio Suite ist eine proprietäre Software, die von Dassault Systèmes entwickelt wurde und für die 3D konzipiert ist.",
+            "description": "CST Studio Suite ist eine proprietäre Software, entwickelt von Dassault Systèmes, die für die 3D-Finite-Elemente-Simulation konzipiert ist. Magnetostatische, elektromagnetische, thermische Simulationen usw.",
             "slideshow": {
             "1": "Oberflächenströme in einer RF-Kavität",
             "2": "Vergleich der CST- und IBSimu-Trajektorien in der RADIS-Ionenquelle",

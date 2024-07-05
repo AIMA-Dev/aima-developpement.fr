@@ -2,11 +2,12 @@
     "title": "LECYD-600 | AIMA Developpement",
     "header": {
         "title": "LECYD-600",
-        "description": "Un nuevo tipo de energía nuclear"
+        "description": "Forte puissance para un nuevo tipo de energía nuclear"
     },
     "text1": "Este ciclotrón está diseñado para accionar un reactor nuclear. En 1994 se estableció una colaboración con el grupo del CERN del Profesor Carlo Rubbia (Premio Nobel 1984 y antiguo Director General del CERN), para el estudio del diseño de varios excitadores basados en ciclotrones de alta intensidad para el proyecto \"Amplificador de Energía\". El objetivo era accionar un reactor nuclear subcrítico con un acelerador de protones de alta potencia para producir un gran flujo de neutrones de espalación. El \"Amplificador de Energía\" fue el pionero histórico de los llamados ahora Sistemas Accionados por Acelerador (ADS)",
-    "text2": "En 2012 AIMA patentó LECYD-600, un concepto de acelerador que puede accionar un reactor nuclear por un coste mucho menor que cualquier solución que se haya propuesto hasta ahora. Como puede verse en la siguiente figura, LECYD necesita 14MWe de la red para producir un haz de protones de 3,6 MW. El haz golpea un núcleo subcrítico refrigerado por plomo y lleno de torio o residuos nucleares, que producen vapor que se convierte en 270 MWe. 270 MWe producidos con sólo 14 MWe de la red (¡y algo de torio también!)",
+    "text2": "En 2012 AIMA patentó LECYD-600, un concepto de acelerador que puede accionar un reactor nuclear por un coste mucho menor que cualquier solución que se haya propuesto hasta ahora. LECYD necesita 14MWe de la red para producir un haz de protones de 3,6 MW. El haz golpea un núcleo subcrítico refrigerado por plomo y lleno de torio o residuos nucleares, que producen vapor que se convierte en 270 MWe. 270 MWe producidos con sólo 14 MWe de la red (¡y algo de torio también!)",
     "slideshow": {
-        "1": "Un nuevo tipo de energía nuclear"
+        "1": "Un nuevo tipo de energía nuclear",
+        "2": "Vista CAD de LECYD-600"
     }
 }

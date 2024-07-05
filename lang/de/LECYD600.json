@@ -2,11 +2,12 @@
     "title": "LECYD-600 | AIMA Developpement",
     "header": {
         "title": "LECYD-600",
-        "description": "Eine neue Art von Kernkraft"
+        "description": "Hohe Leistung für einen neuen Typ von Kernenergie"
     },
     "text1": "Dieser Zyklotron ist für den Antrieb eines Kernreaktors konzipiert. Im Jahr 1994 wurde eine Zusammenarbeit mit der CERN-Gruppe von Professor Carlo Rubbia (Nobelpreis 1984 und ehemaliger Generaldirektor des CERN) für Designstudien verschiedener hochintensiver zyklotronbasierter Antriebe für das Projekt \"Energy Amplifier\" eingerichtet. Das Ziel war es, einen subkritischen Kernreaktor mit einem Hochleistungs-Protonenbeschleuniger zu betreiben, um einen großen Fluss von Spallationsneutronen zu erzeugen. Der \"Energy Amplifier\" war der historische Vorreiter der sogenannten Accelerator Driven Systems (ADS).",
-    "text2": "Im Jahr 2012 hat AIMA das LECYD-600 patentiert, ein Beschleunigerkonzept, das einen Kernreaktor zu wesentlich geringeren Kosten antreiben kann als jede zuvor vorgeschlagene Lösung. Wie auf der folgenden Abbildung zu sehen ist, benötigt LECYD 14 MWe aus dem Netz, um einen Protonenstrahl von 3,6 MW zu erzeugen. Der Strahl trifft auf einen mit Blei gekühlten subkritischen Kern, der mit Thorium oder nuklearem Abfall gefüllt ist und Dampf erzeugt, der in 270 MWe umgewandelt wird. 270 MWe werden mit nur 14 MWe aus dem Netz erzeugt (und auch etwas Thorium!)",
+    "text2": "Im Jahr 2012 hat AIMA das LECYD-600 patentiert, ein Beschleunigerkonzept, das einen Kernreaktor zu wesentlich geringeren Kosten antreiben kann als jede zuvor vorgeschlagene Lösung. LECYD 14 MWe aus dem Netz, um einen Protonenstrahl von 3,6 MW zu erzeugen. Der Strahl trifft auf einen mit Blei gekühlten subkritischen Kern, der mit Thorium oder nuklearem Abfall gefüllt ist und Dampf erzeugt, der in 270 MWe umgewandelt wird. 270 MWe werden mit nur 14 MWe aus dem Netz erzeugt (und auch etwas Thorium!)",
     "slideshow": {
-        "1": "Eine neue Art von Kernkraft"
+        "1": "Eine neue Art von Kernkraft",
+        "2": "CAD-Ansicht des LECYD-600"
     }
 }

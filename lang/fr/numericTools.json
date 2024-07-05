@@ -5,7 +5,7 @@
     "tools": {
         "1": {
             "title": "Agora - 6D",
-            "description": "Agora 6D est un logiciel propriétaire développé par AIMA Développement, spécialement conçu pour l'étude de la physique des particules et des cyclotrons.",
+            "description": "Agora 6D est un logiciel propriétaire développé par AIMA Développement, spécialement conçu pour l'étude de la physique des particules et des cyclotrons. Transport 3D des particules dans les lignes d'injection, les voies de faisceau, simulation des effets de charge-espace etc.",
             "slideshow": {
                 "1": "Effets de charge espace (bunch statique)",
                 "2": "Région centrale du cyclotron MEDICYC",
@@ -15,7 +15,7 @@
         },
         "2": {
             "title": "CST – Dassault System",
-            "description": "CST Studio Suite est un logiciel propriétaire développé par Dassault Systèmes, conçu pour la simulation 3D.",
+            "description": "CST Studio Suite est un logiciel propriétaire développé par Dassault Systèmes, conçu pour la simulation 3D par éléments finis. Simulations magnétostatiques, electromagnétiques, thermiques etc.",
             "slideshow": {
                 "1": "Courants surfaciques dans une cavité Radiofréquence",
                 "2": "Comparaison entre les trajectoires obtenues avec CST et IBSimu pour une source d’ions RADIS",
