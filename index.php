@@ -15,9 +15,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/responsive/index.css">
-    <link rel="stylesheet" href="css/components/expertiseCard.css">
-    <link rel="stylesheet" href="css/responsive/components/expertiseCard.css">
-    <script src="js/expertise.js" defer></script>
+    <link rel="stylesheet" href="css/components/workCard.css">
+    <link rel="stylesheet" href="css/responsive/components/workCard.css">
 </head>
 
 <body>
@@ -26,6 +25,41 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include ('components/header.php'); ?>
     </header>
     <main>
+        <h1><?php getValueFromJson('work.title'); ?></h1>
+        <section id="work">
+            <?php
+                $title = getValueFromJson('work.expertise', false);
+                $more = getValueFromJson('work.more', false);
+                // $img = "assets/img/work/expertise.webp";
+                $img = "https://placehold.co/400x400?text=Placeholder";
+                $url = "expertise.php";
+                include ('components/workCard.php');
+            ?>
+            <?php
+                $title = getValueFromJson('work.projects', false);
+                $more = getValueFromJson('work.more', false);
+                // $img = "assets/img/work/projects.webp";
+                $img = "https://placehold.co/400x400?text=Placeholder";
+                $url = "projects.php";
+                include ('components/workCard.php');
+            ?>
+            <?php
+                $title = getValueFromJson('work.testbench', false);
+                $more = getValueFromJson('work.more', false);
+                // $img = "assets/img/work/testbench.webp";
+                $img = "https://placehold.co/400x400?text=Placeholder";
+                $url = "testBench.php";
+                include ('components/workCard.php');
+            ?>
+            <?php
+                $title = getValueFromJson('work.numerictools', false);
+                $more = getValueFromJson('work.more', false);
+                // $img = "assets/img/work/numerictools.webp";
+                $img = "https://placehold.co/400x400?text=Placeholder";
+                $url = "numericTools.php";
+                include ('components/workCard.php');
+            ?>
+        </section>
         <h1><?php getValueFromJson('story'); ?></h1>
         <a><?php getValueFromJson('text'); ?></a>
         <section id="timeline">

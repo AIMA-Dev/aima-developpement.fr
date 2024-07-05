@@ -1,3 +1,19 @@
+@media (max-width: 900px) {
+    section#work {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    section#work {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
 @media (min-width: 40rem) {
     ul {
         grid-template-columns: 1fr var(--line-w) 1fr;
@@ -34,4 +50,5 @@
         border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
     }
 }
+
 /* © AIMA DEVELOPPEMENT 2024 */

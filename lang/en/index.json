@@ -2,6 +2,14 @@
     "title": "AIMA Developpement",
     "story": "Our story",
     "text": "AIMA Développement is designing, building and testing new cost-effective cyclotrons and dedicated beam lines for various medical and industrial applications since 2005. The expertise stems from the cyclotron laboratory of the Centre Antoine Lacassagne (CAL), that designed and built MEDICYC, the first hospital-based cyclotron facility in France for protontherapy. At this time, the MEDICYC project was led by Pierre Mandrillon. Before retiring from the CAL and the MEDICYC project, he founded AIMA, and is still its CEO.",
+    "work": {
+        "title": "Our work",
+        "more": "Learn more",
+        "expertise": "Our expertise",
+        "projects": "Projects & Realisastions",
+        "testbench": "Test bench",
+        "numerictools": "Numeric tools"
+    },
     "timeline": {
         "1": {
             "date": "1999",

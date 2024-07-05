@@ -2,6 +2,14 @@
     "title": "AIMA Developpement",
     "story": "Nuestra historia",
     "text": "AIMA Desarrollo ha estado diseñando, construyendo y probando nuevos ciclotrones rentables y líneas de haz dedicadas para varias aplicaciones médicas e industriales desde 2005. La experiencia proviene del laboratorio de ciclotrones del Centre Antoine Lacassagne (CAL), que diseñó y construyó MEDICYC, la primera instalación hospitalaria de ciclotrones en Francia para la protonterapia. En ese momento, el proyecto MEDICYC fue dirigido por Pierre Mandrillon. Antes de retirarse del CAL y del proyecto MEDICYC, fundó AIMA y sigue siendo su CEO.",
+    "work": {
+        "title": "Nuestro trabajo",
+        "more": "Más información",
+        "expertise": "Nuestra experiencia",
+        "projects": "Proyectos y realizaciones",
+        "testbench": "Banco de pruebas",
+        "numerictools": "Herramientas numéricas"
+    },
     "timeline": {
         "1": {
             "date": "1999",

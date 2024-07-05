@@ -2,6 +2,14 @@
     "title": "AIMA Developpement",
     "story": "Unsere Geschichte",
     "text": "AIMA Entwicklung entwirft, baut und testet seit 2005 neue kostengünstige Zyklotrone und dedizierte Strahlführungen für verschiedene medizinische und industrielle Anwendungen. Die Expertise stammt aus dem Zyklotronlabor des Centre Antoine Lacassagne (CAL), das MEDICYC entworfen und gebaut hat, die erste krankenhausbasierte Zyklotronanlage in Frankreich für die Protonentherapie. Zu dieser Zeit wurde das MEDICYC-Projekt von Pierre Mandrillon geleitet. Bevor er sich vom CAL und dem MEDICYC-Projekt zurückzog, gründete er AIMA und ist immer noch dessen CEO.",
+    "work": {
+        "title": "Unsere Arbeit",
+        "more": "Mehr erfahren",
+        "expertise": "Unsere Expertise",
+        "projects": "Projekte & Realisierungen",
+        "testbench": "Testbank",
+        "numerictools": "Numerische Werkzeuge"
+    },
     "timeline": {
         "1": {
             "date": "1999",
