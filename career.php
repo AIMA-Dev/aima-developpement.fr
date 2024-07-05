@@ -28,8 +28,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <div id="stripeWrap">
             <h1>Join us !</h1>
             <h2>The future in cyclotron designs and technologies for Industrial and Medical Applications</h2>
-            <img src="https://placehold.co/600x400?text=Placeholder" alt="Join us image 1">
-            <img src="https://placehold.co/600x400?text=Placeholder" alt="Join us image 2">
+            <img src="assets/img/career/1.webp" alt="Join us image 1">
+            <img src="assets/img/career/2.webp" alt="Join us image 2">
         </div>
         <div id="textWrap">
             <a><?php getValueFromJson('text.1') ?></a>
