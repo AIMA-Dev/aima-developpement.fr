@@ -30,32 +30,28 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             <?php
                 $title = getValueFromJson('work.expertise', false);
                 $more = getValueFromJson('work.more', false);
-                // $img = "assets/img/work/expertise.webp";
-                $img = "https://placehold.co/400x400?text=Placeholder";
+                $img = "assets/img/work/expertise.webp";
                 $url = "expertise.php";
                 include ('components/workCard.php');
             ?>
             <?php
                 $title = getValueFromJson('work.projects', false);
                 $more = getValueFromJson('work.more', false);
-                // $img = "assets/img/work/projects.webp";
-                $img = "https://placehold.co/400x400?text=Placeholder";
+                $img = "assets/img/work/projects.webp";
                 $url = "projects.php";
                 include ('components/workCard.php');
             ?>
             <?php
                 $title = getValueFromJson('work.testbench', false);
                 $more = getValueFromJson('work.more', false);
-                // $img = "assets/img/work/testbench.webp";
-                $img = "https://placehold.co/400x400?text=Placeholder";
+                $img = "assets/img/work/testbench.webp";
                 $url = "testBench.php";
                 include ('components/workCard.php');
             ?>
             <?php
                 $title = getValueFromJson('work.numerictools', false);
                 $more = getValueFromJson('work.more', false);
-                // $img = "assets/img/work/numerictools.webp";
-                $img = "https://placehold.co/400x400?text=Placeholder";
+                $img = "assets/img/work/numerictools.webp";
                 $url = "numericTools.php";
                 include ('components/workCard.php');
             ?>
