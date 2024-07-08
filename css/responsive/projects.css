@@ -1,6 +1,8 @@
 @media (max-width: 900px) {
     section {
-        justify-content: center;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 /* © AIMA DEVELOPPEMENT 2024 */

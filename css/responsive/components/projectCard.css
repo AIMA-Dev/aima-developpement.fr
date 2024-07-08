@@ -1,12 +1,12 @@
 @media (max-width: 900px) {
     .projectCard {
-        width: 60vw;
+        width: 40vw;
         margin: 25px 0px;
     }
     
     .projectCard>img {
-        width: 60vw;
-        height: 60vw;
+        width: 40vw;
+        height: 40vw;
     }
 }
 /* © AIMA DEVELOPPEMENT 2024 */
