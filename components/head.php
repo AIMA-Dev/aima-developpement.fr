@@ -70,7 +70,6 @@ if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
 <!-- JavaScript -->
 <script src="js/rightClick.js" defer></script>
 <script src="js/lang.js" defer></script>
-<script src="js/dynamicTitle.js" defer></script>
 <script src="js/header.js" defer></script>
 <script src="js/footer.js" defer></script>
 <script src="js/components/scrollToTop.js" defer></script>
