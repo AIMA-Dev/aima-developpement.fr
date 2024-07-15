@@ -26,12 +26,12 @@ To install and run the website locally, follow these steps:
 
 ## Usage
 
-Setup these infos into [.env](https://github.com/AIMA-Dev/aima-developpement.fr/blob/main/.env) <br>
-`ENCRYPTION_KEY=`
-`DB_HOST=`
-`DB_USER=`
-`DB_NAME=`
-`DB_PASS=`
+Create a .env file and setup these fields <br>
+`ENCRYPTION_KEY=` <br>
+`DB_HOST=` <br>
+`DB_USER=` <br>
+`DB_NAME=` <br>
+`DB_PASS=` <br>
 
 Once the development server is running, you can access the website at `http://localhost:3000` or at `127.0.0.1:3000` 
 
