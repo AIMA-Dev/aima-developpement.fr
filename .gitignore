@@ -20,6 +20,6 @@ after_files.txt
 before_files.txt
 *.txt
 
-# .env
+.env
 .history
 .ionide
