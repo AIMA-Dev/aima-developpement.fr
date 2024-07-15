@@ -21,7 +21,7 @@ Uses [AutoCopyright](https://github.com/YoruKiwi/AutoCopyright)
 
 To install and run the website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/aima-developpement.fr.git`
+1. Clone the repository: `git clone https://github.com/AIMA-Dev/aima-developpement.fr.git`
 2. Navigate to the project directory: `cd aima-developpement.fr`
 
 ## Usage
