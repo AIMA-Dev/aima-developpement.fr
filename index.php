@@ -60,8 +60,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             ?>
         </section>
         <?php
-            $model = "assets/3D/s2c2.glb";
-            include 'components/3dModelViewer.php';
+            // $model = "assets/3D/index.glb";
+            // include 'components/3dModelViewer.php';
         ?>
         <h1><?php getValueFromJson('story'); ?></h1>
         <a><?php getValueFromJson('text'); ?></a>
