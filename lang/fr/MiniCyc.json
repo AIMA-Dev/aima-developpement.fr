@@ -2,11 +2,11 @@
     "title": "MiniCyc | AIMA Developpement",
     "header": {
         "title": "MiniCyc™",
-        "description": "La prochaine génération de cyclotrons pour la production de radio-isotopes"
+        "description": "La prochaine génération de cyclotrons pour la production de radio-isotopes destinés à l'imagerie PET pour la détection des cancers les plus fréquents, des maladies neurodégénératives et des troubles cardiovasculaires "
     },
     "intro": "Il s'agit d'un cyclotron miniature auto-blindé pour la production de radio-isotopes à la demande. L'idée est de produire les isotopes près du patient, à l'intérieur de l'hôpital. Les coûts de maintenance et d'exploitation sont réduits grâce à une technologie brevetée AIMA",
     "elements" : {
-        "text": "Minicyc sera capable de produire plusieurs radio-isotopes :",
+        "text": "Minicyc sera capable de produire plusieurs radio-isotopes, parmis lesquels :",
         "fluorine": "Fluor-18 (F18)",
         "gallium": "Gallium-68 (Ga68)",
         "carbon": "Carbon-11 (C11)<br>En étude",
