@@ -13,8 +13,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 <head>
     <title><?php getValueFromJson('title'); ?></title>
     <?php include 'components/head.php'; ?>
+    <link rel="stylesheet" href="css/numericTools.css">
     <link rel="stylesheet" href="css/components/slideshow.css">
     <script src="js/slideshow.js" defer></script>
+    <script src="js/numericTools.js" defer></script>
 </head>
 
 <body>

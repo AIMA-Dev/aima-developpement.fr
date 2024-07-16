@@ -13,6 +13,78 @@ section#work {
     justify-content: space-between;
 }
 
+section#work>* {
+    animation-duration: 2s;
+}
+
+section#work>*:nth-child(1) {
+    animation-name: work1;
+}
+
+section#work>*:nth-child(2) {
+    animation-name: work2;
+}
+
+section#work>*:nth-child(3) {
+    animation-name: work3;
+}
+
+section#work>*:nth-child(4) {
+    animation-name: work4;
+}
+
+@keyframes work1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes work2 {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes work3 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes work4 {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*-----TIMELINE-----*/
 section#timeline {
     margin-top: 100px;
