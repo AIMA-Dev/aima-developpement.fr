@@ -2,14 +2,14 @@
     "title": "S2C2™ | AIMA Developpement",
     "header": {
         "title": "S2C2™",
-        "description": "Collaboration fructueuse entre AIMA et IBA"
+        "description": "Collaboration fructueuse entre AIMA et IBA, l'un des leaders mondiaux dans le domaine des accélérateurs de particules"
     },
-    "intro": "Entre 2009 et 2011, AIMA propose le concept du synchrocyclotron supraconducteur S2C2™. L ’équipe a aussi été impliquée dans la plupart des études détaillées des composants clés :",
+    "intro": "Entre 2009 et 2011, AIMA propose à IBA le concept du synchrocyclotron supraconducteur S2C2™. L ’équipe AIMA a ainsi été impliquée dans la plupart des études détaillées des composants clés :",
     "list": {
         "1": "Conception de l'aimant",
         "2": "Études du système d'extraction",
         "3": "Conception de l'injection et de la région centrale",
-        "4": "Conception préliminaire de la cavité de radiofréquence",
+        "4": "Conception préliminaire de la cavité radiofréquence",
         "5": "Conception et test de la source d'ions avec notre banc d'essai"
     },
     "text": "Cet accélérateur utilisé en protonthérapie est vendu par la société belge IBA sous le nom « Proteus One »",
