@@ -17,12 +17,15 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <link rel="stylesheet" href="css/responsive/index.css">
     <link rel="stylesheet" href="css/components/workCard.css">
     <link rel="stylesheet" href="css/responsive/components/workCard.css">
+    <link rel="stylesheet" href="css/components/3dModelViewer.css">
+    <script src="js/components/3dModelViewer.js" defer></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 
 <body>
-    <?php include ('components/scrollToTop.php'); ?>
+    <?php include 'components/scrollToTop.php'; ?>
     <header>
-        <?php include ('components/header.php'); ?>
+        <?php include 'components/header.php'; ?>
     </header>
     <main>
         <h1><?php getValueFromJson('work.title'); ?></h1>
@@ -32,30 +35,34 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 $more = getValueFromJson('work.more', false);
                 $img = "assets/img/work/expertise.webp";
                 $url = "expertise.php";
-                include ('components/workCard.php');
+                include 'components/workCard.php';
             ?>
             <?php
                 $title = getValueFromJson('work.projects', false);
                 $more = getValueFromJson('work.more', false);
                 $img = "assets/img/work/projects.webp";
                 $url = "projects.php";
-                include ('components/workCard.php');
+                include 'components/workCard.php';
             ?>
             <?php
                 $title = getValueFromJson('work.testbench', false);
                 $more = getValueFromJson('work.more', false);
                 $img = "assets/img/work/testbench.webp";
                 $url = "testBench.php";
-                include ('components/workCard.php');
+                include 'components/workCard.php';
             ?>
             <?php
                 $title = getValueFromJson('work.numerictools', false);
                 $more = getValueFromJson('work.more', false);
                 $img = "assets/img/work/numerictools.webp";
                 $url = "numericTools.php";
-                include ('components/workCard.php');
+                include 'components/workCard.php';
             ?>
         </section>
+        <?php
+            $model = "assets/3D/s2c2.glb";
+            include 'components/3dModelViewer.php';
+        ?>
         <h1><?php getValueFromJson('story'); ?></h1>
         <a><?php getValueFromJson('text'); ?></a>
         <section id="timeline">
@@ -99,7 +106,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         </section>
     </main>
     <footer>
-        <?php include ('components/footer.php'); ?>
+        <?php include 'components/footer.php'; ?>
     </footer>
 </body>
 
