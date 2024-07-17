@@ -17,7 +17,7 @@
 }
 
 .expertiseCard>div:last-child {
-    background-color: var(--BlueAima);
+    background-color: var(--BlueAima); /* Très mauvais rapport de contraste : 1,99 / 1 Utiliser cette couleur d'arrière plan fatigue l'oeil */
     color: white;
     display: flex;
     flex-direction: column;
