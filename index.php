@@ -28,7 +28,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php include 'components/header.php'; ?>
     </header>
     <main>
-        <h1><?php getValueFromJson('work.title'); ?></h1>
+        <!-- <h1><?php //getValueFromJson('work.title'); ?></h1> -->
         <section id="work">
             <?php
                 $title = getValueFromJson('work.expertise', false);
