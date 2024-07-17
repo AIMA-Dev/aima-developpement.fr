@@ -1,8 +1,8 @@
 /*----- VARIABLES -----*/
 :root {
     --DarkScarlet: #5E031F;
-    --BlueAima: #17c9e6;
-    --DarkAima: #383c3f;
+    --BlueAima: #17c9e6; /*Duplication de la variable --SpiroDiscoBall*/
+    --DarkAima: #383c3f; /*Duplication de la variable --Onyx*/
     --SpiroDiscoBall: #17C9E6;
     --Onyx: #383D40;
     --TransparentGray: #bcbcbc38;
