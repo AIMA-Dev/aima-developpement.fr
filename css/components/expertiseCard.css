@@ -17,7 +17,7 @@
 }
 
 .expertiseCard>div:last-child {
-    background-color: var(--TrueBlue);
+    background-color: var(--BlueAima);
     color: white;
     display: flex;
     flex-direction: column;
