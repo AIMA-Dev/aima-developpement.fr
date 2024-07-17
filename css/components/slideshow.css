@@ -46,7 +46,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .slideshowContainer .prev:hover,
 .slideshowContainer .next:hover {
-    background-color: var(--DarkScarlet);
+    background-color: var(#0056d6);
     color: var(--White);
 }
 
