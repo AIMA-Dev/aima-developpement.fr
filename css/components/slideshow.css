@@ -40,7 +40,7 @@
 
 .slideshowContainer .prev:hover,
 .slideshowContainer .next:hover {
-    background-color: var(#0056d6);
+    background-color: #0056d6;
     color: var(--White);
 }
 
