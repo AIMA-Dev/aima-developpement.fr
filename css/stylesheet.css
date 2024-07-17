@@ -4,6 +4,7 @@
     --SpiroDiscoBall: #17C9E6;
     --Onyx: #383D40;
     --TransparentGray: #bcbcbc38;
+    --TrueBlue: #0056d6;
     --Alert: #ff6f64;
     --White: #fff;
     --Black: #000;
@@ -29,6 +30,10 @@
 }
 
 /* -----GENERAL----- */
+* {
+    transition: ease-in-out 0.25s;
+}
+
 html {
     overflow-x: hidden;
     background-color: var(--TransparentGray);
