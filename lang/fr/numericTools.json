@@ -7,8 +7,8 @@
             "title": "Agora - 6D",
             "description": "Agora 6D est un logiciel propriétaire développé par AIMA Développement, spécialement conçu pour l'étude de la physique des particules et des cyclotrons. Transport 3D des particules dans les lignes d'injection, les voies de faisceau, simulation des effets de charge-espace etc.",
             "slideshow": {
-                "1": "Effets de charge espace (bunch statique)",
-                "2": "Région centrale du cyclotron MEDICYC",
+                "1": "Région centrale du cyclotron MEDICYC",
+                "2": "Effets de charge espace (bunch statique)",
                 "3": "Mouvement vertical dans la région centrale",
                 "4": "Transport dans une voie de faisceau – Comparaison AGORA/Transport"
             }
