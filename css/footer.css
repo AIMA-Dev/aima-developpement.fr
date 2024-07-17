@@ -11,7 +11,7 @@ footer>* {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    background-color: var(--DarkScarlet);
+    background-color: var(--DarkAima);
     color: white;
 }
 
