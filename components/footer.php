@@ -3,7 +3,7 @@
         <div id="footerLogo">
             <img src="/assets/img/brand/logo_3200x2400 - White - Glyphe.webp" alt="Logo">
             <p>
-                <b>A</b>ccelerator for<br>
+                <b>A</b>ccelerators for<br>
                 <b>I</b>ndustrial and<br>
                 <b>M</b>edical<br>
                 <b>A</b>pplications
