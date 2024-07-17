@@ -4,23 +4,19 @@
     object-fit: contain;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
 .slideshowContainer {
     position: relative;
     margin: 50px 0px;
 }
 
-/* Hide the images by default */
 .slideshowContainer .mySlides {
     display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .slideshowContainer .cursor {
     cursor: pointer;
 }
 
-/* Next & previous buttons */
 .slideshowContainer .prev,
 .slideshowContainer .next {
     cursor: pointer;
@@ -37,20 +33,17 @@
     user-select: none;
 }
 
-/* Position the "next button" to the right */
 .slideshowContainer .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .slideshowContainer .prev:hover,
 .slideshowContainer .next:hover {
     background-color: var(#0056d6);
     color: var(--White);
 }
 
-/* Number text (1/3 etc) */
 .slideshowContainer .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -61,7 +54,6 @@
     border-radius: 0 0 5px 0;
 }
 
-/* Container for image text */
 .slideshowContainer .caption-container {
     text-align: center;
     background-color: var(--DarkScarlet);
@@ -79,13 +71,15 @@
     clear: both;
 }
 
-/* Six columns side by side */
 .slideshowContainer .column {
     float: left;
     width: 100%;
 }
 
-/* Add a transparency effect for thumnbail images */
+.slideshowContainer .column img {
+    transition: ease-in-out 0.25s;
+}
+
 .slideshowContainer .demo {
     opacity: 0.6;
 }
