@@ -37,8 +37,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             include ('components/projectHeader.php');
         ?>
         <?php
-            $model = "assets/3D/lecyd600.glb";
-            include ('components/3dModelViewer.php');
+            // $model = "assets/3D/lecyd600.glb";
+            // include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('text1'); ?></a>
         <br><br>

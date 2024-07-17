@@ -39,8 +39,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             include ('components/projectHeader.php');
         ?>
         <?php
-            $model = "assets/3D/aima-pn.glb";
-            include ('components/3dModelViewer.php');
+            // $model = "assets/3D/aima-pn.glb";
+            // include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('intro'); ?></a>
         <div id="details">

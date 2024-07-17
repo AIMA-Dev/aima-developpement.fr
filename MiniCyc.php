@@ -35,12 +35,12 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     </header>
     <main>
         <?php
-        $thumbnail = "assets/img/projects/minicyc/thumbnail.webp";
-        include ('components/projectHeader.php');
+            $thumbnail = "assets/img/projects/minicyc/thumbnail.webp";
+            include ('components/projectHeader.php');
         ?>
         <?php
-        $model = "assets/3D/minicyc.glb";
-        include ('components/3dModelViewer.php');
+            // $model = "assets/3D/minicyc.glb";
+            // include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('intro'); ?></a>
         <!-- <div id="details">

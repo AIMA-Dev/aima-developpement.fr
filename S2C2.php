@@ -26,9 +26,9 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <?php include ('components/scrollToTop.php'); ?>
     <header>
         <?php
-        $title = getValueFromJson('header.title', false);
-        $description = getValueFromJson('header.description', false);
-        include ('components/header.php');
+            $title = getValueFromJson('header.title', false);
+            $description = getValueFromJson('header.description', false);
+            include ('components/header.php');
         ?>
     </header>
     <main>
@@ -37,8 +37,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             include ('components/projectHeader.php');
         ?>
         <?php
-            $model = "assets/3D/s2c2.glb";
-            include ('components/3dModelViewer.php');
+            // $model = "assets/3D/s2c2.glb";
+            // include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('intro'); ?></a>
         <ul>

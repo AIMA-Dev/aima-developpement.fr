@@ -8,9 +8,8 @@ model-viewer {
     background-color: #ffffff;
     margin: 50px 0;
     /* Waiting for approval */
-    display: none;
+    /* display: none; */
 }
-
 
 .progress-bar {
     display: block;
