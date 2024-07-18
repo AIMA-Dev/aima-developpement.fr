@@ -55,4 +55,32 @@ header>* {
 #headerRight>a:last-of-type:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* © AIMA DEVELOPPEMENT 2024 */
+
+/* Anims */
+header {
+    animation: showHeader 0.5s forwards;
+}
+
+.hideHeader {
+    animation: hideHeader 0.5s forwards;
+}
+
+@keyframes hideHeader {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes showHeader {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
