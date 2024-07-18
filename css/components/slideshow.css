@@ -40,7 +40,7 @@
 
 .slideshowContainer .prev:hover,
 .slideshowContainer .next:hover {
-    background-color: var(--TrueBlue);
+    background-color: var(--SpiroDiscoBall);
     color: var(--White);
 }
 
