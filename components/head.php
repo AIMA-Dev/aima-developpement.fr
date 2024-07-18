@@ -4,7 +4,7 @@ header("Pragma: no-cache"); //HTTP 1.0
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 header("Cache-Control: max-age=180");
 
-// include_once ('./scripts/getSetting.php');
+include_once ('./scripts/getSetting.php');
 session_start();
 
 //Language
@@ -16,13 +16,13 @@ if (!isset($_SESSION['lang'])) {
 $lang = $_SESSION['lang'];
 
 //Maintenance
-// $pagesAffectedByMaintenance = array('/index.php', '/expertise.php', '/projects.php', '/testBench.php', 'nnumericTools.php', '/team.php', '/career.php', '/contact.php');
-// if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
-//     if (getSettingInDB('maintenance') == 'true') {
-//         header('Location: maintenance.php');
-//         exit;
-//     }
-// }
+$pagesAffectedByMaintenance = array('/index.php', '/expertise.php', '/projects.php', '/testBench.php', 'nnumericTools.php', '/team.php', '/career.php', '/contact.php');
+if (in_array($_SERVER['PHP_SELF'], $pagesAffectedByMaintenance)) {
+    if (getSettingInDB('maintenance') == 'true') {
+        header('Location: maintenance.php');
+        exit;
+    }
+}
 ?>
 
 <!-- Global Meta Tags -->
