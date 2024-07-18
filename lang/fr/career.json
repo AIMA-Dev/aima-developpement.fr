@@ -2,7 +2,7 @@
     "title": "Emplois | AIMA Developpement",
     "search": "Rechercher",
     "text": {
-        "1": "AD (AIMA Developpement) étend les conceptions conceptuelles de cyclotron dans de nouveaux territoires en fournissant une recherche innovante de pointe sur les cyclotrons. L'AD Injection Systems Test (IST) est également une installation de recherche expérimentale de premier plan pour tester diverses sources d'ions et systèmes d'injection pour les cyclotrons.",
+        "1": "AD (AIMA Developpement) étend les conceptions conceptuelles de cyclotron dans de nouveaux territoires en fournissant une recherche innovante de pointe sur les cyclotrons. La Plate-forme de tests de Systèmes d'Injection (PSI) est également une installation de recherche expérimentale de premier plan pour tester diverses sources d'ions et systèmes d'injection pour les cyclotrons.",
         "2": "Nos groupes de recherche se développent et recrutent des physiciens et des ingénieurs. Dans notre équipe, nous avons donc les postes suivants disponibles :"
     },
     "jobs": {
@@ -10,5 +10,5 @@
         "linkedin": "Postuler sur Linkedin",
         "email": "Envoyer un email"
     },
-    "visit": "Pour plus d'informations, consultez notre site web et envoyez votre candidature, s'il vous plaît"
+    "visit": "Pour plus d'informations, consultez notre site web et envoyez votre candidature"
 }
