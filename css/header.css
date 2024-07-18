@@ -1,10 +1,13 @@
 header {
     display: flex;
+    position: fixed;
+    z-index: 99;
+    top: 0;
     justify-content: space-between;
     width: 100vw;
-    height: 12vh;
-    min-height: 70px;
-    background-color: var(--TransparentGray);
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 3px 5px 0px #0000005c;
 }
 
 header>* {
