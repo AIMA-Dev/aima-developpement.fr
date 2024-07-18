@@ -50,13 +50,13 @@
     padding: 8px 12px;
     position: absolute;
     top: 0;
-    background-color: var(--BlueAima);
+    background-color: var(--SpiroDiscoBall);
     border-radius: 0 0 5px 0;
 }
 
 .slideshowContainer .caption-container {
     text-align: center;
-    background-color: var(--BlueAima);
+    background-color: var(--SpiroDiscoBall);
     padding: 2px 16px;
     color: white;
 }

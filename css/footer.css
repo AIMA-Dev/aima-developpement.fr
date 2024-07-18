@@ -11,7 +11,7 @@ footer>* {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    background-color: var(--DarkAima);
+    background-color: var(--Onyx);
     color: white;
 }
 
