@@ -19,3 +19,4 @@ $(window).scroll(function () {
         $('header').removeClass("hideHeader");
     }
 });
+// © AIMA DEVELOPPEMENT 2024
