@@ -17,9 +17,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <link rel="stylesheet" href="css/responsive/index.css">
     <link rel="stylesheet" href="css/components/workCard.css">
     <link rel="stylesheet" href="css/responsive/components/workCard.css">
-    <link rel="stylesheet" href="css/components/3dModelViewer.css">
-    <script src="js/components/3dModelViewer.js" defer></script>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -59,10 +56,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
                 include 'components/workCard.php';
             ?>
         </section>
-        <?php
-            // $model = "assets/3D/index.glb";
-            // include 'components/3dModelViewer.php';
-        ?>
         <h1><?php getValueFromJson('story'); ?></h1>
         <a><?php getValueFromJson('text'); ?></a>
         <section id="timeline">

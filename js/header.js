@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 // Animations On Scroll
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 0) {
+    if ($(this).scrollTop() > 100) {
         $('header').addClass("hideHeader");
     }
     else {
