@@ -6,11 +6,11 @@ This repository contains the source code for the [aima-developpement.fr](https:/
 
 Uses [PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
-Uses [AutoSitemapUpdater](https://github.com/YoruKiwi/AutoSitemapUpdater)
+Uses [AutoSitemapUpdater](https://github.com/NoaSecond/AutoSitemapUpdater)
 
-Uses [AutoDeployToFTP](https://github.com/YoruKiwi/AutoDeployToFTP)
+Uses [AutoDeployToFTP](https://github.com/NoaSecond/AutoDeployToFTP)
 
-Uses [AutoCopyright](https://github.com/YoruKiwi/AutoCopyright)
+Uses [AutoCopyright](https://github.com/NoaSecond/AutoCopyright)
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AIMA-Dev/aima-developpement.fr/sitemap.yml?label=CI-AutoSitemapUpdater)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AIMA-Dev/aima-developpement.fr/codeql.yml?label=CI-CodeQL)
