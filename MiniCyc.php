@@ -18,10 +18,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
     <link rel="stylesheet" href="css/components/projectHeader.css">
     <link rel="stylesheet" href="css/responsive/components/projectHeader.css">
     <link rel="stylesheet" href="css/components/slideshow.css">
-    <link rel="stylesheet" href="css/components/3dModelViewer.css">
     <script src="js/slideshow.js" defer></script>
-    <script src="js/components/3dModelViewer.js" defer></script>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -37,10 +34,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
         <?php
             $thumbnail = "assets/img/projects/minicyc/thumbnail.webp";
             include ('components/projectHeader.php');
-        ?>
-        <?php
-            // $model = "assets/3D/minicyc.glb";
-            // include ('components/3dModelViewer.php');
         ?>
         <a><?php getValueFromJson('intro'); ?></a>
         <!-- <div id="details">
