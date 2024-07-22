@@ -12,7 +12,7 @@
         <hr>
         <div id="footerContact">
             <a>Contact</a>
-            <a href="www.linkedin.com/company/aima-developpement">
+            <a href="https://www.linkedin.com/company/aima-developpement" target="_blank">
                 <img src="/assets/img/icons/linkedin.svg" alt="linkedin">
                 @aima-developpement
             </a>
