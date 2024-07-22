@@ -128,7 +128,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             $title = getValueFromJson('alessandralombardi.name', false);
             $job = getValueFromJson('alessandralombardi.job', false);
             $imgUrl = getValueFromJson('alessandralombardi.image', false);
-            $link = "https://www.linkedin.com/in/alessandra-lombardi-29b667127";
+            $link = "https://www.researchgate.net/profile/Alessandra-Lombardi-6";
             include 'components/card.php';
             ?>
             <?php
