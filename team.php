@@ -76,14 +76,14 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
             $title = getValueFromJson('fabienmandrillon.name', false);
             $job = getValueFromJson('fabienmandrillon.job', false);
             $imgUrl = getValueFromJson('fabienmandrillon.image', false);
-            $link = "";
+            $link = "https://ch.linkedin.com/in/fabienmandrillon";
             include 'components/card.php';
             ?>
             <?php
             $title = getValueFromJson('olivierlizontati.name', false);
             $job = getValueFromJson('olivierlizontati.job', false);
             $imgUrl = getValueFromJson('olivierlizontati.image', false);
-            $link = "";
+            $link = "https://fr.linkedin.com/in/olivier-lizon-tati-0686332";
             include 'components/card.php';
             ?>
             <?php
